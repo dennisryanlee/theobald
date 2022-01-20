@@ -27,13 +27,13 @@
         </div>
 
         <h2>Keyboard &amp; Mouse</h2>
-        <p>Sigh...   yes...  I spent a boatload of money on the space grey Apple Magic Keyboard and Magic Mouse 2.  I actually really like the mac keyboard and have gotten very used to it.  I've always been a fan of the magic mouse, especially for multiscreen switching.</p>
-        <div class="text-center">
+        <p>I use the Logitech MX Keys Advanced Wireless Keyboard for Mac and the Logitech MX Vertical Wireless Mouse.  I was using the MX advanced wireless mouse for switching between machines easily, but due to a nerve injury on my right side I've had to switch to using the vertical mouse for pain management.  I like it a lot, just wish it had the automatic machine-switching capability the MX advanced offers.</p>
+        <!-- <div class="text-center">
             <picture>
                 <source type="image/webp" srcset="/img/webp/kb-mouse.webp" />
                 <img src="/img/jpg/kb-mouse.jpg" alt='Space Grey Apple Magic Keyboard and Magic Mouse 2' class="rounded" style="max-width: 400px; width: 100%; height: auto;" />
             </picture>
-        </div>
+        </div> -->
 
         <h2>Monitor</h2>
         <p><a href="https://www.amazon.com/gp/product/B07GWDGVGT/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1" target="blank">Asus VA325H 31.5-Inch LED Monitor</a> which I bought refurbished on Amazon for under $200.  High resolution, not the best color reproduction but good for coding and watching videos.  The monitor stand I use is from Autonomous as well.</p>
@@ -107,23 +107,23 @@
             </picture>
         </div>
 
-        <h2>External HDD</h2>
+        <!-- <h2>External HDD</h2>
         <p>The <a href="https://www.amazon.com/gp/product/B079HGSFY5/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1" target="blank">LaCie Rugged USB-C 5TB External Portable Hard Drive</a> (along with <a href="https://www.backblaze.com/" target="blank">BackBlaze</a>) is what I use as a backup and file transfer drive.</p>
         <div class="text-center">
             <picture>
                 <source type="image/webp" srcset="/img/webp/lacie.webp" />
                 <img src="/img/jpg/lacie.jpg" alt="LaCie Rugged USB-C 5TB External Portable Hard Drive" class="rounded" style="max-width: 400px; width: 100%; height: auto;" />
             </picture>
-        </div>
+        </div> -->
 
-        <h2>Hub</h2>
+        <!-- <h2>Hub</h2>
         <p>Everything is hooked up to my Macbook Pro using a small simple <a href="https://www.amazon.com/gp/product/B071G83L1J/ref=ppx_yo_dt_b_asin_title_o04_s01?ie=UTF8&psc=1" target="blank">Anker USB C Hub</a>.</p>
         <div class="text-center">
             <picture>
                 <source type="image/webp" srcset="/img/webp/hub.webp" />
                 <img src="/img/jpg/hub.jpg" alt="Anker USB C Hub" class="rounded" style="max-width: 400px; width: 100%; height: auto;" />
             </picture>
-        </div>
+        </div> -->
 
         <h2>Phone</h2>
         <p>I have the Samsung Galaxy S10+ in Ceramic Black with 512GB internal memory.</p>

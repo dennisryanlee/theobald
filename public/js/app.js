@@ -11045,7 +11045,7 @@ module.exports = function transformData(data, headers, fns) {
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-/* provided dependency */ var process = __webpack_require__(/*! process/browser */ "./node_modules/process/browser.js");
+/* provided dependency */ var process = __webpack_require__(/*! process/browser.js */ "./node_modules/process/browser.js");
 
 
 var utils = __webpack_require__(/*! ./utils */ "./node_modules/axios/lib/utils.js");
@@ -31874,14 +31874,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* binding */ render),
 /* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
 /* harmony export */ });
-var render = function() {
+var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _vm._m(0)
 }
 var staticRenderFns = [
-  function() {
+  function () {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
@@ -31889,69 +31889,71 @@ var staticRenderFns = [
       _c("div", { staticClass: "text-center" }, [
         _c("picture", [
           _c("source", {
-            attrs: { type: "image/webp", srcset: "/img/webp/me.webp" }
+            attrs: { type: "image/webp", srcset: "/img/webp/me.webp" },
           }),
           _vm._v(" "),
           _c("img", {
             staticClass: "rounded",
-            attrs: { src: "/img/jpg/me.jpg", alt: "Me" }
-          })
-        ])
+            attrs: { src: "/img/jpg/me.jpg", alt: "Me" },
+          }),
+        ]),
       ]),
       _vm._v(" "),
       _c("p", { staticClass: "pb-20" }, [
         _vm._v(
-          "I am a full-stack software engineer specializing in PHP/Laravel & Javascript/Vue (...and sometimes WordPress)."
-        )
+          "I am a full-stack software engineer specializing in Laravel & Vue (...and sometimes WordPress)."
+        ),
       ]),
       _vm._v(" "),
       _c("p", { staticClass: "pb-20" }, [
-        _vm._v("I loved science as a kid.  I wrote my first HTML page in 1996.")
+        _vm._v(
+          "I loved science as a kid.  I wrote my first HTML page in 1996."
+        ),
       ]),
       _vm._v(" "),
       _c("p", { staticClass: "pb-20" }, [
         _vm._v(
           "As a teenager, I enjoyed learning about and building computers.  I watched the movie Hackers more times than I care to admit.  I dropped out of high school.  Got my GED.  I was offered a full scholarship to college.  Dropped out of college.  I became A+ certified and worked in computer hardware and networking jobs for the better part of my 20s."
-        )
+        ),
       ]),
       _vm._v(" "),
       _c("p", { staticClass: "pb-20" }, [
         _vm._v(
           "In 2009 I found myself working for a grocery-store-focused point-of-sale company as a support technician.  Everyone at the company was answering support calls and logging everything by physical pen and paper.  With calls coming in from clients almost non-stop, suffice it to say, it left much to be desired."
-        )
+        ),
       ]),
       _vm._v(" "),
       _c("p", { staticClass: "pb-20" }, [
         _vm._v(
           "At that time, I knew just enough PHP to be dangerous.  So, I began to build a basic system using PHP and MySQL to log support issues for our clients and for my own sanity.  I would do my customer support job during the day, head back to my apartment in the evening and build out more features to this ticket system software that I wrote every single day.  Eventually other colleagues in my office asked to have access to it...  After a while, my entire office was using it.  At some point one of the managers from the Florida branch office had come up to Chicago and noticed the system we were all using.  He thought it looked great and asked what it would take for them to get on the system as well."
-        )
+        ),
       ]),
       _vm._v(" "),
       _c("p", { staticClass: "pb-20" }, [
         _vm._v(
           "After some conversations with management about deployment and structuring, my software wound up in half of our offices across the country, including our company headquarters in Nebraska.  Once that happened, working on and supporting the system became half my job and I still am licensing and supporting it to this day.  I eventually branded the company DeskNinja and have been working on a commercial release for the last year or so.  This all became the catalyst for teaching myself how to code HTML, CSS, PHP, SQL, etc. over the years."
-        )
+        ),
       ]),
       _vm._v(" "),
       _c("p", { staticClass: "pb-20" }, [
         _vm._v(
           "Instead of binging Netflix, I was addicted to Lynda.com, PluralSight, Udemy, YouTube, StackOverflow, etc. to learn as much as I could."
-        )
+        ),
       ]),
       _vm._v(" "),
       _c("p", { staticClass: "pb-20" }, [
         _vm._v(
           "By 2013, my confidence in my coding skills had grown enough to switch career paths.  Which is exactly what I did."
-        )
+        ),
       ]),
       _vm._v(" "),
       _c("p", { staticClass: "pb-20" }, [
         _vm._v(
           "I've spent the last decade learning more and more everyday and working in an industry that I absolutely love."
-        )
-      ])
+        ),
+      ]),
     ])
-  }
+  },
 ]
 render._withStripped = true
 
@@ -31971,7 +31973,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* binding */ render),
 /* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
 /* harmony export */ });
-var render = function() {
+var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
@@ -31981,7 +31983,21 @@ var render = function() {
     _c("br"),
     _c("br"),
     _vm._v(" "),
-    _c("h1", [_vm._v("I Haz Money")]),
+    _c("picture", [
+      _c("source", {
+        attrs: {
+          type: "image/webp",
+          srcset: _vm.dark ? _vm.deskninjadark_webp : _vm.deskninjalight_webp,
+        },
+      }),
+      _vm._v(" "),
+      _c("img", {
+        attrs: {
+          src: _vm.dark ? _vm.deskninjadark_png : _vm.deskninjalight_png,
+          alt: "DeskNinja",
+        },
+      }),
+    ]),
     _vm._v(" "),
     _vm._m(0),
     _vm._v(" "),
@@ -31992,16 +32008,16 @@ var render = function() {
       _c("source", {
         attrs: {
           type: "image/webp",
-          srcset: _vm.dark ? _vm.deskninjadark_webp : _vm.deskninjalight_webp
-        }
+          srcset: _vm.dark ? _vm.razorkodedark_webp : _vm.razorkodelight_webp,
+        },
       }),
       _vm._v(" "),
       _c("img", {
         attrs: {
-          src: _vm.dark ? _vm.deskninjadark_png : _vm.deskninjalight_png,
-          alt: "DeskNinja"
-        }
-      })
+          src: _vm.dark ? _vm.razorkodedark_png : _vm.razorkodelight_png,
+          alt: "RazorKode",
+        },
+      }),
     ]),
     _vm._v(" "),
     _vm._m(1),
@@ -32013,61 +32029,23 @@ var render = function() {
       _c("source", {
         attrs: {
           type: "image/webp",
-          srcset: _vm.dark ? _vm.razorkodedark_webp : _vm.razorkodelight_webp
-        }
-      }),
-      _vm._v(" "),
-      _c("img", {
-        attrs: {
-          src: _vm.dark ? _vm.razorkodedark_png : _vm.razorkodelight_png,
-          alt: "RazorKode"
-        }
-      })
-    ]),
-    _vm._v(" "),
-    _vm._m(2),
-    _vm._v(" "),
-    _c("br"),
-    _c("br"),
-    _vm._v(" "),
-    _c("picture", [
-      _c("source", {
-        attrs: {
-          type: "image/webp",
-          srcset: _vm.dark ? _vm.razorvpsdark_webp : _vm.razorvpslight_webp
-        }
+          srcset: _vm.dark ? _vm.razorvpsdark_webp : _vm.razorvpslight_webp,
+        },
       }),
       _vm._v(" "),
       _c("img", {
         attrs: {
           src: _vm.dark ? _vm.razorvpsdark_png : _vm.razorvpslight_png,
-          alt: "RazorVPS"
-        }
-      })
+          alt: "RazorVPS",
+        },
+      }),
     ]),
     _vm._v(" "),
-    _vm._m(3)
+    _vm._m(2),
   ])
 }
 var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [
-      _vm._v(
-        "\n        My latest project is a budgeting saas app to simplify and assist in the creation of a basic budget.\n        "
-      ),
-      _c("br"),
-      _vm._v(" "),
-      _c(
-        "a",
-        { attrs: { href: "https://www.ihazmoney.com", target: "blank" } },
-        [_vm._v("www.ihazmoney.com")]
-      )
-    ])
-  },
-  function() {
+  function () {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
@@ -32081,10 +32059,10 @@ var staticRenderFns = [
         "a",
         { attrs: { href: "https://www.deskninja.com", target: "blank" } },
         [_vm._v("www.deskninja.com")]
-      )
+      ),
     ])
   },
-  function() {
+  function () {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
@@ -32098,10 +32076,10 @@ var staticRenderFns = [
         "a",
         { attrs: { href: "https://www.razorkode.com", target: "blank" } },
         [_vm._v("www.razorkode.com")]
-      )
+      ),
     ])
   },
-  function() {
+  function () {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
@@ -32115,9 +32093,9 @@ var staticRenderFns = [
         "a",
         { attrs: { href: "https://www.razorvps.com", target: "blank" } },
         [_vm._v("www.razorvps.com")]
-      )
+      ),
     ])
-  }
+  },
 ]
 render._withStripped = true
 
@@ -32137,14 +32115,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* binding */ render),
 /* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
 /* harmony export */ });
-var render = function() {
+var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _vm._m(0)
 }
 var staticRenderFns = [
-  function() {
+  function () {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
@@ -32158,14 +32136,14 @@ var staticRenderFns = [
           [
             _vm._v(
               "If you are interested in working with me, hiring me, consulting on a project or maybe just need some technical insight...   please feel free to reach out.  I very much enjoy helping people find solutions to problems or, at least, connecting them with resources who can assist."
-            )
+            ),
           ]
         ),
         _vm._v(" "),
         _c("p", { staticClass: "pb-20" }, [
           _c("a", { attrs: { href: "mailto:info@philiptheobald.com" } }, [
-            _vm._v("info@philiptheobald.com")
-          ])
+            _vm._v("info@philiptheobald.com"),
+          ]),
         ]),
         _vm._v(" "),
         _c(
@@ -32173,7 +32151,7 @@ var staticRenderFns = [
           {
             staticClass: "pb-20",
             staticStyle: { "font-size": "36px" },
-            attrs: { className: "contact-number" }
+            attrs: { className: "contact-number" },
           },
           [_vm._v("312-802-2423")]
         ),
@@ -32188,8 +32166,8 @@ var staticRenderFns = [
               {
                 attrs: {
                   href: "https://www.linkedin.com/in/philiptheobald/",
-                  target: "blank"
-                }
+                  target: "blank",
+                },
               },
               [_vm._v("LinkedIn")]
             ),
@@ -32199,8 +32177,8 @@ var staticRenderFns = [
               {
                 attrs: {
                   href: "https://www.facebook.com/fylzero",
-                  target: "blank"
-                }
+                  target: "blank",
+                },
               },
               [_vm._v("Facebook")]
             ),
@@ -32208,7 +32186,7 @@ var staticRenderFns = [
             _c(
               "a",
               {
-                attrs: { href: "https://twitter.com/fylzero", target: "blank" }
+                attrs: { href: "https://twitter.com/fylzero", target: "blank" },
               },
               [_vm._v("Twitter")]
             ),
@@ -32218,8 +32196,8 @@ var staticRenderFns = [
               {
                 attrs: {
                   href: "https://www.youtube.com/fylzero/videos",
-                  target: "blank"
-                }
+                  target: "blank",
+                },
               },
               [_vm._v("YouTube")]
             ),
@@ -32229,17 +32207,17 @@ var staticRenderFns = [
               {
                 attrs: {
                   href: "https://www.instagram.com/fylzero/",
-                  target: "blank"
-                }
+                  target: "blank",
+                },
               },
               [_vm._v("Instagram")]
             ),
-            _vm._v(".\n    ")
+            _vm._v(".\n    "),
           ]
-        )
+        ),
       ]
     )
-  }
+  },
 ]
 render._withStripped = true
 
@@ -32259,7 +32237,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* binding */ render),
 /* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
 /* harmony export */ });
-var render = function() {
+var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
@@ -32269,7 +32247,7 @@ var render = function() {
     _c("p", [
       _vm._v(
         "I started writing software as a hobby and to solve problems at various jobs I've had over the years.  I've since turned this hobby into my career path and have never looked back.  I love what I do and always look to the future to learn as much as I can and develop my skill set."
-      )
+      ),
     ]),
     _vm._v(" "),
     _c("h2", [_vm._v("Learning")]),
@@ -32277,7 +32255,7 @@ var render = function() {
     _c("p", [
       _vm._v(
         "Suffice it to say, I never thrived a classroom learning environment.  In fact I struggled for a very long time before discovering my learning style.  Once I learned how I learn, I became obsessed with learning as much as I could about everything I was interested in.  Ranging from photography to audio engineering to programming.  I am a huge fan of Udemy courses, Laracasts, LinkedIn Learning (formerly Lynda.com), FrontEnd Masters, Masterclass, etc."
-      )
+      ),
     ]),
     _vm._v(" "),
     _c("h2", [_vm._v("Watching Movies & TV Series")]),
@@ -32285,7 +32263,7 @@ var render = function() {
     _c("p", [
       _vm._v(
         "\n            I love movies.  Obviously, I'm a huge fan of anything tech-related...  The Social Network, Hackers, The Net, Silicon Valley, Mr. Robot, etc.  Just like my music tastes, I find enjoyment in just about every genre of film.  I'm a big fan of acting, actors, film making, Hollywood, etc. and there's just nothing better than unwinding to a good movie or binge-watching a series sometimes.\n        "
-      )
+      ),
     ]),
     _vm._v(" "),
     _c("h2", [_vm._v("Playing Guitar")]),
@@ -32305,7 +32283,7 @@ var render = function() {
     _c("p", [
       _vm._v(
         "I use Spotify for music streaming, and primarily listen to EDM, pop, metal and rap and country and classical and hipster music...  basically everything. If you want to get a feel for what I might be listening to on any given workday, check out these playlists:"
-      )
+      ),
     ]),
     _vm._v(" "),
     _c("br"),
@@ -32313,10 +32291,9 @@ var render = function() {
       "a",
       {
         attrs: {
-          href:
-            "https://open.spotify.com/user/ptheofyl/playlist/448gLnZMvvYNwfuGm0Bpbo?si=X0R77E4WQuW8SD1xRwPW3Q",
-          target: "blank"
-        }
+          href: "https://open.spotify.com/user/ptheofyl/playlist/448gLnZMvvYNwfuGm0Bpbo?si=X0R77E4WQuW8SD1xRwPW3Q",
+          target: "blank",
+        },
       },
       [_vm._v("Drinks By The Pool")]
     ),
@@ -32327,10 +32304,9 @@ var render = function() {
       "a",
       {
         attrs: {
-          href:
-            "https://open.spotify.com/user/ptheofyl/playlist/7AfjqgRHZL3mZRCDbNLf3V?si=o2PV_aTbSuu8WhnDlOGycQ",
-          target: "blank"
-        }
+          href: "https://open.spotify.com/user/ptheofyl/playlist/7AfjqgRHZL3mZRCDbNLf3V?si=o2PV_aTbSuu8WhnDlOGycQ",
+          target: "blank",
+        },
       },
       [_vm._v("Q101")]
     ),
@@ -32345,7 +32321,7 @@ var render = function() {
     _c("p", [
       _vm._v(
         "My first motorcycle was a 1981 Yamaha XS650 Chopper/Bobber 650cc."
-      )
+      ),
     ]),
     _vm._v(" "),
     _c("div", { attrs: { className: "center" } }, [
@@ -32354,15 +32330,15 @@ var render = function() {
         _vm._v(" "),
         _c("img", {
           staticClass: "responsive",
-          attrs: { src: _vm.bike1_jpg, alt: "Motorcycle 1" }
-        })
-      ])
+          attrs: { src: _vm.bike1_jpg, alt: "Motorcycle 1" },
+        }),
+      ]),
     ]),
     _vm._v(" "),
     _c("br"),
     _vm._v(" "),
     _c("p", [
-      _vm._v("My second motorcycle was a 2013 Triumph Speed Triple R 1050cc.")
+      _vm._v("My second motorcycle was a 2013 Triumph Speed Triple R 1050cc."),
     ]),
     _vm._v(" "),
     _c("div", { attrs: { className: "center" } }, [
@@ -32371,9 +32347,9 @@ var render = function() {
         _vm._v(" "),
         _c("img", {
           staticClass: "responsive",
-          attrs: { src: _vm.bike2_jpg, alt: "Motorcycle 2" }
-        })
-      ])
+          attrs: { src: _vm.bike2_jpg, alt: "Motorcycle 2" },
+        }),
+      ]),
     ]),
     _vm._v(" "),
     _c("br"),
@@ -32386,9 +32362,9 @@ var render = function() {
         _vm._v(" "),
         _c("img", {
           staticClass: "responsive",
-          attrs: { src: _vm.bike3_jpg, alt: "Motorcycle 3" }
-        })
-      ])
+          attrs: { src: _vm.bike3_jpg, alt: "Motorcycle 3" },
+        }),
+      ]),
     ]),
     _vm._v(" "),
     _c("h2", [_vm._v("Biking")]),
@@ -32396,7 +32372,7 @@ var render = function() {
     _c("p", [
       _vm._v(
         "I currently own a Trek Shift 3 bicycle which I use to communte to work on as often as I can."
-      )
+      ),
     ]),
     _vm._v(" "),
     _c("h2", [_vm._v("Sleeping")]),
@@ -32404,7 +32380,7 @@ var render = function() {
     _c("p", [
       _vm._v(
         "I have been battling with severe sleep apnea for years so I take my rest very seriously."
-      )
+      ),
     ]),
     _vm._v(" "),
     _c("h2", [_vm._v("Eating")]),
@@ -32416,12 +32392,12 @@ var render = function() {
     _c("p", [
       _vm._v(
         "I love organization.  There is nothing more satisfying than creating lists and checking things off.  I very much enjoy doing email organization consulting and helping others figure out how to sift through fifty thousand emails and filter and label them and clear out the white noise.  Reducing stress and gaining clarity through automation is likely why I enjoy software engineering as much as I do."
-      )
-    ])
+      ),
+    ]),
   ])
 }
 var staticRenderFns = [
-  function() {
+  function () {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
@@ -32434,15 +32410,15 @@ var staticRenderFns = [
         {
           attrs: {
             href: "https://open.spotify.com/artist/4Mzg0FspaHq1D6cjirG3bx",
-            target: "blank"
-          }
+            target: "blank",
+          },
         },
         [_vm._v("The Circle View")]
       ),
-      _vm._v(" (formerly Satellite Hero).")
+      _vm._v(" (formerly Satellite Hero)."),
     ])
   },
-  function() {
+  function () {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
@@ -32454,17 +32430,16 @@ var staticRenderFns = [
         "a",
         {
           attrs: {
-            href:
-              "https://www.youtube.com/channel/UCzRZf_LXBkxjOUTUrA6zZxA?view_as=subscriber",
-            target: "blank"
-          }
+            href: "https://www.youtube.com/channel/UCzRZf_LXBkxjOUTUrA6zZxA?view_as=subscriber",
+            target: "blank",
+          },
         },
         [_vm._v("YouTube Channel")]
       ),
-      _vm._v(".")
+      _vm._v("."),
     ])
   },
-  function() {
+  function () {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
@@ -32479,12 +32454,12 @@ var staticRenderFns = [
             frameborder: "0",
             allow:
               "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
-            allowfullscreen: ""
-          }
-        })
+            allowfullscreen: "",
+          },
+        }),
       ]
     )
-  }
+  },
 ]
 render._withStripped = true
 
@@ -32504,13 +32479,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* binding */ render),
 /* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
 /* harmony export */ });
-var render = function() {
+var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "text-center pb-100" }, [
     _c("span", { staticStyle: { "font-size": "50px" } }, [
-      _vm._v("Hi, I'm Phil")
+      _vm._v("Hi, I'm Phil"),
     ]),
     _vm._v(" "),
     _c("br"),
@@ -32522,8 +32497,8 @@ var render = function() {
       _c("img", {
         staticClass: "responsive",
         staticStyle: { "border-radius": "10px" },
-        attrs: { src: _vm.me_jpg, alt: "Philip Theobald" }
-      })
+        attrs: { src: _vm.me_jpg, alt: "Philip Theobald" },
+      }),
     ]),
     _vm._v(" "),
     _c("br"),
@@ -32532,7 +32507,7 @@ var render = function() {
     _c("span", { staticStyle: { "font-size": "22px" } }, [
       _vm._v(
         "A software engineer, entreprenuer, guitarist and self-proclaimed nerd."
-      )
+      ),
     ]),
     _vm._v(" "),
     _c("br"),
@@ -32542,120 +32517,120 @@ var render = function() {
       _c("source", {
         attrs: {
           type: "image/webp",
-          srcset: _vm.dark ? _vm.laraveldark_webp : _vm.laravellight_webp
-        }
+          srcset: _vm.dark ? _vm.laraveldark_webp : _vm.laravellight_webp,
+        },
       }),
       _vm._v(" "),
       _c("img", {
         staticClass: "skill-badge",
         attrs: {
           src: _vm.dark ? _vm.laraveldark_png : _vm.laravellight_png,
-          alt: "Laravel"
-        }
-      })
+          alt: "Laravel",
+        },
+      }),
     ]),
     _vm._v(" "),
     _c("picture", [
       _c("source", {
         attrs: {
           type: "image/webp",
-          srcset: _vm.dark ? _vm.vuedark_webp : _vm.vuelight_webp
-        }
+          srcset: _vm.dark ? _vm.vuedark_webp : _vm.vuelight_webp,
+        },
       }),
       _vm._v(" "),
       _c("img", {
         staticClass: "skill-badge",
         attrs: {
           src: _vm.dark ? _vm.vuedark_png : _vm.vuelight_png,
-          alt: "Vue.js"
-        }
-      })
+          alt: "Vue.js",
+        },
+      }),
     ]),
     _vm._v(" "),
     _c("picture", [
       _c("source", {
         attrs: {
           type: "image/webp",
-          srcset: _vm.dark ? _vm.html5dark_webp : _vm.html5light_webp
-        }
+          srcset: _vm.dark ? _vm.html5dark_webp : _vm.html5light_webp,
+        },
       }),
       _vm._v(" "),
       _c("img", {
         staticClass: "skill-badge",
         attrs: {
           src: _vm.dark ? _vm.html5dark_png : _vm.html5light_png,
-          alt: "HTML5"
-        }
-      })
+          alt: "HTML5",
+        },
+      }),
     ]),
     _vm._v(" "),
     _c("picture", [
       _c("source", {
         attrs: {
           type: "image/webp",
-          srcset: _vm.dark ? _vm.css3dark_webp : _vm.css3light_webp
-        }
+          srcset: _vm.dark ? _vm.css3dark_webp : _vm.css3light_webp,
+        },
       }),
       _vm._v(" "),
       _c("img", {
         staticClass: "skill-badge",
         attrs: {
           src: _vm.dark ? _vm.css3dark_png : _vm.css3light_png,
-          alt: "CSS3"
-        }
-      })
+          alt: "CSS3",
+        },
+      }),
     ]),
     _vm._v(" "),
     _c("picture", [
       _c("source", {
         attrs: {
           type: "image/webp",
-          srcset: _vm.dark ? _vm.jsdark_webp : _vm.jslight_webp
-        }
+          srcset: _vm.dark ? _vm.jsdark_webp : _vm.jslight_webp,
+        },
       }),
       _vm._v(" "),
       _c("img", {
         staticClass: "skill-badge",
         attrs: {
           src: _vm.dark ? _vm.jsdark_png : _vm.jslight_png,
-          alt: "JavaScript"
-        }
-      })
+          alt: "JavaScript",
+        },
+      }),
     ]),
     _vm._v(" "),
     _c("picture", [
       _c("source", {
         attrs: {
           type: "image/webp",
-          srcset: _vm.dark ? _vm.phpdark_webp : _vm.phplight_webp
-        }
+          srcset: _vm.dark ? _vm.phpdark_webp : _vm.phplight_webp,
+        },
       }),
       _vm._v(" "),
       _c("img", {
         staticClass: "skill-badge",
         attrs: {
           src: _vm.dark ? _vm.phpdark_png : _vm.phplight_png,
-          alt: "PHP"
-        }
-      })
+          alt: "PHP",
+        },
+      }),
     ]),
     _vm._v(" "),
     _c("picture", [
       _c("source", {
         attrs: {
           type: "image/webp",
-          srcset: _vm.dark ? _vm.mysqldark_webp : _vm.mysqllight_webp
-        }
+          srcset: _vm.dark ? _vm.mysqldark_webp : _vm.mysqllight_webp,
+        },
       }),
       _vm._v(" "),
       _c("img", {
         staticClass: "skill-badge",
         attrs: {
           src: _vm.dark ? _vm.mysqldark_png : _vm.mysqllight_png,
-          alt: "MySQL"
-        }
-      })
-    ])
+          alt: "MySQL",
+        },
+      }),
+    ]),
   ])
 }
 var staticRenderFns = []
@@ -32677,7 +32652,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* binding */ render),
 /* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
 /* harmony export */ });
-var render = function() {
+var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
@@ -32685,7 +32660,7 @@ var render = function() {
     "v-app",
     {
       class: { "uses-page-colors": _vm.uses },
-      attrs: { id: "sandbox", dark: _vm.dark }
+      attrs: { id: "sandbox", dark: _vm.dark },
     },
     [
       _c(
@@ -32699,15 +32674,15 @@ var render = function() {
             "mini-variant": _vm.primaryDrawer.mini,
             fixed: "",
             overflow: "",
-            app: ""
+            app: "",
           },
           model: {
             value: _vm.primaryDrawer.model,
-            callback: function($$v) {
+            callback: function ($$v) {
               _vm.$set(_vm.primaryDrawer, "model", $$v)
             },
-            expression: "primaryDrawer.model"
-          }
+            expression: "primaryDrawer.model",
+          },
         },
         [
           _c(
@@ -32719,11 +32694,11 @@ var render = function() {
                   directives: [{ name: "ripple", rawName: "v-ripple" }],
                   attrs: { to: "/" },
                   on: {
-                    click: function($event) {
+                    click: function ($event) {
                       _vm.primaryDrawer.model =
                         _vm.viewWidth < 600 ? false : true
-                    }
-                  }
+                    },
+                  },
                 },
                 [
                   _c("v-list-tile-action", [_c("v-icon", [_vm._v("home")])], 1),
@@ -32732,7 +32707,7 @@ var render = function() {
                     "v-list-tile-content",
                     [_c("v-list-tile-title", [_vm._v("Home")])],
                     1
-                  )
+                  ),
                 ],
                 1
               ),
@@ -32743,11 +32718,11 @@ var render = function() {
                   directives: [{ name: "ripple", rawName: "v-ripple" }],
                   attrs: { to: "/about" },
                   on: {
-                    click: function($event) {
+                    click: function ($event) {
                       _vm.primaryDrawer.model =
                         _vm.viewWidth < 600 ? false : true
-                    }
-                  }
+                    },
+                  },
                 },
                 [
                   _c("v-list-tile-action", [_c("v-icon", [_vm._v("face")])], 1),
@@ -32756,7 +32731,7 @@ var render = function() {
                     "v-list-tile-content",
                     [_c("v-list-tile-title", [_vm._v("About")])],
                     1
-                  )
+                  ),
                 ],
                 1
               ),
@@ -32767,11 +32742,11 @@ var render = function() {
                   directives: [{ name: "ripple", rawName: "v-ripple" }],
                   attrs: { to: "/uses" },
                   on: {
-                    click: function($event) {
+                    click: function ($event) {
                       _vm.primaryDrawer.model =
                         _vm.viewWidth < 600 ? false : true
-                    }
-                  }
+                    },
+                  },
                 },
                 [
                   _c(
@@ -32784,7 +32759,7 @@ var render = function() {
                     "v-list-tile-content",
                     [_c("v-list-tile-title", [_vm._v("Uses")])],
                     1
-                  )
+                  ),
                 ],
                 1
               ),
@@ -32795,11 +32770,11 @@ var render = function() {
                   directives: [{ name: "ripple", rawName: "v-ripple" }],
                   attrs: { to: "/skills" },
                   on: {
-                    click: function($event) {
+                    click: function ($event) {
                       _vm.primaryDrawer.model =
                         _vm.viewWidth < 600 ? false : true
-                    }
-                  }
+                    },
+                  },
                 },
                 [
                   _c(
@@ -32812,7 +32787,7 @@ var render = function() {
                     "v-list-tile-content",
                     [_c("v-list-tile-title", [_vm._v("Skills")])],
                     1
-                  )
+                  ),
                 ],
                 1
               ),
@@ -32823,11 +32798,11 @@ var render = function() {
                   directives: [{ name: "ripple", rawName: "v-ripple" }],
                   attrs: { to: "/hobbies" },
                   on: {
-                    click: function($event) {
+                    click: function ($event) {
                       _vm.primaryDrawer.model =
                         _vm.viewWidth < 600 ? false : true
-                    }
-                  }
+                    },
+                  },
                 },
                 [
                   _c(
@@ -32840,7 +32815,7 @@ var render = function() {
                     "v-list-tile-content",
                     [_c("v-list-tile-title", [_vm._v("Hobbies")])],
                     1
-                  )
+                  ),
                 ],
                 1
               ),
@@ -32851,11 +32826,11 @@ var render = function() {
                   directives: [{ name: "ripple", rawName: "v-ripple" }],
                   attrs: { to: "/companies" },
                   on: {
-                    click: function($event) {
+                    click: function ($event) {
                       _vm.primaryDrawer.model =
                         _vm.viewWidth < 600 ? false : true
-                    }
-                  }
+                    },
+                  },
                 },
                 [
                   _c(
@@ -32868,7 +32843,7 @@ var render = function() {
                     "v-list-tile-content",
                     [_c("v-list-tile-title", [_vm._v("Companies")])],
                     1
-                  )
+                  ),
                 ],
                 1
               ),
@@ -32879,11 +32854,11 @@ var render = function() {
                   directives: [{ name: "ripple", rawName: "v-ripple" }],
                   attrs: { to: "/contact" },
                   on: {
-                    click: function($event) {
+                    click: function ($event) {
                       _vm.primaryDrawer.model =
                         _vm.viewWidth < 600 ? false : true
-                    }
-                  }
+                    },
+                  },
                 },
                 [
                   _c(
@@ -32896,7 +32871,7 @@ var render = function() {
                     "v-list-tile-content",
                     [_c("v-list-tile-title", [_vm._v("Contact")])],
                     1
-                  )
+                  ),
                 ],
                 1
               ),
@@ -32905,7 +32880,7 @@ var render = function() {
                 "v-list-tile",
                 {
                   directives: [{ name: "ripple", rawName: "v-ripple" }],
-                  on: { click: _vm.toggleMini }
+                  on: { click: _vm.toggleMini },
                 },
                 [
                   _c("v-list-tile-action", [_c("v-icon", [_vm._v("menu")])], 1),
@@ -32914,13 +32889,13 @@ var render = function() {
                     "v-list-tile-content",
                     [_c("v-list-tile-title", [_vm._v("Mini Menu")])],
                     1
-                  )
+                  ),
                 ],
                 1
-              )
+              ),
             ],
             1
-          )
+          ),
         ],
         1
       ),
@@ -32931,18 +32906,18 @@ var render = function() {
           attrs: {
             "clipped-left": _vm.primaryDrawer.clipped,
             app: "",
-            fixed: ""
-          }
+            fixed: "",
+          },
         },
         [
           _vm.primaryDrawer.type !== "permanent"
             ? _c("v-toolbar-side-icon", {
                 on: {
-                  click: function($event) {
+                  click: function ($event) {
                     $event.stopPropagation()
                     _vm.primaryDrawer.model = !_vm.primaryDrawer.model
-                  }
-                }
+                  },
+                },
               })
             : _vm._e(),
           _vm._v(" "),
@@ -32950,15 +32925,15 @@ var render = function() {
             "v-toolbar-title",
             {
               on: {
-                click: function($event) {
+                click: function ($event) {
                   _vm.primaryDrawer.model = false
-                }
-              }
+                },
+              },
             },
             [
               _c("router-link", { attrs: { to: "/", tag: "button" } }, [
-                _vm._v("\n                Philip Theobald\n            ")
-              ])
+                _vm._v("\n                Philip Theobald\n            "),
+              ]),
             ],
             1
           ),
@@ -32972,17 +32947,17 @@ var render = function() {
                   {
                     directives: [{ name: "ripple", rawName: "v-ripple" }],
                     staticClass: "dynamicButtonSize",
-                    on: { click: _vm.toggleMode }
+                    on: { click: _vm.toggleMode },
                   },
                   [
                     _c("font-awesome-icon", {
                       staticStyle: { color: "#ffffb0" },
-                      attrs: { icon: "lightbulb" }
+                      attrs: { icon: "lightbulb" },
                     }),
                     _vm._v(" "),
                     _c("span", { staticClass: "dynamicTextSize" }, [
-                      _vm._v("Light Mode")
-                    ])
+                      _vm._v("Light Mode"),
+                    ]),
                   ],
                   1
                 )
@@ -32991,21 +32966,21 @@ var render = function() {
                   {
                     directives: [{ name: "ripple", rawName: "v-ripple" }],
                     staticClass: "dynamicButtonSize",
-                    on: { click: _vm.toggleMode }
+                    on: { click: _vm.toggleMode },
                   },
                   [
                     _c("font-awesome-icon", {
                       staticStyle: { color: "#1e1e74" },
-                      attrs: { icon: "moon" }
+                      attrs: { icon: "moon" },
                     }),
                     _vm._v(" "),
                     _c("span", { staticClass: "dynamicTextSize" }, [
-                      _vm._v("Dark Mode")
-                    ])
+                      _vm._v("Dark Mode"),
+                    ]),
                   ],
                   1
-                )
-          ])
+                ),
+          ]),
         ],
         1
       ),
@@ -33033,17 +33008,17 @@ var render = function() {
                       ),
                       _vm._v(" "),
                       _c("div", { staticClass: "thing" }, [
-                        _c("div", { staticClass: "other" })
-                      ])
+                        _c("div", { staticClass: "other" }),
+                      ]),
                     ],
                     1
-                  )
+                  ),
                 ],
                 1
-              )
+              ),
             ],
             1
-          )
+          ),
         ],
         1
       ),
@@ -33068,12 +33043,12 @@ var render = function() {
                     staticStyle: {
                       color: "#ff00a7",
                       "font-weight": "bold",
-                      "font-size": "16px"
-                    }
+                      "font-size": "16px",
+                    },
                   },
                   [_vm._v("Philip Theobald")]
                 ),
-                _vm._v(" •\n                All Rights Reserved\n            ")
+                _vm._v(" •\n                All Rights Reserved\n            "),
               ]),
               _vm._v(" "),
               _c(
@@ -33087,8 +33062,8 @@ var render = function() {
                       staticStyle: {
                         color: "#F05340",
                         "font-weight": "bold",
-                        "font-size": "16px"
-                      }
+                        "font-size": "16px",
+                      },
                     },
                     [_vm._v("Laravel")]
                   ),
@@ -33099,19 +33074,19 @@ var render = function() {
                       staticStyle: {
                         color: "#41B883",
                         "font-weight": "bold",
-                        "font-size": "16px"
-                      }
+                        "font-size": "16px",
+                      },
                     },
                     [_vm._v("Vue.js")]
-                  )
+                  ),
                 ]
-              )
+              ),
             ],
             1
-          )
+          ),
         ],
         1
-      )
+      ),
     ],
     1
   )
@@ -33135,7 +33110,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* binding */ render),
 /* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
 /* harmony export */ });
-var render = function() {
+var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
@@ -33153,11 +33128,11 @@ var render = function() {
                 large: "",
                 color: "indigo",
                 href: "/pdf/philip-theobald-resume.pdf",
-                target: "blank"
-              }
+                target: "blank",
+              },
             },
             [_vm._v("\n                Download My Resume\n            ")]
-          )
+          ),
         ],
         1
       ),
@@ -33181,7 +33156,7 @@ var render = function() {
       _c("p", [
         _vm._v(
           "\n            I have been building Wordpress sites for a very long time.  Over the past several years I have built almost exclusively Divi framework Wordpress sites as they are easy to create and maintain, don't lock you into using a set theme and really give you the power and flexibility to create what you want very fast.\n        "
-        )
+        ),
       ]),
       _vm._v(" "),
       _c("h2", [_vm._v("Vue.js")]),
@@ -33191,7 +33166,7 @@ var render = function() {
       _c("p", [
         _vm._v(
           "\n            Currently my go-to frontend framework.  I'm a huge fan of Vue.\n        "
-        )
+        ),
       ]),
       _vm._v(" "),
       _c("h2", [_vm._v("MySQL / SQLite")]),
@@ -33201,7 +33176,7 @@ var render = function() {
       _c("p", [
         _vm._v(
           "\n            I've used MySQL almost exclusively for creating databases in the apps that I've built.  I have a general understanding of indexing and creating performant queries.  Though, working in Laravel, I mostly use Eloquent ORM these days.\n        "
-        )
+        ),
       ]),
       _vm._v(" "),
       _c("h2", [_vm._v("jQuery")]),
@@ -33211,7 +33186,7 @@ var render = function() {
       _c("p", [
         _vm._v(
           "\n            I actually learned jQuery in much more depth before I started learning JavaScript.  I would say jQuery is one of my strongest skills.\n        "
-        )
+        ),
       ]),
       _vm._v(" "),
       _c("h2", [_vm._v("HTML5")]),
@@ -33221,7 +33196,7 @@ var render = function() {
       _c("p", [
         _vm._v(
           "\n            I have a solid understanding of writing semantic HTML and creating document foundations that are accessible and make heirarchical sense.\n        "
-        )
+        ),
       ]),
       _vm._v(" "),
       _c("h2", [_vm._v("CSS3 / SCSS")]),
@@ -33231,7 +33206,7 @@ var render = function() {
       _c("p", [
         _vm._v(
           "\n            I have a very strong understanding of CSS3, including implementing complex grid and flex layouts.  I am very familiar with solving specificity issues.  I typically write in BEM style.  I am also very good at leveraging SCSS to organize larger projects into utility imports and breaking things into ITCSS target layers.\n        "
-        )
+        ),
       ]),
       _vm._v(" "),
       _c("h2", [_vm._v("JavaScript")]),
@@ -33241,7 +33216,7 @@ var render = function() {
       _c("p", [
         _vm._v(
           "\n            Fairly strong with JavaScript.  There is certainly a lot to know and I sometimes struggle with exactly what to reach for but am very good at figuring out how to solve puzzles and make cool things that work.\n        "
-        )
+        ),
       ]),
       _vm._v(" "),
       _c("h2", [_vm._v("PHP")]),
@@ -33251,7 +33226,7 @@ var render = function() {
       _c("p", [
         _vm._v(
           "\n            I've built several vanilla PHP applications over the last 8 years or so.\n        "
-        )
+        ),
       ]),
       _vm._v(" "),
       _c("h2", [_vm._v("Other Languages")]),
@@ -33261,8 +33236,8 @@ var render = function() {
       _c("p", [
         _vm._v(
           "\n            I know a bit of Python, Node.js and React.js but not worth mentioning as they aren't my core stacks these days.  I may get into Node more as time goes on.\n        "
-        )
-      ])
+        ),
+      ]),
     ]),
     _vm._v(" "),
     _c("br"),
@@ -33274,38 +33249,38 @@ var render = function() {
     _c("div", { staticClass: "gridid" }, [
       _c("picture", [
         _c("source", {
-          attrs: { type: "image/webp", srcset: _vm.cert16_webp }
+          attrs: { type: "image/webp", srcset: _vm.cert16_webp },
         }),
         _vm._v(" "),
         _c("img", {
           staticClass: "responsive",
-          attrs: { src: _vm.cert16_png, alt: "Modern React with Redux" }
-        })
+          attrs: { src: _vm.cert16_png, alt: "Modern React with Redux" },
+        }),
       ]),
       _vm._v(" "),
       _c("picture", [
         _c("source", {
-          attrs: { type: "image/webp", srcset: _vm.cert17_webp }
+          attrs: { type: "image/webp", srcset: _vm.cert17_webp },
         }),
         _vm._v(" "),
         _c("img", {
           staticClass: "responsive",
-          attrs: { src: _vm.cert17_png, alt: "Learn Pragmatic MobX in React" }
-        })
+          attrs: { src: _vm.cert17_png, alt: "Learn Pragmatic MobX in React" },
+        }),
       ]),
       _vm._v(" "),
       _c("picture", [
         _c("source", {
-          attrs: { type: "image/webp", srcset: _vm.cert24_webp }
+          attrs: { type: "image/webp", srcset: _vm.cert24_webp },
         }),
         _vm._v(" "),
         _c("img", {
           staticClass: "responsive",
           attrs: {
             src: _vm.cert24_png,
-            alt: "ES6 JavaScript: The Complete Developers Guide"
-          }
-        })
+            alt: "ES6 JavaScript: The Complete Developers Guide",
+          },
+        }),
       ]),
       _vm._v(" "),
       _c("picture", [
@@ -33313,8 +33288,8 @@ var render = function() {
         _vm._v(" "),
         _c("img", {
           staticClass: "responsive",
-          attrs: { src: _vm.cert1_png, alt: "AJAX Essential Training" }
-        })
+          attrs: { src: _vm.cert1_png, alt: "AJAX Essential Training" },
+        }),
       ]),
       _vm._v(" "),
       _c("picture", [
@@ -33324,9 +33299,9 @@ var render = function() {
           staticClass: "responsive",
           attrs: {
             src: _vm.cert2_png,
-            alt: "Bootstrap 3: Advanced Web Development"
-          }
-        })
+            alt: "Bootstrap 3: Advanced Web Development",
+          },
+        }),
       ]),
       _vm._v(" "),
       _c("picture", [
@@ -33336,9 +33311,9 @@ var render = function() {
           staticClass: "responsive",
           attrs: {
             src: _vm.cert3_png,
-            alt: "Creating an Adaptive Website for Multiple Screens"
-          }
-        })
+            alt: "Creating an Adaptive Website for Multiple Screens",
+          },
+        }),
       ]),
       _vm._v(" "),
       _c("picture", [
@@ -33346,8 +33321,11 @@ var render = function() {
         _vm._v(" "),
         _c("img", {
           staticClass: "responsive",
-          attrs: { src: _vm.cert4_png, alt: "Creating a Responsive Web Design" }
-        })
+          attrs: {
+            src: _vm.cert4_png,
+            alt: "Creating a Responsive Web Design",
+          },
+        }),
       ]),
       _vm._v(" "),
       _c("picture", [
@@ -33355,8 +33333,8 @@ var render = function() {
         _vm._v(" "),
         _c("img", {
           staticClass: "responsive",
-          attrs: { src: _vm.cert5_png, alt: "CSS Styling Forms" }
-        })
+          attrs: { src: _vm.cert5_png, alt: "CSS Styling Forms" },
+        }),
       ]),
       _vm._v(" "),
       _c("picture", [
@@ -33364,8 +33342,8 @@ var render = function() {
         _vm._v(" "),
         _c("img", {
           staticClass: "responsive",
-          attrs: { src: _vm.cert6_png, alt: "CSS Fundamentals" }
-        })
+          attrs: { src: _vm.cert6_png, alt: "CSS Fundamentals" },
+        }),
       ]),
       _vm._v(" "),
       _c("picture", [
@@ -33373,8 +33351,8 @@ var render = function() {
         _vm._v(" "),
         _c("img", {
           staticClass: "responsive",
-          attrs: { src: _vm.cert7_png, alt: "GIT Essential Training" }
-        })
+          attrs: { src: _vm.cert7_png, alt: "GIT Essential Training" },
+        }),
       ]),
       _vm._v(" "),
       _c("picture", [
@@ -33382,8 +33360,8 @@ var render = function() {
         _vm._v(" "),
         _c("img", {
           staticClass: "responsive",
-          attrs: { src: _vm.cert8_png, alt: "JavaScript Essential Training" }
-        })
+          attrs: { src: _vm.cert8_png, alt: "JavaScript Essential Training" },
+        }),
       ]),
       _vm._v(" "),
       _c("picture", [
@@ -33391,112 +33369,112 @@ var render = function() {
         _vm._v(" "),
         _c("img", {
           staticClass: "responsive",
-          attrs: { src: _vm.cert9_png, alt: "jQuery Essential Training" }
-        })
+          attrs: { src: _vm.cert9_png, alt: "jQuery Essential Training" },
+        }),
       ]),
       _vm._v(" "),
       _c("picture", [
         _c("source", {
-          attrs: { type: "image/webp", srcset: _vm.cert10_webp }
+          attrs: { type: "image/webp", srcset: _vm.cert10_webp },
         }),
         _vm._v(" "),
         _c("img", {
           staticClass: "responsive",
-          attrs: { src: _vm.cert10_png, alt: "Learning AngularJS 1" }
-        })
+          attrs: { src: _vm.cert10_png, alt: "Learning AngularJS 1" },
+        }),
       ]),
       _vm._v(" "),
       _c("picture", [
         _c("source", {
-          attrs: { type: "image/webp", srcset: _vm.cert11_webp }
+          attrs: { type: "image/webp", srcset: _vm.cert11_webp },
         }),
         _vm._v(" "),
         _c("img", {
           staticClass: "responsive",
           attrs: {
             src: _vm.cert11_png,
-            alt: "MVC Frameworks for Building PHP Web Applications"
-          }
-        })
+            alt: "MVC Frameworks for Building PHP Web Applications",
+          },
+        }),
       ]),
       _vm._v(" "),
       _c("picture", [
         _c("source", {
-          attrs: { type: "image/webp", srcset: _vm.cert12_webp }
+          attrs: { type: "image/webp", srcset: _vm.cert12_webp },
         }),
         _vm._v(" "),
         _c("img", {
           staticClass: "responsive",
           attrs: {
             src: _vm.cert12_png,
-            alt: "PHP: Object Oriented Programming"
-          }
-        })
+            alt: "PHP: Object Oriented Programming",
+          },
+        }),
       ]),
       _vm._v(" "),
       _c("picture", [
         _c("source", {
-          attrs: { type: "image/webp", srcset: _vm.cert13_webp }
+          attrs: { type: "image/webp", srcset: _vm.cert13_webp },
         }),
         _vm._v(" "),
         _c("img", {
           staticClass: "responsive",
-          attrs: { src: _vm.cert13_png, alt: "PHP 5.4 New Features" }
-        })
+          attrs: { src: _vm.cert13_png, alt: "PHP 5.4 New Features" },
+        }),
       ]),
       _vm._v(" "),
       _c("picture", [
         _c("source", {
-          attrs: { type: "image/webp", srcset: _vm.cert14_webp }
+          attrs: { type: "image/webp", srcset: _vm.cert14_webp },
         }),
         _vm._v(" "),
         _c("img", {
           staticClass: "responsive",
           attrs: {
             src: _vm.cert14_png,
-            alt: "Programming Foundations: Object-Oriented Design"
-          }
-        })
+            alt: "Programming Foundations: Object-Oriented Design",
+          },
+        }),
       ]),
       _vm._v(" "),
       _c("picture", [
         _c("source", {
-          attrs: { type: "image/webp", srcset: _vm.cert15_webp }
+          attrs: { type: "image/webp", srcset: _vm.cert15_webp },
         }),
         _vm._v(" "),
         _c("img", {
           staticClass: "responsive",
           attrs: {
             src: _vm.cert15_png,
-            alt: "Prototype and script.aculo.us Essential Training"
-          }
-        })
+            alt: "Prototype and script.aculo.us Essential Training",
+          },
+        }),
       ]),
       _vm._v(" "),
       _c("picture", [
         _c("source", {
-          attrs: { type: "image/webp", srcset: _vm.cert18_webp }
+          attrs: { type: "image/webp", srcset: _vm.cert18_webp },
         }),
         _vm._v(" "),
         _c("img", {
           staticClass: "responsive",
           attrs: {
             src: _vm.cert18_png,
-            alt: "Up and Running with Linux for PHP Developers"
-          }
-        })
+            alt: "Up and Running with Linux for PHP Developers",
+          },
+        }),
       ]),
       _vm._v(" "),
       _c("picture", [
         _c("source", {
-          attrs: { type: "image/webp", srcset: _vm.cert19_webp }
+          attrs: { type: "image/webp", srcset: _vm.cert19_webp },
         }),
         _vm._v(" "),
         _c("img", {
           staticClass: "responsive",
-          attrs: { src: _vm.cert19_png, alt: "Web Form Design Best Practices" }
-        })
-      ])
+          attrs: { src: _vm.cert19_png, alt: "Web Form Design Best Practices" },
+        }),
+      ]),
     ]),
     _vm._v(" "),
     _c("br"),
@@ -33508,66 +33486,69 @@ var render = function() {
     _c("div", { staticClass: "gridid" }, [
       _c("picture", [
         _c("source", {
-          attrs: { type: "image/webp", srcset: _vm.cert20_webp }
+          attrs: { type: "image/webp", srcset: _vm.cert20_webp },
         }),
         _vm._v(" "),
         _c("img", {
           staticClass: "responsive",
           attrs: {
             src: _vm.cert20_png,
-            alt: "Facebook for Musicians and Bands"
-          }
-        })
+            alt: "Facebook for Musicians and Bands",
+          },
+        }),
       ]),
       _vm._v(" "),
       _c("picture", [
         _c("source", {
-          attrs: { type: "image/webp", srcset: _vm.cert21_webp }
+          attrs: { type: "image/webp", srcset: _vm.cert21_webp },
         }),
         _vm._v(" "),
         _c("img", {
           staticClass: "responsive",
-          attrs: { src: _vm.cert21_png, alt: "Learning the Basics of Branding" }
-        })
+          attrs: {
+            src: _vm.cert21_png,
+            alt: "Learning the Basics of Branding",
+          },
+        }),
       ]),
       _vm._v(" "),
       _c("picture", [
         _c("source", {
-          attrs: { type: "image/webp", srcset: _vm.cert22_webp }
+          attrs: { type: "image/webp", srcset: _vm.cert22_webp },
         }),
         _vm._v(" "),
         _c("img", {
           staticClass: "responsive",
-          attrs: { src: _vm.cert22_png, alt: "Managing Your Time" }
-        })
+          attrs: { src: _vm.cert22_png, alt: "Managing Your Time" },
+        }),
       ]),
       _vm._v(" "),
       _c("picture", [
         _c("source", {
-          attrs: { type: "image/webp", srcset: _vm.cert23_webp }
+          attrs: { type: "image/webp", srcset: _vm.cert23_webp },
         }),
         _vm._v(" "),
         _c("img", {
           staticClass: "responsive",
           attrs: {
             src: _vm.cert23_png,
-            alt: "Social Media Basics for Musicians and Bands"
-          }
-        })
-      ])
-    ])
+            alt: "Social Media Basics for Musicians and Bands",
+          },
+        }),
+      ]),
+    ]),
   ])
 }
 var staticRenderFns = [
-  function() {
+  function () {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "progress-bar" }, [
-      _c("div", { staticStyle: { width: "95%" } }, [_vm._v("95%")])
+      _c("div", { staticStyle: { width: "95%" } }, [_vm._v("95%")]),
     ])
   },
-  function() {
+  function () {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
@@ -33580,86 +33561,86 @@ var staticRenderFns = [
         {
           attrs: {
             href: "https://laracasts.com/discuss/leaderboard",
-            target: "blank"
-          }
+            target: "blank",
+          },
         },
         [_vm._v("Laracasts Top-50 Leaderboard")]
       ),
-      _vm._v(' (as "fylzero").\n        ')
+      _vm._v(' (as "fylzero").\n        '),
     ])
   },
-  function() {
+  function () {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "progress-bar" }, [
-      _c("div", { staticStyle: { width: "90%" } }, [_vm._v("90%")])
+      _c("div", { staticStyle: { width: "90%" } }, [_vm._v("90%")]),
     ])
   },
-  function() {
+  function () {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "progress-bar" }, [
-      _c("div", { staticStyle: { width: "80%" } }, [_vm._v("80%")])
+      _c("div", { staticStyle: { width: "80%" } }, [_vm._v("80%")]),
     ])
   },
-  function() {
+  function () {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "progress-bar" }, [
-      _c("div", { staticStyle: { width: "70%" } }, [_vm._v("70%")])
+      _c("div", { staticStyle: { width: "70%" } }, [_vm._v("70%")]),
     ])
   },
-  function() {
+  function () {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "progress-bar" }, [
-      _c("div", { staticStyle: { width: "90%" } }, [_vm._v("90%")])
+      _c("div", { staticStyle: { width: "90%" } }, [_vm._v("90%")]),
     ])
   },
-  function() {
+  function () {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "progress-bar" }, [
-      _c("div", { staticStyle: { width: "90%" } }, [_vm._v("90%")])
+      _c("div", { staticStyle: { width: "90%" } }, [_vm._v("90%")]),
     ])
   },
-  function() {
+  function () {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "progress-bar" }, [
-      _c("div", { staticStyle: { width: "90%" } }, [_vm._v("90%")])
+      _c("div", { staticStyle: { width: "90%" } }, [_vm._v("90%")]),
     ])
   },
-  function() {
+  function () {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "progress-bar" }, [
-      _c("div", { staticStyle: { width: "60%" } }, [_vm._v("60%")])
+      _c("div", { staticStyle: { width: "60%" } }, [_vm._v("60%")]),
     ])
   },
-  function() {
+  function () {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "progress-bar" }, [
-      _c("div", { staticStyle: { width: "40%" } }, [_vm._v("40%")])
+      _c("div", { staticStyle: { width: "40%" } }, [_vm._v("40%")]),
     ])
   },
-  function() {
+  function () {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "progress-bar" }, [
-      _c("div", { staticStyle: { width: "10%" } }, [_vm._v("10%")])
+      _c("div", { staticStyle: { width: "10%" } }, [_vm._v("10%")]),
     ])
-  }
+  },
 ]
 render._withStripped = true
 
@@ -33679,7 +33660,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* binding */ render),
 /* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
 /* harmony export */ });
-var render = function() {
+var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
@@ -33687,20 +33668,20 @@ var render = function() {
     "div",
     {
       staticClass:
-        "limit-width center pb-100 monokai-pink-links jetbrains-mono uses-page"
+        "limit-width center pb-100 monokai-pink-links jetbrains-mono uses-page",
     },
     [
       _vm._m(0),
       _vm._v(" "),
       _c("UsesHardware"),
       _vm._v(" "),
-      _c("UsesSoftware")
+      _c("UsesSoftware"),
     ],
     1
   )
 }
 var staticRenderFns = [
-  function() {
+  function () {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
@@ -33716,10 +33697,10 @@ var staticRenderFns = [
         _c("em", [_vm._v("@description:")]),
         _vm._v(" Things I use day-to-day"),
         _c("br"),
-        _vm._v("\n         */\n    ")
+        _vm._v("\n         */\n    "),
       ]
     )
-  }
+  },
 ]
 render._withStripped = true
 
@@ -33739,22 +33720,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* binding */ render),
 /* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
 /* harmony export */ });
-var render = function() {
+var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _vm._m(0)
 }
 var staticRenderFns = [
-  function() {
+  function () {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", [
       _c("div", { staticClass: "text-center" }, [
         _c("h1", { staticStyle: { "margin-top": "100px" } }, [
-          _vm._v("Hardware")
-        ])
+          _vm._v("Hardware"),
+        ]),
       ]),
       _vm._v(" "),
       _c("h2", [_vm._v("Computer")]),
@@ -33765,32 +33746,32 @@ var staticRenderFns = [
           {
             attrs: {
               href: "https://www.apple.com/macbook-air/",
-              target: "blank"
-            }
+              target: "blank",
+            },
           },
           [_vm._v('2020 13" M1 MacBook Air')]
         ),
         _vm._v(
           "\n        - M1 chip with 8‑core CPU, 7‑core GPU, and 16‑core Neural Engine, 16GB Unified Memory, 256GB SSD, Retina display with True Tone and Touch ID.\n    "
-        )
+        ),
       ]),
       _vm._v(" "),
       _c("p", { staticClass: "mt-3" }, [
         _vm._v(
           "\n        Recently decided to pick up the M1 laptop and then quickly sold my 2018 specked-out Macbook Pro.  Have had zero regret in doing this.  The M1 Macbook Air is super fast and runs everything I need with no issues.  Only limitations so far are not being able to run VirtualBox and Android Studio, neither of which I reach for very often, so not a huge problem.\n    "
-        )
+        ),
       ]),
       _vm._v(" "),
       _c(
         "div",
         {
           staticClass: "text-center",
-          staticStyle: { "margin-top": "20px", "margin-bottom": "20px" }
+          staticStyle: { "margin-top": "20px", "margin-bottom": "20px" },
         },
         [
           _c("picture", [
             _c("source", {
-              attrs: { type: "image/webp", srcset: "/img/webp/m1air.webp" }
+              attrs: { type: "image/webp", srcset: "/img/webp/m1air.webp" },
             }),
             _vm._v(" "),
             _c("img", {
@@ -33798,14 +33779,14 @@ var staticRenderFns = [
               staticStyle: {
                 "max-width": "400px",
                 width: "100%",
-                height: "auto"
+                height: "auto",
               },
               attrs: {
                 src: "/img/jpg/m1air.jpg",
-                alt: 'mid-2018 15" Macbook Pro with Retina Display and Touchbar'
-              }
-            })
-          ])
+                alt: 'mid-2018 15" Macbook Pro with Retina Display and Touchbar',
+              },
+            }),
+          ]),
         ]
       ),
       _vm._v(" "),
@@ -33813,12 +33794,12 @@ var staticRenderFns = [
         "div",
         {
           staticClass: "text-center",
-          staticStyle: { "margin-top": "20px", "margin-bottom": "20px" }
+          staticStyle: { "margin-top": "20px", "margin-bottom": "20px" },
         },
         [
           _c("picture", [
             _c("source", {
-              attrs: { type: "image/webp", srcset: "/img/webp/mac-specs.webp" }
+              attrs: { type: "image/webp", srcset: "/img/webp/mac-specs.webp" },
             }),
             _vm._v(" "),
             _c("img", {
@@ -33826,14 +33807,14 @@ var staticRenderFns = [
               staticStyle: {
                 "max-width": "586px",
                 width: "100%",
-                height: "auto"
+                height: "auto",
               },
               attrs: {
                 src: "/img/png/mac-specs.png",
-                alt: 'My 15" Macbook Pro Specs'
-              }
-            })
-          ])
+                alt: 'My 15" Macbook Pro Specs',
+              },
+            }),
+          ]),
         ]
       ),
       _vm._v(" "),
@@ -33841,29 +33822,8 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("p", [
         _vm._v(
-          "Sigh...   yes...  I spent a boatload of money on the space grey Apple Magic Keyboard and Magic Mouse 2.  I actually really like the mac keyboard and have gotten very used to it.  I've always been a fan of the magic mouse, especially for multiscreen switching."
-        )
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "text-center" }, [
-        _c("picture", [
-          _c("source", {
-            attrs: { type: "image/webp", srcset: "/img/webp/kb-mouse.webp" }
-          }),
-          _vm._v(" "),
-          _c("img", {
-            staticClass: "rounded",
-            staticStyle: {
-              "max-width": "400px",
-              width: "100%",
-              height: "auto"
-            },
-            attrs: {
-              src: "/img/jpg/kb-mouse.jpg",
-              alt: "Space Grey Apple Magic Keyboard and Magic Mouse 2"
-            }
-          })
-        ])
+          "I use the Logitech MX Keys Advanced Wireless Keyboard for Mac and the Logitech MX Vertical Wireless Mouse.  I was using the MX advanced wireless mouse for switching between machines easily, but due to a nerve injury on my right side I've had to switch to using the vertical mouse for pain management.  I like it a lot, just wish it had the automatic machine-switching capability the MX advanced offers."
+        ),
       ]),
       _vm._v(" "),
       _c("h2", [_vm._v("Monitor")]),
@@ -33873,22 +33833,21 @@ var staticRenderFns = [
           "a",
           {
             attrs: {
-              href:
-                "https://www.amazon.com/gp/product/B07GWDGVGT/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1",
-              target: "blank"
-            }
+              href: "https://www.amazon.com/gp/product/B07GWDGVGT/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1",
+              target: "blank",
+            },
           },
           [_vm._v("Asus VA325H 31.5-Inch LED Monitor")]
         ),
         _vm._v(
           " which I bought refurbished on Amazon for under $200.  High resolution, not the best color reproduction but good for coding and watching videos.  The monitor stand I use is from Autonomous as well."
-        )
+        ),
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "text-center" }, [
         _c("picture", [
           _c("source", {
-            attrs: { type: "image/webp", srcset: "/img/webp/monitor.webp" }
+            attrs: { type: "image/webp", srcset: "/img/webp/monitor.webp" },
           }),
           _vm._v(" "),
           _c("img", {
@@ -33896,14 +33855,14 @@ var staticRenderFns = [
             staticStyle: {
               "max-width": "400px",
               width: "100%",
-              height: "auto"
+              height: "auto",
             },
             attrs: {
               src: "/img/jpg/monitor.jpg",
-              alt: "Asus VA325H 31.5-Inch LED Monitor"
-            }
-          })
-        ])
+              alt: "Asus VA325H 31.5-Inch LED Monitor",
+            },
+          }),
+        ]),
       ]),
       _vm._v(" "),
       _c("h2", [_vm._v("Speakers")]),
@@ -33915,8 +33874,8 @@ var staticRenderFns = [
           {
             attrs: {
               href: "https://www.zzounds.com/item--MACMR824",
-              target: "blank"
-            }
+              target: "blank",
+            },
           },
           [_vm._v("Mackie MR824 Studio Monitors")]
         ),
@@ -33926,20 +33885,20 @@ var staticRenderFns = [
           {
             attrs: {
               href: "https://www.zzounds.com/item--MACMRS10",
-              target: "blank"
-            }
+              target: "blank",
+            },
           },
           [_vm._v("Mackie MRS10 Powered Studio Subwoofer")]
         ),
         _vm._v(
           ".  I tested tons of studio montor speakers at Guitar Center and landed on these because the low mid and treb frequencies really stood out on the Mackie's to me.  They have a bit of color to the sound but they are very clear and punchy."
-        )
+        ),
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "text-center" }, [
         _c("picture", [
           _c("source", {
-            attrs: { type: "image/webp", srcset: "/img/webp/speakers.webp" }
+            attrs: { type: "image/webp", srcset: "/img/webp/speakers.webp" },
           }),
           _vm._v(" "),
           _c("img", {
@@ -33947,15 +33906,14 @@ var staticRenderFns = [
             staticStyle: {
               "max-width": "400px",
               width: "100%",
-              height: "auto"
+              height: "auto",
             },
             attrs: {
               src: "/img/png/speakers.png",
-              alt:
-                "Mackie MR824 Studio Monitors and a Mackie MRS10 Powered Studio Subwoofer"
-            }
-          })
-        ])
+              alt: "Mackie MR824 Studio Monitors and a Mackie MRS10 Powered Studio Subwoofer",
+            },
+          }),
+        ]),
       ]),
       _vm._v(" "),
       _c("h2", [_vm._v("Audio Interface")]),
@@ -33967,18 +33925,18 @@ var staticRenderFns = [
           {
             attrs: {
               href: "https://www.zzounds.com/item--FOCSCAR2I4V2",
-              target: "blank"
-            }
+              target: "blank",
+            },
           },
           [_vm._v("Scarlett Focusrite 2i4 Audio Interface")]
         ),
-        _vm._v(".")
+        _vm._v("."),
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "text-center" }, [
         _c("picture", [
           _c("source", {
-            attrs: { type: "image/webp", srcset: "/img/webp/interface.webp" }
+            attrs: { type: "image/webp", srcset: "/img/webp/interface.webp" },
           }),
           _vm._v(" "),
           _c("img", {
@@ -33986,14 +33944,14 @@ var staticRenderFns = [
             staticStyle: {
               "max-width": "400px",
               width: "100%",
-              height: "auto"
+              height: "auto",
             },
             attrs: {
               src: "/img/jpg/interface.jpg",
-              alt: "Scarlett Focusrite 2i4 Audio Interface"
-            }
-          })
-        ])
+              alt: "Scarlett Focusrite 2i4 Audio Interface",
+            },
+          }),
+        ]),
       ]),
       _vm._v(" "),
       _c("h2", [_vm._v("Microphone")]),
@@ -34001,13 +33959,13 @@ var staticRenderFns = [
       _c("p", [
         _vm._v(
           "I use an Audio Technica AT-2020 studio condenser microphone with a telescopic boom stand, shock mount and pop filter."
-        )
+        ),
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "text-center" }, [
         _c("picture", [
           _c("source", {
-            attrs: { type: "image/webp", srcset: "/img/webp/mic.webp" }
+            attrs: { type: "image/webp", srcset: "/img/webp/mic.webp" },
           }),
           _vm._v(" "),
           _c("img", {
@@ -34015,14 +33973,14 @@ var staticRenderFns = [
             staticStyle: {
               "max-width": "400px",
               width: "100%",
-              height: "auto"
+              height: "auto",
             },
             attrs: {
               src: "/img/jpg/mic.jpg",
-              alt: "Audio Technica AT-2020 studio condenser microphone"
-            }
-          })
-        ])
+              alt: "Audio Technica AT-2020 studio condenser microphone",
+            },
+          }),
+        ]),
       ]),
       _vm._v(" "),
       _c("h2", [_vm._v("Desk")]),
@@ -34032,26 +33990,25 @@ var staticRenderFns = [
           "a",
           {
             attrs: {
-              href:
-                "https://www.autonomous.ai/standing-desks/smartdesk-2-business?option1=1&option2=6&option16=36&option17=41",
-              target: "blank"
-            }
+              href: "https://www.autonomous.ai/standing-desks/smartdesk-2-business?option1=1&option2=6&option16=36&option17=41",
+              target: "blank",
+            },
           },
           [
             _vm._v(
               "SmartDesk 2 Business Edition with a white frame and bamboo top"
-            )
+            ),
           ]
         ),
         _vm._v(
           " from Autonomous.  Extremely sturdy.  I love that this desk sits at the exact heights I prefer for sitting and standing and it looks beautiful."
-        )
+        ),
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "text-center" }, [
         _c("picture", [
           _c("source", {
-            attrs: { type: "image/webp", srcset: "/img/webp/desk.webp" }
+            attrs: { type: "image/webp", srcset: "/img/webp/desk.webp" },
           }),
           _vm._v(" "),
           _c("img", {
@@ -34059,15 +34016,14 @@ var staticRenderFns = [
             staticStyle: {
               "max-width": "400px",
               width: "100%",
-              height: "auto"
+              height: "auto",
             },
             attrs: {
               src: "/img/png/desk.png",
-              alt:
-                " AutonomousSmartDesk 2 Business Edition with a white frame and bamboo top"
-            }
-          })
-        ])
+              alt: " AutonomousSmartDesk 2 Business Edition with a white frame and bamboo top",
+            },
+          }),
+        ]),
       ]),
       _vm._v(" "),
       _c("h2", [_vm._v("Chair")]),
@@ -34078,22 +34034,21 @@ var staticRenderFns = [
           "a",
           {
             attrs: {
-              href:
-                "https://www.autonomous.ai/office-chairs/ergonomic-chair?option20=50",
-              target: "blank"
-            }
+              href: "https://www.autonomous.ai/office-chairs/ergonomic-chair?option20=50",
+              target: "blank",
+            },
           },
           [_vm._v("Ergo Chair 2 in Evergreen")]
         ),
         _vm._v(
           ", also from Autonomous.  Sturdy, comfy, ergonomic, doesn't squeak.  I actually sold my Herman Miller Embody chair for this and I have zero regrets."
-        )
+        ),
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "text-center" }, [
         _c("picture", [
           _c("source", {
-            attrs: { type: "image/webp", srcset: "/img/webp/chair.webp" }
+            attrs: { type: "image/webp", srcset: "/img/webp/chair.webp" },
           }),
           _vm._v(" "),
           _c("img", {
@@ -34101,14 +34056,14 @@ var staticRenderFns = [
             staticStyle: {
               "max-width": "400px",
               width: "100%",
-              height: "auto"
+              height: "auto",
             },
             attrs: {
               src: "/img/png/chair.png",
-              alt: "Autonomous Ergo Chair 2 in Evergreen"
-            }
-          })
-        ])
+              alt: "Autonomous Ergo Chair 2 in Evergreen",
+            },
+          }),
+        ]),
       ]),
       _vm._v(" "),
       _c("h2", [_vm._v("Printer")]),
@@ -34118,20 +34073,19 @@ var staticRenderFns = [
           "a",
           {
             attrs: {
-              href:
-                "https://www.bestbuy.com/site/brother-hl-l2370dw-wireless-black-and-white-printer-gray/6130042.p?skuId=6130042",
-              target: "blank"
-            }
+              href: "https://www.bestbuy.com/site/brother-hl-l2370dw-wireless-black-and-white-printer-gray/6130042.p?skuId=6130042",
+              target: "blank",
+            },
           },
           [_vm._v("Brother HL-L2370DW Wireless Black-and-White Laser Printer")]
         ),
-        _vm._v(".  Simple.  Prints stuff.")
+        _vm._v(".  Simple.  Prints stuff."),
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "text-center" }, [
         _c("picture", [
           _c("source", {
-            attrs: { type: "image/webp", srcset: "/img/webp/printer.webp" }
+            attrs: { type: "image/webp", srcset: "/img/webp/printer.webp" },
           }),
           _vm._v(" "),
           _c("img", {
@@ -34139,14 +34093,14 @@ var staticRenderFns = [
             staticStyle: {
               "max-width": "400px",
               width: "100%",
-              height: "auto"
+              height: "auto",
             },
             attrs: {
               src: "/img/jpg/printer.jpg",
-              alt: "Brother HL-L2370DW Wireless Black-and-White Laser Printer"
-            }
-          })
-        ])
+              alt: "Brother HL-L2370DW Wireless Black-and-White Laser Printer",
+            },
+          }),
+        ]),
       ]),
       _vm._v(" "),
       _c("h2", [_vm._v("External SSD")]),
@@ -34159,20 +34113,19 @@ var staticRenderFns = [
           "a",
           {
             attrs: {
-              href:
-                "https://www.amazon.com/gp/product/B08HN37XC1/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1",
-              target: "blank"
-            }
+              href: "https://www.amazon.com/gp/product/B08HN37XC1/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1",
+              target: "blank",
+            },
           },
           [_vm._v("SanDisk 2TB Extreme Portable SSD")]
         ),
-        _vm._v(".")
+        _vm._v("."),
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "text-center" }, [
         _c("picture", [
           _c("source", {
-            attrs: { type: "image/webp", srcset: "/img/webp/sandisk.webp" }
+            attrs: { type: "image/webp", srcset: "/img/webp/sandisk.webp" },
           }),
           _vm._v(" "),
           _c("img", {
@@ -34180,97 +34133,14 @@ var staticRenderFns = [
             staticStyle: {
               "max-width": "400px",
               width: "100%",
-              height: "auto"
+              height: "auto",
             },
             attrs: {
               src: "/img/jpg/sandisk.jpg",
-              alt: "SanDisk 2TB Extreme Portable SSD"
-            }
-          })
-        ])
-      ]),
-      _vm._v(" "),
-      _c("h2", [_vm._v("External HDD")]),
-      _vm._v(" "),
-      _c("p", [
-        _vm._v("The "),
-        _c(
-          "a",
-          {
-            attrs: {
-              href:
-                "https://www.amazon.com/gp/product/B079HGSFY5/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1",
-              target: "blank"
-            }
-          },
-          [_vm._v("LaCie Rugged USB-C 5TB External Portable Hard Drive")]
-        ),
-        _vm._v(" (along with "),
-        _c(
-          "a",
-          { attrs: { href: "https://www.backblaze.com/", target: "blank" } },
-          [_vm._v("BackBlaze")]
-        ),
-        _vm._v(") is what I use as a backup and file transfer drive.")
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "text-center" }, [
-        _c("picture", [
-          _c("source", {
-            attrs: { type: "image/webp", srcset: "/img/webp/lacie.webp" }
-          }),
-          _vm._v(" "),
-          _c("img", {
-            staticClass: "rounded",
-            staticStyle: {
-              "max-width": "400px",
-              width: "100%",
-              height: "auto"
+              alt: "SanDisk 2TB Extreme Portable SSD",
             },
-            attrs: {
-              src: "/img/jpg/lacie.jpg",
-              alt: "LaCie Rugged USB-C 5TB External Portable Hard Drive"
-            }
-          })
-        ])
-      ]),
-      _vm._v(" "),
-      _c("h2", [_vm._v("Hub")]),
-      _vm._v(" "),
-      _c("p", [
-        _vm._v(
-          "Everything is hooked up to my Macbook Pro using a small simple "
-        ),
-        _c(
-          "a",
-          {
-            attrs: {
-              href:
-                "https://www.amazon.com/gp/product/B071G83L1J/ref=ppx_yo_dt_b_asin_title_o04_s01?ie=UTF8&psc=1",
-              target: "blank"
-            }
-          },
-          [_vm._v("Anker USB C Hub")]
-        ),
-        _vm._v(".")
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "text-center" }, [
-        _c("picture", [
-          _c("source", {
-            attrs: { type: "image/webp", srcset: "/img/webp/hub.webp" }
           }),
-          _vm._v(" "),
-          _c("img", {
-            staticClass: "rounded",
-            staticStyle: {
-              "max-width": "400px",
-              width: "100%",
-              height: "auto"
-            },
-            attrs: { src: "/img/jpg/hub.jpg", alt: "Anker USB C Hub" }
-          })
-        ])
+        ]),
       ]),
       _vm._v(" "),
       _c("h2", [_vm._v("Phone")]),
@@ -34278,13 +34148,13 @@ var staticRenderFns = [
       _c("p", [
         _vm._v(
           "I have the Samsung Galaxy S10+ in Ceramic Black with 512GB internal memory."
-        )
+        ),
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "text-center" }, [
         _c("picture", [
           _c("source", {
-            attrs: { type: "image/webp", srcset: "/img/webp/s10-plus.webp" }
+            attrs: { type: "image/webp", srcset: "/img/webp/s10-plus.webp" },
           }),
           _vm._v(" "),
           _c("img", {
@@ -34292,15 +34162,14 @@ var staticRenderFns = [
             staticStyle: {
               "max-width": "400px",
               width: "100%",
-              height: "auto"
+              height: "auto",
             },
             attrs: {
               src: "/img/jpg/s10-plus.jpg",
-              alt:
-                "Samsung Galaxy S10+ in Ceramic Black with 512GB internal memory"
-            }
-          })
-        ])
+              alt: "Samsung Galaxy S10+ in Ceramic Black with 512GB internal memory",
+            },
+          }),
+        ]),
       ]),
       _vm._v(" "),
       _c("h2", [_vm._v("Headphones")]),
@@ -34314,13 +34183,13 @@ var staticRenderFns = [
         ),
         _vm._v(
           " and OMG!  These things are RIDICULOUSLY AMAZING!  The bass isn't even deep, it is PROFOUND!  They are so clear.  It's like sitting the perfect distance from an array of blasted high-end studio monitors at a professional studio everytime I put them on."
-        )
+        ),
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "text-center" }, [
         _c("picture", [
           _c("source", {
-            attrs: { type: "image/webp", srcset: "/img/webp/nura.webp" }
+            attrs: { type: "image/webp", srcset: "/img/webp/nura.webp" },
           }),
           _vm._v(" "),
           _c("img", {
@@ -34328,11 +34197,11 @@ var staticRenderFns = [
             staticStyle: {
               "max-width": "400px",
               width: "100%",
-              height: "auto"
+              height: "auto",
             },
-            attrs: { src: "/img/jpg/nura.jpg", alt: "Nuraphones Headphones" }
-          })
-        ])
+            attrs: { src: "/img/jpg/nura.jpg", alt: "Nuraphones Headphones" },
+          }),
+        ]),
       ]),
       _vm._v(" "),
       _c("h2", [_vm._v("Earbuds")]),
@@ -34343,22 +34212,21 @@ var staticRenderFns = [
           "a",
           {
             attrs: {
-              href:
-                "https://www.amazon.com/Samsung-Wireless-Improved-Charging-International/dp/B084T42XBT/ref=sr_1_1?dchild=1&keywords=galaxy+buds+red&qid=1590730689&sr=8-1",
-              target: "blank"
-            }
+              href: "https://www.amazon.com/Samsung-Wireless-Improved-Charging-International/dp/B084T42XBT/ref=sr_1_1?dchild=1&keywords=galaxy+buds+red&qid=1590730689&sr=8-1",
+              target: "blank",
+            },
           },
           [_vm._v("Samsung Galaxy Buds+ Plus (Red)")]
         ),
         _vm._v(
           ".  These are super tiny, the charge lasts forever...  especially with the charging case they come in...  the sound quality is great."
-        )
+        ),
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "text-center" }, [
         _c("picture", [
           _c("source", {
-            attrs: { type: "image/webp", srcset: "/img/webp/buds.webp" }
+            attrs: { type: "image/webp", srcset: "/img/webp/buds.webp" },
           }),
           _vm._v(" "),
           _c("img", {
@@ -34366,14 +34234,14 @@ var staticRenderFns = [
             staticStyle: {
               "max-width": "400px",
               width: "100%",
-              height: "auto"
+              height: "auto",
             },
             attrs: {
               src: "/img/jpg/buds.jpg",
-              alt: "Samsung Galxy Buds (Black)"
-            }
-          })
-        ])
+              alt: "Samsung Galxy Buds (Black)",
+            },
+          }),
+        ]),
       ]),
       _vm._v(" "),
       _c("h2", [_vm._v("Backpack")]),
@@ -34385,8 +34253,8 @@ var staticRenderFns = [
           _c("source", {
             attrs: {
               type: "image/webp",
-              srcset: "/img/webp/ogio-renegade-rss.webp"
-            }
+              srcset: "/img/webp/ogio-renegade-rss.webp",
+            },
           }),
           _vm._v(" "),
           _c("img", {
@@ -34394,14 +34262,14 @@ var staticRenderFns = [
             staticStyle: {
               "max-width": "400px",
               width: "100%",
-              height: "auto"
+              height: "auto",
             },
             attrs: {
               src: "/img/jpg/ogio-renegade-rss.jpg",
-              alt: "Ogio Renegade RSS Backpack"
-            }
-          })
-        ])
+              alt: "Ogio Renegade RSS Backpack",
+            },
+          }),
+        ]),
       ]),
       _vm._v(" "),
       _c("h2", [_vm._v("Messenger Bag")]),
@@ -34413,8 +34281,8 @@ var staticRenderFns = [
           _c("source", {
             attrs: {
               type: "image/webp",
-              srcset: "/img/webp/crumpler-skivvy-m.webp"
-            }
+              srcset: "/img/webp/crumpler-skivvy-m.webp",
+            },
           }),
           _vm._v(" "),
           _c("img", {
@@ -34422,17 +34290,17 @@ var staticRenderFns = [
             staticStyle: {
               "max-width": "400px",
               width: "100%",
-              height: "auto"
+              height: "auto",
             },
             attrs: {
               src: "/img/jpg/crumpler-skivvy-m.jpg",
-              alt: "Crumpler Skivvy (M) Messenger Laptop Bag - Orange"
-            }
-          })
-        ])
-      ])
+              alt: "Crumpler Skivvy (M) Messenger Laptop Bag - Orange",
+            },
+          }),
+        ]),
+      ]),
     ])
-  }
+  },
 ]
 render._withStripped = true
 
@@ -34452,22 +34320,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* binding */ render),
 /* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
 /* harmony export */ });
-var render = function() {
+var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _vm._m(0)
 }
 var staticRenderFns = [
-  function() {
+  function () {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", [
       _c("div", { staticClass: "text-center" }, [
         _c("h1", { staticStyle: { "margin-top": "100px" } }, [
-          _vm._v("Software")
-        ])
+          _vm._v("Software"),
+        ]),
       ]),
       _vm._v(" "),
       _c("h2", [_vm._v("Code Editor")]),
@@ -34477,7 +34345,7 @@ var staticRenderFns = [
         _c(
           "a",
           {
-            attrs: { href: "https://code.visualstudio.com/", target: "blank" }
+            attrs: { href: "https://code.visualstudio.com/", target: "blank" },
           },
           [_vm._v("VS Code (Visual Studio Code)")]
         ),
@@ -34488,36 +34356,36 @@ var staticRenderFns = [
         _c("br"),
         _vm._v(
           "I used to be a big Sublime Text user for many years, wound up switching to Atom for a bit, now I'm all about that VS Code life."
-        )
+        ),
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "text-center" }, [
         _c("picture", [
           _c("source", {
-            attrs: { type: "image/webp", srcset: "/img/webp/vs-code.webp" }
+            attrs: { type: "image/webp", srcset: "/img/webp/vs-code.webp" },
           }),
           _vm._v(" "),
           _c("img", {
             staticClass: "rounded",
             staticStyle: { width: "100%", height: "auto" },
-            attrs: { src: "/img/png/vs-code.png", alt: "VS Code Editor" }
-          })
-        ])
+            attrs: { src: "/img/png/vs-code.png", alt: "VS Code Editor" },
+          }),
+        ]),
       ]),
       _vm._v(" "),
       _c("p", { staticStyle: { "margin-top": "20px" } }, [
         _c("strong", { staticClass: "monokai-green" }, [
           _vm._v("Setup"),
-          _c("span", { staticStyle: { color: "#8B888F" } }, [_vm._v("()")])
-        ])
+          _c("span", { staticStyle: { color: "#8B888F" } }, [_vm._v("()")]),
+        ]),
       ]),
       _vm._v(" "),
       _c("ul", [
         _c("li", [
           _vm._v("-> Monokai Pro "),
           _c("span", { staticClass: "little" }, [
-            _vm._v("(Filter Spectrum) Theme")
-          ])
+            _vm._v("(Filter Spectrum) Theme"),
+          ]),
         ]),
         _vm._v(" "),
         _c("li", [
@@ -34527,23 +34395,23 @@ var staticRenderFns = [
             {
               attrs: {
                 href: "https://www.jetbrains.com/lp/mono/",
-                target: "blank"
-              }
+                target: "blank",
+              },
             },
             [_vm._v("JetBrains Mono Font")]
           ),
           _vm._v(" "),
           _c("span", { staticClass: "little" }, [
-            _vm._v("at 15px with ligatures enabled")
-          ])
-        ])
+            _vm._v("at 15px with ligatures enabled"),
+          ]),
+        ]),
       ]),
       _vm._v(" "),
       _c("p", { staticStyle: { "margin-top": "20px" } }, [
         _c("strong", { staticClass: "monokai-green" }, [
           _vm._v("VS Code Extensions"),
-          _c("span", { staticStyle: { color: "#8B888F" } }, [_vm._v("()")])
-        ])
+          _c("span", { staticStyle: { color: "#8B888F" } }, [_vm._v("()")]),
+        ]),
       ]),
       _vm._v(" "),
       _c("div", { staticStyle: { height: "45px" } }, [
@@ -34551,22 +34419,22 @@ var staticRenderFns = [
           _c("source", {
             attrs: {
               type: "image/webp",
-              srcset: "/img/webp/vsc-extensions/git-lens.webp"
-            }
+              srcset: "/img/webp/vsc-extensions/git-lens.webp",
+            },
           }),
           _vm._v(" "),
           _c("img", {
             staticStyle: { width: "37px", height: "auto" },
             attrs: {
               src: "/img/png/vsc-extensions/git-lens.png",
-              alt: "GitLens"
-            }
-          })
+              alt: "GitLens",
+            },
+          }),
         ]),
         _vm._v(" "),
         _c("span", { staticStyle: { "margin-left": "50px" } }, [
-          _vm._v("GitLens")
-        ])
+          _vm._v("GitLens"),
+        ]),
       ]),
       _vm._v(" "),
       _c("div", { staticStyle: { height: "45px" } }, [
@@ -34574,22 +34442,22 @@ var staticRenderFns = [
           _c("source", {
             attrs: {
               type: "image/webp",
-              srcset: "/img/webp/vsc-extensions/image-preview.webp"
-            }
+              srcset: "/img/webp/vsc-extensions/image-preview.webp",
+            },
           }),
           _vm._v(" "),
           _c("img", {
             staticStyle: { width: "37px", height: "auto" },
             attrs: {
               src: "/img/png/vsc-extensions/image-preview.png",
-              alt: "Image Preview"
-            }
-          })
+              alt: "Image Preview",
+            },
+          }),
         ]),
         _vm._v(" "),
         _c("span", { staticStyle: { "margin-left": "50px" } }, [
-          _vm._v("Image Preview")
-        ])
+          _vm._v("Image Preview"),
+        ]),
       ]),
       _vm._v(" "),
       _c("div", [
@@ -34598,22 +34466,22 @@ var staticRenderFns = [
             _c("source", {
               attrs: {
                 type: "image/webp",
-                srcset: "/img/webp/vsc-extensions/laravel-extension-pack.webp"
-              }
+                srcset: "/img/webp/vsc-extensions/laravel-extension-pack.webp",
+              },
             }),
             _vm._v(" "),
             _c("img", {
               staticStyle: { width: "37px", height: "auto" },
               attrs: {
                 src: "/img/png/vsc-extensions/laravel-extension-pack.png",
-                alt: "Laravel Extension Pack"
-              }
-            })
+                alt: "Laravel Extension Pack",
+              },
+            }),
           ]),
           _vm._v(" "),
           _c("span", { staticStyle: { "margin-left": "50px" } }, [
-            _vm._v("Laravel Extension Pack")
-          ])
+            _vm._v("Laravel Extension Pack"),
+          ]),
         ]),
         _vm._v(" "),
         _c("div", [
@@ -34625,22 +34493,22 @@ var staticRenderFns = [
                 _c("source", {
                   attrs: {
                     type: "image/webp",
-                    srcset: "/img/webp/vsc-extensions/dotenv.webp"
-                  }
+                    srcset: "/img/webp/vsc-extensions/dotenv.webp",
+                  },
                 }),
                 _vm._v(" "),
                 _c("img", {
                   staticStyle: { width: "37px", height: "auto" },
                   attrs: {
                     src: "/img/png/vsc-extensions/dotenv.png",
-                    alt: "DotENV"
-                  }
-                })
+                    alt: "DotENV",
+                  },
+                }),
               ]),
               _vm._v(" "),
               _c("span", { staticStyle: { "margin-left": "50px" } }, [
-                _vm._v("DotENV")
-              ])
+                _vm._v("DotENV"),
+              ]),
             ]
           ),
           _vm._v(" "),
@@ -34652,22 +34520,22 @@ var staticRenderFns = [
                 _c("source", {
                   attrs: {
                     type: "image/webp",
-                    srcset: "/img/webp/vsc-extensions/editor-config.webp"
-                  }
+                    srcset: "/img/webp/vsc-extensions/editor-config.webp",
+                  },
                 }),
                 _vm._v(" "),
                 _c("img", {
                   staticStyle: { width: "37px", height: "auto" },
                   attrs: {
                     src: "/img/png/vsc-extensions/editor-config.png",
-                    alt: "EditorConfig"
-                  }
-                })
+                    alt: "EditorConfig",
+                  },
+                }),
               ]),
               _vm._v(" "),
               _c("span", { staticStyle: { "margin-left": "50px" } }, [
-                _vm._v("EditorConfig")
-              ])
+                _vm._v("EditorConfig"),
+              ]),
             ]
           ),
           _vm._v(" "),
@@ -34679,22 +34547,22 @@ var staticRenderFns = [
                 _c("source", {
                   attrs: {
                     type: "image/webp",
-                    srcset: "/img/webp/vsc-extensions/laravel-artisan.webp"
-                  }
+                    srcset: "/img/webp/vsc-extensions/laravel-artisan.webp",
+                  },
                 }),
                 _vm._v(" "),
                 _c("img", {
                   staticStyle: { width: "37px", height: "auto" },
                   attrs: {
                     src: "/img/png/vsc-extensions/laravel-artisan.png",
-                    alt: "Laravel Artisan"
-                  }
-                })
+                    alt: "Laravel Artisan",
+                  },
+                }),
               ]),
               _vm._v(" "),
               _c("span", { staticStyle: { "margin-left": "50px" } }, [
-                _vm._v("Laravel Artisan")
-              ])
+                _vm._v("Laravel Artisan"),
+              ]),
             ]
           ),
           _vm._v(" "),
@@ -34707,22 +34575,22 @@ var staticRenderFns = [
                   attrs: {
                     type: "image/webp",
                     srcset:
-                      "/img/webp/vsc-extensions/laravel-blade-snippets.webp"
-                  }
+                      "/img/webp/vsc-extensions/laravel-blade-snippets.webp",
+                  },
                 }),
                 _vm._v(" "),
                 _c("img", {
                   staticStyle: { width: "37px", height: "auto" },
                   attrs: {
                     src: "/img/png/vsc-extensions/laravel-blade-snippets.png",
-                    alt: "Laravel Blade Snippets"
-                  }
-                })
+                    alt: "Laravel Blade Snippets",
+                  },
+                }),
               ]),
               _vm._v(" "),
               _c("span", { staticStyle: { "margin-left": "50px" } }, [
-                _vm._v("Laravel Blade Snippets")
-              ])
+                _vm._v("Laravel Blade Snippets"),
+              ]),
             ]
           ),
           _vm._v(" "),
@@ -34734,22 +34602,22 @@ var staticRenderFns = [
                 _c("source", {
                   attrs: {
                     type: "image/webp",
-                    srcset: "/img/webp/vsc-extensions/laravel-goto-view.webp"
-                  }
+                    srcset: "/img/webp/vsc-extensions/laravel-goto-view.webp",
+                  },
                 }),
                 _vm._v(" "),
                 _c("img", {
                   staticStyle: { width: "37px", height: "auto" },
                   attrs: {
                     src: "/img/png/vsc-extensions/laravel-goto-view.png",
-                    alt: "Laravel GoTo View"
-                  }
-                })
+                    alt: "Laravel GoTo View",
+                  },
+                }),
               ]),
               _vm._v(" "),
               _c("span", { staticStyle: { "margin-left": "50px" } }, [
-                _vm._v("Laravel GoTo View")
-              ])
+                _vm._v("Laravel GoTo View"),
+              ]),
             ]
           ),
           _vm._v(" "),
@@ -34761,22 +34629,22 @@ var staticRenderFns = [
                 _c("source", {
                   attrs: {
                     type: "image/webp",
-                    srcset: "/img/webp/vsc-extensions/laravel-snippets.webp"
-                  }
+                    srcset: "/img/webp/vsc-extensions/laravel-snippets.webp",
+                  },
                 }),
                 _vm._v(" "),
                 _c("img", {
                   staticStyle: { width: "37px", height: "auto" },
                   attrs: {
                     src: "/img/png/vsc-extensions/laravel-snippets.png",
-                    alt: "Laravel Snippets"
-                  }
-                })
+                    alt: "Laravel Snippets",
+                  },
+                }),
               ]),
               _vm._v(" "),
               _c("span", { staticStyle: { "margin-left": "50px" } }, [
-                _vm._v("Laravel Snippets")
-              ])
+                _vm._v("Laravel Snippets"),
+              ]),
             ]
           ),
           _vm._v(" "),
@@ -34788,22 +34656,22 @@ var staticRenderFns = [
                 _c("source", {
                   attrs: {
                     type: "image/webp",
-                    srcset: "/img/webp/vsc-extensions/live-share.webp"
-                  }
+                    srcset: "/img/webp/vsc-extensions/live-share.webp",
+                  },
                 }),
                 _vm._v(" "),
                 _c("img", {
                   staticStyle: { width: "37px", height: "auto" },
                   attrs: {
                     src: "/img/png/vsc-extensions/live-share.png",
-                    alt: "Live Share (I disable this one)"
-                  }
-                })
+                    alt: "Live Share (I disable this one)",
+                  },
+                }),
               ]),
               _vm._v(" "),
               _c("span", { staticStyle: { "margin-left": "50px" } }, [
-                _vm._v("Live Share (I disable this one)")
-              ])
+                _vm._v("Live Share (I disable this one)"),
+              ]),
             ]
           ),
           _vm._v(" "),
@@ -34815,22 +34683,22 @@ var staticRenderFns = [
                 _c("source", {
                   attrs: {
                     type: "image/webp",
-                    srcset: "/img/webp/vsc-extensions/php-debug.webp"
-                  }
+                    srcset: "/img/webp/vsc-extensions/php-debug.webp",
+                  },
                 }),
                 _vm._v(" "),
                 _c("img", {
                   staticStyle: { width: "37px", height: "auto" },
                   attrs: {
                     src: "/img/png/vsc-extensions/php-debug.png",
-                    alt: "PHP Debug"
-                  }
-                })
+                    alt: "PHP Debug",
+                  },
+                }),
               ]),
               _vm._v(" "),
               _c("span", { staticStyle: { "margin-left": "50px" } }, [
-                _vm._v("PHP Debug")
-              ])
+                _vm._v("PHP Debug"),
+              ]),
             ]
           ),
           _vm._v(" "),
@@ -34842,25 +34710,25 @@ var staticRenderFns = [
                 _c("source", {
                   attrs: {
                     type: "image/webp",
-                    srcset: "/img/webp/vsc-extensions/php-intelephense.webp"
-                  }
+                    srcset: "/img/webp/vsc-extensions/php-intelephense.webp",
+                  },
                 }),
                 _vm._v(" "),
                 _c("img", {
                   staticStyle: { width: "37px", height: "auto" },
                   attrs: {
                     src: "/img/png/vsc-extensions/php-intelephense.png",
-                    alt: "PHP Intelephense"
-                  }
-                })
+                    alt: "PHP Intelephense",
+                  },
+                }),
               ]),
               _vm._v(" "),
               _c("span", { staticStyle: { "margin-left": "50px" } }, [
-                _vm._v("PHP Intelephense")
-              ])
+                _vm._v("PHP Intelephense"),
+              ]),
             ]
-          )
-        ])
+          ),
+        ]),
       ]),
       _vm._v(" "),
       _c("div", { staticStyle: { height: "45px" } }, [
@@ -34868,22 +34736,22 @@ var staticRenderFns = [
           _c("source", {
             attrs: {
               type: "image/webp",
-              srcset: "/img/webp/vsc-extensions/markdown-preview-enhanced.webp"
-            }
+              srcset: "/img/webp/vsc-extensions/markdown-preview-enhanced.webp",
+            },
           }),
           _vm._v(" "),
           _c("img", {
             staticStyle: { width: "37px", height: "auto" },
             attrs: {
               src: "/img/png/vsc-extensions/markdown-preview-enhanced.png",
-              alt: "Markdown Preview Enhanced"
-            }
-          })
+              alt: "Markdown Preview Enhanced",
+            },
+          }),
         ]),
         _vm._v(" "),
         _c("span", { staticStyle: { "margin-left": "50px" } }, [
-          _vm._v("Markdown Preview Enhanced")
-        ])
+          _vm._v("Markdown Preview Enhanced"),
+        ]),
       ]),
       _vm._v(" "),
       _c("div", { staticStyle: { height: "45px" } }, [
@@ -34891,22 +34759,22 @@ var staticRenderFns = [
           _c("source", {
             attrs: {
               type: "image/webp",
-              srcset: "/img/webp/vsc-extensions/material-icon-theme.webp"
-            }
+              srcset: "/img/webp/vsc-extensions/material-icon-theme.webp",
+            },
           }),
           _vm._v(" "),
           _c("img", {
             staticStyle: { width: "37px", height: "auto" },
             attrs: {
               src: "/img/png/vsc-extensions/material-icon-theme.png",
-              alt: "Material Icon Theme"
-            }
-          })
+              alt: "Material Icon Theme",
+            },
+          }),
         ]),
         _vm._v(" "),
         _c("span", { staticStyle: { "margin-left": "50px" } }, [
-          _vm._v("Material Icon Theme")
-        ])
+          _vm._v("Material Icon Theme"),
+        ]),
       ]),
       _vm._v(" "),
       _c("div", { staticStyle: { height: "45px" } }, [
@@ -34914,22 +34782,22 @@ var staticRenderFns = [
           _c("source", {
             attrs: {
               type: "image/webp",
-              srcset: "/img/webp/vsc-extensions/monokai-pro.webp"
-            }
+              srcset: "/img/webp/vsc-extensions/monokai-pro.webp",
+            },
           }),
           _vm._v(" "),
           _c("img", {
             staticStyle: { width: "37px", height: "auto" },
             attrs: {
               src: "/img/png/vsc-extensions/monokai-pro.png",
-              alt: "Monokai Pro"
-            }
-          })
+              alt: "Monokai Pro",
+            },
+          }),
         ]),
         _vm._v(" "),
         _c("span", { staticStyle: { "margin-left": "50px" } }, [
-          _vm._v("Monokai Pro")
-        ])
+          _vm._v("Monokai Pro"),
+        ]),
       ]),
       _vm._v(" "),
       _c("div", { staticStyle: { height: "45px" } }, [
@@ -34937,22 +34805,22 @@ var staticRenderFns = [
           _c("source", {
             attrs: {
               type: "image/webp",
-              srcset: "/img/webp/vsc-extensions/native-script.webp"
-            }
+              srcset: "/img/webp/vsc-extensions/native-script.webp",
+            },
           }),
           _vm._v(" "),
           _c("img", {
             staticStyle: { width: "37px", height: "auto" },
             attrs: {
               src: "/img/png/vsc-extensions/native-script.png",
-              alt: "NativeScript"
-            }
-          })
+              alt: "NativeScript",
+            },
+          }),
         ]),
         _vm._v(" "),
         _c("span", { staticStyle: { "margin-left": "50px" } }, [
-          _vm._v("NativeScript")
-        ])
+          _vm._v("NativeScript"),
+        ]),
       ]),
       _vm._v(" "),
       _c("div", { staticStyle: { height: "45px" } }, [
@@ -34960,22 +34828,22 @@ var staticRenderFns = [
           _c("source", {
             attrs: {
               type: "image/webp",
-              srcset: "/img/webp/vsc-extensions/php-cs-fixer.webp"
-            }
+              srcset: "/img/webp/vsc-extensions/php-cs-fixer.webp",
+            },
           }),
           _vm._v(" "),
           _c("img", {
             staticStyle: { width: "37px", height: "auto" },
             attrs: {
               src: "/img/png/vsc-extensions/php-cs-fixer.png",
-              alt: "PHP CS Fixer"
-            }
-          })
+              alt: "PHP CS Fixer",
+            },
+          }),
         ]),
         _vm._v(" "),
         _c("span", { staticStyle: { "margin-left": "50px" } }, [
-          _vm._v("PHP CS Fixer")
-        ])
+          _vm._v("PHP CS Fixer"),
+        ]),
       ]),
       _vm._v(" "),
       _c("div", { staticStyle: { height: "45px" } }, [
@@ -34983,22 +34851,22 @@ var staticRenderFns = [
           _c("source", {
             attrs: {
               type: "image/webp",
-              srcset: "/img/webp/vsc-extensions/php-namespace-resolver.webp"
-            }
+              srcset: "/img/webp/vsc-extensions/php-namespace-resolver.webp",
+            },
           }),
           _vm._v(" "),
           _c("img", {
             staticStyle: { width: "37px", height: "auto" },
             attrs: {
               src: "/img/png/vsc-extensions/php-namespace-resolver.png",
-              alt: "PHP Namespace Resolver"
-            }
-          })
+              alt: "PHP Namespace Resolver",
+            },
+          }),
         ]),
         _vm._v(" "),
         _c("span", { staticStyle: { "margin-left": "50px" } }, [
-          _vm._v("PHP Namespace Resolver")
-        ])
+          _vm._v("PHP Namespace Resolver"),
+        ]),
       ]),
       _vm._v(" "),
       _c("div", { staticStyle: { height: "45px" } }, [
@@ -35006,22 +34874,22 @@ var staticRenderFns = [
           _c("source", {
             attrs: {
               type: "image/webp",
-              srcset: "/img/webp/vsc-extensions/prettier.webp"
-            }
+              srcset: "/img/webp/vsc-extensions/prettier.webp",
+            },
           }),
           _vm._v(" "),
           _c("img", {
             staticStyle: { width: "37px", height: "auto" },
             attrs: {
               src: "/img/png/vsc-extensions/prettier.png",
-              alt: "Prettier"
-            }
-          })
+              alt: "Prettier",
+            },
+          }),
         ]),
         _vm._v(" "),
         _c("span", { staticStyle: { "margin-left": "50px" } }, [
-          _vm._v("Prettier")
-        ])
+          _vm._v("Prettier"),
+        ]),
       ]),
       _vm._v(" "),
       _c("div", { staticStyle: { height: "45px" } }, [
@@ -35029,22 +34897,22 @@ var staticRenderFns = [
           _c("source", {
             attrs: {
               type: "image/webp",
-              srcset: "/img/webp/vsc-extensions/settings-sync.webp"
-            }
+              srcset: "/img/webp/vsc-extensions/settings-sync.webp",
+            },
           }),
           _vm._v(" "),
           _c("img", {
             staticStyle: { width: "37px", height: "auto" },
             attrs: {
               src: "/img/png/vsc-extensions/settings-sync.png",
-              alt: "Settings Sync"
-            }
-          })
+              alt: "Settings Sync",
+            },
+          }),
         ]),
         _vm._v(" "),
         _c("span", { staticStyle: { "margin-left": "50px" } }, [
-          _vm._v("Settings Sync")
-        ])
+          _vm._v("Settings Sync"),
+        ]),
       ]),
       _vm._v(" "),
       _c("div", { staticStyle: { height: "45px" } }, [
@@ -35052,22 +34920,22 @@ var staticRenderFns = [
           _c("source", {
             attrs: {
               type: "image/webp",
-              srcset: "/img/webp/vsc-extensions/tailwind-css-intellisense.webp"
-            }
+              srcset: "/img/webp/vsc-extensions/tailwind-css-intellisense.webp",
+            },
           }),
           _vm._v(" "),
           _c("img", {
             staticStyle: { width: "37px", height: "auto" },
             attrs: {
               src: "/img/png/vsc-extensions/tailwind-css-intellisense.png",
-              alt: "Tailwind CSS IntelliSense"
-            }
-          })
+              alt: "Tailwind CSS IntelliSense",
+            },
+          }),
         ]),
         _vm._v(" "),
         _c("span", { staticStyle: { "margin-left": "50px" } }, [
-          _vm._v("Tailwind CSS IntelliSense")
-        ])
+          _vm._v("Tailwind CSS IntelliSense"),
+        ]),
       ]),
       _vm._v(" "),
       _c("div", { staticStyle: { height: "45px" } }, [
@@ -35075,22 +34943,22 @@ var staticRenderFns = [
           _c("source", {
             attrs: {
               type: "image/webp",
-              srcset: "/img/webp/vsc-extensions/tinkerwell.webp"
-            }
+              srcset: "/img/webp/vsc-extensions/tinkerwell.webp",
+            },
           }),
           _vm._v(" "),
           _c("img", {
             staticStyle: { width: "37px", height: "auto" },
             attrs: {
               src: "/img/png/vsc-extensions/tinkerwell.png",
-              alt: "Tinkerwell"
-            }
-          })
+              alt: "Tinkerwell",
+            },
+          }),
         ]),
         _vm._v(" "),
         _c("span", { staticStyle: { "margin-left": "50px" } }, [
-          _vm._v("Tinkerwell")
-        ])
+          _vm._v("Tinkerwell"),
+        ]),
       ]),
       _vm._v(" "),
       _c("div", { staticStyle: { height: "45px" } }, [
@@ -35098,22 +34966,22 @@ var staticRenderFns = [
           _c("source", {
             attrs: {
               type: "image/webp",
-              srcset: "/img/webp/vsc-extensions/version-lens.webp"
-            }
+              srcset: "/img/webp/vsc-extensions/version-lens.webp",
+            },
           }),
           _vm._v(" "),
           _c("img", {
             staticStyle: { width: "37px", height: "auto" },
             attrs: {
               src: "/img/png/vsc-extensions/version-lens.png",
-              alt: "Version Lens"
-            }
-          })
+              alt: "Version Lens",
+            },
+          }),
         ]),
         _vm._v(" "),
         _c("span", { staticStyle: { "margin-left": "50px" } }, [
-          _vm._v("Version Lens")
-        ])
+          _vm._v("Version Lens"),
+        ]),
       ]),
       _vm._v(" "),
       _c("div", { staticStyle: { height: "45px" } }, [
@@ -35121,19 +34989,19 @@ var staticRenderFns = [
           _c("source", {
             attrs: {
               type: "image/webp",
-              srcset: "/img/webp/vsc-extensions/vetur.webp"
-            }
+              srcset: "/img/webp/vsc-extensions/vetur.webp",
+            },
           }),
           _vm._v(" "),
           _c("img", {
             staticStyle: { width: "37px", height: "auto" },
-            attrs: { src: "/img/png/vsc-extensions/vetur.png", alt: "Vetur" }
-          })
+            attrs: { src: "/img/png/vsc-extensions/vetur.png", alt: "Vetur" },
+          }),
         ]),
         _vm._v(" "),
         _c("span", { staticStyle: { "margin-left": "50px" } }, [
-          _vm._v("Vetur")
-        ])
+          _vm._v("Vetur"),
+        ]),
       ]),
       _vm._v(" "),
       _c("div", { staticStyle: { height: "45px" } }, [
@@ -35141,29 +35009,29 @@ var staticRenderFns = [
           _c("source", {
             attrs: {
               type: "image/webp",
-              srcset: "/img/webp/vsc-extensions/vs-code-google-translate.webp"
-            }
+              srcset: "/img/webp/vsc-extensions/vs-code-google-translate.webp",
+            },
           }),
           _vm._v(" "),
           _c("img", {
             staticStyle: { width: "37px", height: "auto" },
             attrs: {
               src: "/img/png/vsc-extensions/vs-code-google-translate.png",
-              alt: "VS Code Google Translate"
-            }
-          })
+              alt: "VS Code Google Translate",
+            },
+          }),
         ]),
         _vm._v(" "),
         _c("span", { staticStyle: { "margin-left": "50px" } }, [
-          _vm._v("VS Code Google Translate")
-        ])
+          _vm._v("VS Code Google Translate"),
+        ]),
       ]),
       _vm._v(" "),
       _c("h2", [_vm._v("Terminal")]),
       _vm._v(" "),
       _c("p", [
         _c("a", { attrs: { href: "https://iterm2.com/", target: "blank" } }, [
-          _vm._v("iTerm2")
+          _vm._v("iTerm2"),
         ]),
         _vm._v(
           " is my terminal of choice.  I use OhMyZsh shell and I recently started using the Powerlevel10k config I found "
@@ -35173,28 +35041,28 @@ var staticRenderFns = [
           {
             attrs: {
               href: "https://gist.github.com/kevin-smets/8568070",
-              target: "blank"
-            }
+              target: "blank",
+            },
           },
           [_vm._v("here")]
         ),
         _vm._v(
           ".  I used to run the Agnoster theme but I like the icons provided by the Powerline-FontAwesome font and the timestamps can be useful."
-        )
+        ),
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "text-center" }, [
         _c("picture", [
           _c("source", {
-            attrs: { type: "image/webp", srcset: "/img/webp/iterm.webp" }
+            attrs: { type: "image/webp", srcset: "/img/webp/iterm.webp" },
           }),
           _vm._v(" "),
           _c("img", {
             staticClass: "rounded",
             staticStyle: { width: "100%", height: "auto" },
-            attrs: { src: "/img/png/iterm.png", alt: "iTerm2 Terminal" }
-          })
-        ])
+            attrs: { src: "/img/png/iterm.png", alt: "iTerm2 Terminal" },
+          }),
+        ]),
       ]),
       _vm._v(" "),
       _c("h2", [_vm._v("Apps I Use")]),
@@ -35202,23 +35070,23 @@ var staticRenderFns = [
       _c("p", { staticStyle: { "margin-top": "20px" } }, [
         _c("strong", { staticClass: "monokai-green" }, [
           _vm._v("Coding"),
-          _c("span", { staticStyle: { color: "#8B888F" } }, [_vm._v("()")])
-        ])
+          _c("span", { staticStyle: { color: "#8B888F" } }, [_vm._v("()")]),
+        ]),
       ]),
       _vm._v(" "),
       _c("ul", [
         _c("li", [
           _vm._v("-> Android Studio - "),
           _c("span", { staticClass: "little" }, [
-            _vm._v("Perfect for emulating android phones for testing.")
-          ])
+            _vm._v("Perfect for emulating android phones for testing."),
+          ]),
         ]),
         _vm._v(" "),
         _c("li", [
           _vm._v("-> Color Note - "),
           _c("span", { staticClass: "little" }, [
-            _vm._v("Color picker tool.  Replaced Sip with this a while back.")
-          ])
+            _vm._v("Color picker tool.  Replaced Sip with this a while back."),
+          ]),
         ]),
         _vm._v(" "),
         _c("li", [
@@ -35226,22 +35094,22 @@ var staticRenderFns = [
           _c("span", { staticClass: "little" }, [
             _vm._v(
               "For those times I need to secure FTP and am too lazy to commmand line it."
-            )
-          ])
+            ),
+          ]),
         ]),
         _vm._v(" "),
         _c("li", [
           _vm._v("-> ImageOptim - "),
           _c("span", { staticClass: "little" }, [
-            _vm._v("For crushing images before using them on the web.")
-          ])
+            _vm._v("For crushing images before using them on the web."),
+          ]),
         ]),
         _vm._v(" "),
         _c("li", [
           _vm._v("-> Laravel Valet - "),
           _c("span", { staticClass: "little" }, [
-            _vm._v("Best way to serve sites locally imho.")
-          ])
+            _vm._v("Best way to serve sites locally imho."),
+          ]),
         ]),
         _vm._v(" "),
         _c("li", [
@@ -35249,8 +35117,8 @@ var staticRenderFns = [
           _c("span", { staticClass: "little" }, [
             _vm._v(
               "After using SequelPro for years, I've switched to a more supported and less-crashy tool for database management."
-            )
-          ])
+            ),
+          ]),
         ]),
         _vm._v(" "),
         _c("li", [
@@ -35258,15 +35126,15 @@ var staticRenderFns = [
           _c("span", { staticClass: "little" }, [
             _vm._v(
               "Use this for testing in Windows (with the Modern IE installs) and messing with Linux distributions."
-            )
-          ])
+            ),
+          ]),
         ]),
         _vm._v(" "),
         _c("li", [
           _vm._v("-> Wave Plugin - "),
           _c("span", { staticClass: "little" }, [
-            _vm._v("For making sure websites are accessible.")
-          ])
+            _vm._v("For making sure websites are accessible."),
+          ]),
         ]),
         _vm._v(" "),
         _c("li", [
@@ -35274,47 +35142,47 @@ var staticRenderFns = [
           _c("span", { staticClass: "little" }, [
             _vm._v(
               "Mac developer utility.  Good for simulating iPhones and iPads.  Filemerge is also useful for comparing file changes."
-            )
-          ])
-        ])
+            ),
+          ]),
+        ]),
       ]),
       _vm._v(" "),
       _c("p", { staticStyle: { "margin-top": "20px" } }, [
         _c("strong", { staticClass: "monokai-green" }, [
           _vm._v("Audio Production"),
-          _c("span", { staticStyle: { color: "#8B888F" } }, [_vm._v("()")])
-        ])
+          _c("span", { staticStyle: { color: "#8B888F" } }, [_vm._v("()")]),
+        ]),
       ]),
       _vm._v(" "),
       _c("ul", [
         _c("li", [
           _vm._v("-> Line 6 Helix Native - "),
           _c("span", { staticClass: "little" }, [
-            _vm._v("Everything for guitar sound in one VST plugin!")
-          ])
+            _vm._v("Everything for guitar sound in one VST plugin!"),
+          ]),
         ]),
         _vm._v(" "),
         _c("li", [
-          _vm._v("-> Presonus Studio One 4 Pro - "),
+          _vm._v("-> Presonus Studio One Pro - "),
           _c("span", { staticClass: "little" }, [
-            _vm._v("My DAW (Digital Audio Workstation).")
-          ])
-        ])
+            _vm._v("My DAW (Digital Audio Workstation)."),
+          ]),
+        ]),
       ]),
       _vm._v(" "),
       _c("p", { staticStyle: { "margin-top": "20px" } }, [
         _c("strong", { staticClass: "monokai-green" }, [
           _vm._v("Utilities"),
-          _c("span", { staticStyle: { color: "#8B888F" } }, [_vm._v("()")])
-        ])
+          _c("span", { staticStyle: { color: "#8B888F" } }, [_vm._v("()")]),
+        ]),
       ]),
       _vm._v(" "),
       _c("ul", [
         _c("li", [
           _vm._v("-> Backblaze - "),
           _c("span", { staticClass: "little" }, [
-            _vm._v("Cloud backup utility.")
-          ])
+            _vm._v("Cloud backup utility."),
+          ]),
         ]),
         _vm._v(" "),
         _c("li", [
@@ -35322,40 +35190,40 @@ var staticRenderFns = [
           _c("span", { staticClass: "little" }, [
             _vm._v(
               "Amazing package manager for using command line and scripts to install apps on Mac (or Linux)."
-            )
-          ])
+            ),
+          ]),
         ]),
         _vm._v(" "),
         _c("li", [
           _vm._v("-> Magnet - "),
           _c("span", { staticClass: "little" }, [
-            _vm._v("Window positioning app.")
-          ])
+            _vm._v("Window positioning app."),
+          ]),
         ]),
         _vm._v(" "),
         _c("li", [
           _vm._v("-> Remembear - "),
-          _c("span", { staticClass: "little" }, [_vm._v("Password Manager.")])
+          _c("span", { staticClass: "little" }, [_vm._v("Password Manager.")]),
         ]),
         _vm._v(" "),
         _c("li", [
           _vm._v("-> Rocket - "),
           _c("span", { staticClass: "little" }, [
-            _vm._v("Text shortcuts to create emojis while typing.")
-          ])
+            _vm._v("Text shortcuts to create emojis while typing."),
+          ]),
         ]),
         _vm._v(" "),
         _c("li", [
           _vm._v("-> TunnelBear - "),
-          _c("span", { staticClass: "little" }, [_vm._v("VPN.")])
-        ])
+          _c("span", { staticClass: "little" }, [_vm._v("VPN.")]),
+        ]),
       ]),
       _vm._v(" "),
       _c("p", { staticStyle: { "margin-top": "20px" } }, [
         _c("strong", { staticClass: "monokai-green" }, [
           _vm._v("Communication"),
-          _c("span", { staticStyle: { color: "#8B888F" } }, [_vm._v("()")])
-        ])
+          _c("span", { staticStyle: { color: "#8B888F" } }, [_vm._v("()")]),
+        ]),
       ]),
       _vm._v(" "),
       _c("ul", [
@@ -35364,45 +35232,45 @@ var staticRenderFns = [
           _c("span", { staticClass: "little" }, [
             _vm._v(
               "I manage multiple accounts from a single inbox and it's great."
-            )
-          ])
+            ),
+          ]),
         ]),
         _vm._v(" "),
         _c("li", [
           _vm._v("-> Slack - "),
           _c("span", { staticClass: "little" }, [
-            _vm._v("What did we do before this existed, honestly?")
-          ])
-        ])
+            _vm._v("What did we do before this existed, honestly?"),
+          ]),
+        ]),
       ]),
       _vm._v(" "),
       _c("p", { staticStyle: { "margin-top": "20px" } }, [
         _c("strong", { staticClass: "monokai-green" }, [
           _vm._v("Audio / Video / Photo"),
-          _c("span", { staticStyle: { color: "#8B888F" } }, [_vm._v("()")])
-        ])
+          _c("span", { staticStyle: { color: "#8B888F" } }, [_vm._v("()")]),
+        ]),
       ]),
       _vm._v(" "),
       _c("ul", [
         _c("li", [
           _vm._v("-> Adapter - "),
           _c("span", { staticClass: "little" }, [
-            _vm._v("Video / Audio conversion utility.")
-          ])
+            _vm._v("Video / Audio conversion utility."),
+          ]),
         ]),
         _vm._v(" "),
         _c("li", [
           _vm._v("-> Adobe Photoshop / Lightroom - "),
           _c("span", { staticClass: "little" }, [
-            _vm._v("Graphic and photo editing.")
-          ])
+            _vm._v("Graphic and photo editing."),
+          ]),
         ]),
         _vm._v(" "),
         _c("li", [
           _vm._v("-> Affinity Photo - "),
           _c("span", { staticClass: "little" }, [
-            _vm._v("Starting to like/use this more than Photoshop.")
-          ])
+            _vm._v("Starting to like/use this more than Photoshop."),
+          ]),
         ]),
         _vm._v(" "),
         _c("li", [
@@ -35410,8 +35278,8 @@ var staticRenderFns = [
           _c("span", { staticClass: "little" }, [
             _vm._v(
               "My preferred video player these days.  Though I mostly use streaming services now."
-            )
-          ])
+            ),
+          ]),
         ]),
         _vm._v(" "),
         _c("li", [
@@ -35419,73 +35287,73 @@ var staticRenderFns = [
           _c("span", { staticClass: "little" }, [
             _vm._v(
               "I use Plex to serve saved mp4 movies/videos to my Apple TV."
-            )
-          ])
+            ),
+          ]),
         ]),
         _vm._v(" "),
         _c("li", [
           _vm._v("-> Skitch - "),
           _c("span", { staticClass: "little" }, [
-            _vm._v("Screenshot tool from the creators of Evernote.")
-          ])
+            _vm._v("Screenshot tool from the creators of Evernote."),
+          ]),
         ]),
         _vm._v(" "),
         _c("li", [
           _vm._v("-> Spotify - "),
-          _c("span", { staticClass: "little" }, [_vm._v("For music.")])
-        ])
+          _c("span", { staticClass: "little" }, [_vm._v("For music.")]),
+        ]),
       ]),
       _vm._v(" "),
       _c("p", { staticStyle: { "margin-top": "20px" } }, [
         _c("strong", { staticClass: "monokai-green" }, [
           _vm._v("Productivity"),
-          _c("span", { staticStyle: { color: "#8B888F" } }, [_vm._v("()")])
-        ])
+          _c("span", { staticStyle: { color: "#8B888F" } }, [_vm._v("()")]),
+        ]),
       ]),
       _vm._v(" "),
       _c("ul", [
         _c("li", [
           _vm._v("-> Big Day Countdown - "),
           _c("span", { staticClass: "little" }, [
-            _vm._v("Large countdown reminders on my desktop.")
-          ])
+            _vm._v("Large countdown reminders on my desktop."),
+          ]),
         ]),
         _vm._v(" "),
         _c("li", [
           _vm._v("-> Evernote - "),
-          _c("span", { staticClass: "little" }, [_vm._v("For taking notes.")])
+          _c("span", { staticClass: "little" }, [_vm._v("For taking notes.")]),
         ]),
         _vm._v(" "),
         _c("li", [
           _vm._v("-> Google Chrome - "),
           _c("span", { staticClass: "little" }, [
-            _vm._v("My preferred browser for development and general use.")
-          ])
+            _vm._v("My preferred browser for development and general use."),
+          ]),
         ]),
         _vm._v(" "),
         _c("li", [
           _vm._v("-> LibreOffice - "),
           _c("span", { staticClass: "little" }, [
-            _vm._v("I prefer this to Microsoft Office.")
-          ])
+            _vm._v("I prefer this to Microsoft Office."),
+          ]),
         ]),
         _vm._v(" "),
         _c("li", [
           _vm._v("-> MacDown - "),
           _c("span", { staticClass: "little" }, [
-            _vm._v("Simple Markdown editor.")
-          ])
+            _vm._v("Simple Markdown editor."),
+          ]),
         ]),
         _vm._v(" "),
         _c("li", [
           _vm._v("-> TickTick - "),
           _c("span", { staticClass: "little" }, [
-            _vm._v("My preferred todo list app.")
-          ])
-        ])
-      ])
+            _vm._v("My preferred todo list app."),
+          ]),
+        ]),
+      ]),
     ])
-  }
+  },
 ]
 render._withStripped = true
 
@@ -35618,7 +35486,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /*!
-  * vue-router v3.5.2
+  * vue-router v3.5.3
   * (c) 2021 Evan You
   * @license MIT
   */
@@ -35631,7 +35499,7 @@ function assert (condition, message) {
 }
 
 function warn (condition, message) {
-  if ( true && !condition) {
+  if (!condition) {
     typeof console !== 'undefined' && console.warn(("[vue-router] " + message));
   }
 }
@@ -36137,7 +36005,7 @@ function parsePath (path) {
 }
 
 function cleanPath (path) {
-  return path.replace(/\/\//g, '/')
+  return path.replace(/\/+/g, '/')
 }
 
 var isarray = Array.isArray || function (arr) {
@@ -37929,7 +37797,9 @@ History.prototype.confirmTransition = function confirmTransition (route, onCompl
           cb(err);
         });
       } else {
-        warn(false, 'uncaught error during route navigation:');
+        if (true) {
+          warn(false, 'uncaught error during route navigation:');
+        }
         console.error(err);
       }
     }
@@ -37944,6 +37814,9 @@ History.prototype.confirmTransition = function confirmTransition (route, onCompl
     route.matched[lastRouteIndex] === current.matched[lastCurrentIndex]
   ) {
     this.ensureURL();
+    if (route.hash) {
+      handleScroll(this.router, current, route, false);
+    }
     return abort(createNavigationDuplicatedError(current, route))
   }
 
@@ -38507,6 +38380,9 @@ var AbstractHistory = /*@__PURE__*/(function (History) {
 var VueRouter = function VueRouter (options) {
   if ( options === void 0 ) options = {};
 
+  if (true) {
+    warn(this instanceof VueRouter, "Router must be called with the new operator.");
+  }
   this.app = null;
   this.apps = [];
   this.options = options;
@@ -38751,7 +38627,7 @@ function createHref (base, fullPath, mode) {
 }
 
 VueRouter.install = install;
-VueRouter.version = '3.5.2';
+VueRouter.version = '3.5.3';
 VueRouter.isNavigationFailure = isNavigationFailure;
 VueRouter.NavigationFailureType = NavigationFailureType;
 VueRouter.START_LOCATION = START;
@@ -51046,7 +50922,7 @@ __nested_webpack_require_9604__.r(__webpack_exports__);
 /* harmony import */ var _mixins_app_theme__WEBPACK_IMPORTED_MODULE_1__ = __nested_webpack_require_9604__(/*! ./mixins/app-theme */ "./src/components/VApp/mixins/app-theme.js");
 /* harmony import */ var _mixins_themeable__WEBPACK_IMPORTED_MODULE_2__ = __nested_webpack_require_9604__(/*! ../../mixins/themeable */ "./src/mixins/themeable.ts");
 /* harmony import */ var _directives_resize__WEBPACK_IMPORTED_MODULE_3__ = __nested_webpack_require_9604__(/*! ../../directives/resize */ "./src/directives/resize.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -51241,7 +51117,7 @@ __nested_webpack_require_17084__.r(__webpack_exports__);
 /* harmony import */ var _VSelect_VSelect__WEBPACK_IMPORTED_MODULE_1__ = __nested_webpack_require_17084__(/*! ../VSelect/VSelect */ "./src/components/VSelect/VSelect.js");
 /* harmony import */ var _VTextField_VTextField__WEBPACK_IMPORTED_MODULE_2__ = __nested_webpack_require_17084__(/*! ../VTextField/VTextField */ "./src/components/VTextField/VTextField.js");
 /* harmony import */ var _util_helpers__WEBPACK_IMPORTED_MODULE_3__ = __nested_webpack_require_17084__(/*! ../../util/helpers */ "./src/util/helpers.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -51581,7 +51457,7 @@ __nested_webpack_require_32215__.r(__webpack_exports__);
 /* harmony import */ var _mixins_colorable__WEBPACK_IMPORTED_MODULE_1__ = __nested_webpack_require_32215__(/*! ../../mixins/colorable */ "./src/mixins/colorable.ts");
 /* harmony import */ var _util_helpers__WEBPACK_IMPORTED_MODULE_2__ = __nested_webpack_require_32215__(/*! ../../util/helpers */ "./src/util/helpers.ts");
 /* harmony import */ var _util_mixins__WEBPACK_IMPORTED_MODULE_3__ = __nested_webpack_require_32215__(/*! ../../util/mixins */ "./src/util/mixins.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -51847,7 +51723,7 @@ __nested_webpack_require_44069__.r(__webpack_exports__);
 /* harmony import */ var _stylus_components_bottom_sheets_styl__WEBPACK_IMPORTED_MODULE_0__ = __nested_webpack_require_44069__(/*! ../../stylus/components/_bottom-sheets.styl */ "./src/stylus/components/_bottom-sheets.styl");
 /* harmony import */ var _stylus_components_bottom_sheets_styl__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__nested_webpack_require_44069__.n(_stylus_components_bottom_sheets_styl__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _VDialog_VDialog__WEBPACK_IMPORTED_MODULE_1__ = __nested_webpack_require_44069__(/*! ../VDialog/VDialog */ "./src/components/VDialog/VDialog.js");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -51930,7 +51806,7 @@ __nested_webpack_require_47383__.r(__webpack_exports__);
 /* harmony import */ var _mixins_themeable__WEBPACK_IMPORTED_MODULE_2__ = __nested_webpack_require_47383__(/*! ../../mixins/themeable */ "./src/mixins/themeable.ts");
 /* harmony import */ var _util_console__WEBPACK_IMPORTED_MODULE_3__ = __nested_webpack_require_47383__(/*! ../../util/console */ "./src/util/console.ts");
 /* harmony import */ var _util_mixins__WEBPACK_IMPORTED_MODULE_4__ = __nested_webpack_require_47383__(/*! ../../util/mixins */ "./src/util/mixins.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -52123,7 +51999,7 @@ __nested_webpack_require_55786__.r(__webpack_exports__);
 /* harmony import */ var _util_helpers__WEBPACK_IMPORTED_MODULE_9__ = __nested_webpack_require_55786__(/*! ../../util/helpers */ "./src/util/helpers.ts");
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -52275,7 +52151,7 @@ __nested_webpack_require_63755__.r(__webpack_exports__);
 /* harmony import */ var _stylus_components_button_toggle_styl__WEBPACK_IMPORTED_MODULE_0__ = __nested_webpack_require_63755__(/*! ../../stylus/components/_button-toggle.styl */ "./src/stylus/components/_button-toggle.styl");
 /* harmony import */ var _stylus_components_button_toggle_styl__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__nested_webpack_require_63755__.n(_stylus_components_button_toggle_styl__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _mixins_button_group__WEBPACK_IMPORTED_MODULE_1__ = __nested_webpack_require_63755__(/*! ../../mixins/button-group */ "./src/mixins/button-group.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -52344,7 +52220,7 @@ __nested_webpack_require_66609__.r(__webpack_exports__);
 /* harmony import */ var _VCalendarWeekly__WEBPACK_IMPORTED_MODULE_5__ = __nested_webpack_require_66609__(/*! ./VCalendarWeekly */ "./src/components/VCalendar/VCalendarWeekly.ts");
 // Styles
 // import '../../stylus/components/_calendar-daily.styl'
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -52546,7 +52422,7 @@ __nested_webpack_require_75693__.r(__webpack_exports__);
 /* harmony import */ var _directives_resize__WEBPACK_IMPORTED_MODULE_1__ = __nested_webpack_require_75693__(/*! ../../directives/resize */ "./src/directives/resize.ts");
 /* harmony import */ var _mixins_calendar_with_intervals__WEBPACK_IMPORTED_MODULE_2__ = __nested_webpack_require_75693__(/*! ./mixins/calendar-with-intervals */ "./src/components/VCalendar/mixins/calendar-with-intervals.ts");
 /* harmony import */ var _util_helpers__WEBPACK_IMPORTED_MODULE_3__ = __nested_webpack_require_75693__(/*! ../../util/helpers */ "./src/util/helpers.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -52558,7 +52434,7 @@ var __assign = undefined && undefined.__assign || function () {
     };
     return __assign.apply(this, arguments);
 };
-var __read = undefined && undefined.__read || function (o, n) {
+var __read =  false || function (o, n) {
     var m = typeof Symbol === "function" && o[Symbol.iterator];
     if (!m) return o;
     var i = m.call(o),
@@ -52580,7 +52456,7 @@ var __read = undefined && undefined.__read || function (o, n) {
     }
     return ar;
 };
-var __spread = undefined && undefined.__spread || function () {
+var __spread =  false || function () {
     for (var ar = [], i = 0; i < arguments.length; i++) {
         ar = ar.concat(__read(arguments[i]));
     }return ar;
@@ -52825,7 +52701,7 @@ __nested_webpack_require_87860__.r(__webpack_exports__);
 /* harmony import */ var _mixins_calendar_base__WEBPACK_IMPORTED_MODULE_1__ = __nested_webpack_require_87860__(/*! ./mixins/calendar-base */ "./src/components/VCalendar/mixins/calendar-base.ts");
 /* harmony import */ var _util_props__WEBPACK_IMPORTED_MODULE_2__ = __nested_webpack_require_87860__(/*! ./util/props */ "./src/components/VCalendar/util/props.ts");
 /* harmony import */ var _util_timestamp__WEBPACK_IMPORTED_MODULE_3__ = __nested_webpack_require_87860__(/*! ./util/timestamp */ "./src/components/VCalendar/util/timestamp.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -52837,7 +52713,7 @@ var __assign = undefined && undefined.__assign || function () {
     };
     return __assign.apply(this, arguments);
 };
-var __read = undefined && undefined.__read || function (o, n) {
+var __read =  false || function (o, n) {
     var m = typeof Symbol === "function" && o[Symbol.iterator];
     if (!m) return o;
     var i = m.call(o),
@@ -52859,7 +52735,7 @@ var __read = undefined && undefined.__read || function (o, n) {
     }
     return ar;
 };
-var __spread = undefined && undefined.__spread || function () {
+var __spread =  false || function () {
     for (var ar = [], i = 0; i < arguments.length; i++) {
         ar = ar.concat(__read(arguments[i]));
     }return ar;
@@ -53931,7 +53807,7 @@ __nested_webpack_require_136041__.r(__webpack_exports__);
 /* harmony import */ var _VSheet__WEBPACK_IMPORTED_MODULE_1__ = __nested_webpack_require_136041__(/*! ../VSheet */ "./src/components/VSheet/index.ts");
 /* harmony import */ var _mixins_routable__WEBPACK_IMPORTED_MODULE_2__ = __nested_webpack_require_136041__(/*! ../../mixins/routable */ "./src/mixins/routable.ts");
 /* harmony import */ var _util_mixins__WEBPACK_IMPORTED_MODULE_3__ = __nested_webpack_require_136041__(/*! ../../util/mixins */ "./src/util/mixins.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -54318,7 +54194,7 @@ __nested_webpack_require_143508__.r(__webpack_exports__);
 __nested_webpack_require_151991__.r(__webpack_exports__);
 /* harmony import */ var _VWindow_VWindowItem__WEBPACK_IMPORTED_MODULE_0__ = __nested_webpack_require_151991__(/*! ../VWindow/VWindowItem */ "./src/components/VWindow/VWindowItem.ts");
 /* harmony import */ var _VImg__WEBPACK_IMPORTED_MODULE_1__ = __nested_webpack_require_151991__(/*! ../VImg */ "./src/components/VImg/index.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -54396,7 +54272,7 @@ __nested_webpack_require_155256__.r(__webpack_exports__);
 /* harmony import */ var _stylus_components_selection_controls_styl__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__nested_webpack_require_155256__.n(_stylus_components_selection_controls_styl__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _VIcon__WEBPACK_IMPORTED_MODULE_1__ = __nested_webpack_require_155256__(/*! ../VIcon */ "./src/components/VIcon/index.ts");
 /* harmony import */ var _mixins_selectable__WEBPACK_IMPORTED_MODULE_2__ = __nested_webpack_require_155256__(/*! ../../mixins/selectable */ "./src/mixins/selectable.js");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -54514,7 +54390,7 @@ __nested_webpack_require_159738__.r(__webpack_exports__);
 /* harmony import */ var _mixins_colorable__WEBPACK_IMPORTED_MODULE_3__ = __nested_webpack_require_159738__(/*! ../../mixins/colorable */ "./src/mixins/colorable.ts");
 /* harmony import */ var _mixins_themeable__WEBPACK_IMPORTED_MODULE_4__ = __nested_webpack_require_159738__(/*! ../../mixins/themeable */ "./src/mixins/themeable.ts");
 /* harmony import */ var _mixins_toggleable__WEBPACK_IMPORTED_MODULE_5__ = __nested_webpack_require_159738__(/*! ../../mixins/toggleable */ "./src/mixins/toggleable.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -54839,7 +54715,7 @@ __nested_webpack_require_174169__.r(__webpack_exports__);
 /* harmony import */ var _stylus_components_counters_styl__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__nested_webpack_require_174169__.n(_stylus_components_counters_styl__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _mixins_themeable__WEBPACK_IMPORTED_MODULE_1__ = __nested_webpack_require_174169__(/*! ../../mixins/themeable */ "./src/mixins/themeable.ts");
 /* harmony import */ var _util_mixins__WEBPACK_IMPORTED_MODULE_2__ = __nested_webpack_require_174169__(/*! ../../util/mixins */ "./src/util/mixins.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -54912,7 +54788,7 @@ __nested_webpack_require_177402__.r(__webpack_exports__);
 /* harmony import */ var _stylus_components_data_iterator_styl__WEBPACK_IMPORTED_MODULE_0__ = __nested_webpack_require_177402__(/*! ../../stylus/components/_data-iterator.styl */ "./src/stylus/components/_data-iterator.styl");
 /* harmony import */ var _stylus_components_data_iterator_styl__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__nested_webpack_require_177402__.n(_stylus_components_data_iterator_styl__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _mixins_data_iterable__WEBPACK_IMPORTED_MODULE_1__ = __nested_webpack_require_177402__(/*! ../../mixins/data-iterable */ "./src/mixins/data-iterable.js");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -55048,7 +54924,7 @@ __nested_webpack_require_182365__.r(__webpack_exports__);
 /* harmony import */ var _mixins_foot__WEBPACK_IMPORTED_MODULE_5__ = __nested_webpack_require_182365__(/*! ./mixins/foot */ "./src/components/VDataTable/mixins/foot.js");
 /* harmony import */ var _mixins_progress__WEBPACK_IMPORTED_MODULE_6__ = __nested_webpack_require_182365__(/*! ./mixins/progress */ "./src/components/VDataTable/mixins/progress.js");
 /* harmony import */ var _util_helpers__WEBPACK_IMPORTED_MODULE_7__ = __nested_webpack_require_182365__(/*! ../../util/helpers */ "./src/util/helpers.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -55454,7 +55330,7 @@ __nested_webpack_require_200189__.r(__webpack_exports__);
 /* harmony import */ var _util_console__WEBPACK_IMPORTED_MODULE_0__ = __nested_webpack_require_200189__(/*! ../../../util/console */ "./src/util/console.ts");
 /* harmony import */ var _VCheckbox__WEBPACK_IMPORTED_MODULE_1__ = __nested_webpack_require_200189__(/*! ../../VCheckbox */ "./src/components/VCheckbox/index.js");
 /* harmony import */ var _VIcon__WEBPACK_IMPORTED_MODULE_2__ = __nested_webpack_require_200189__(/*! ../../VIcon */ "./src/components/VIcon/index.ts");
-var __read = undefined && undefined.__read || function (o, n) {
+var __read =  false || function (o, n) {
     var m = typeof Symbol === "function" && o[Symbol.iterator];
     if (!m) return o;
     var i = m.call(o),
@@ -55476,7 +55352,7 @@ var __read = undefined && undefined.__read || function (o, n) {
     }
     return ar;
 };
-var __spread = undefined && undefined.__spread || function () {
+var __spread =  false || function () {
     for (var ar = [], i = 0; i < arguments.length; i++) {
         ar = ar.concat(__read(arguments[i]));
     }return ar;
@@ -55654,7 +55530,7 @@ __nested_webpack_require_207919__.r(__webpack_exports__);
 /* harmony import */ var _util_console__WEBPACK_IMPORTED_MODULE_8__ = __nested_webpack_require_207919__(/*! ../../util/console */ "./src/util/console.ts");
 /* harmony import */ var _VCalendar_util_timestamp__WEBPACK_IMPORTED_MODULE_9__ = __nested_webpack_require_207919__(/*! ../VCalendar/util/timestamp */ "./src/components/VCalendar/util/timestamp.ts");
 /* harmony import */ var _util_mixins__WEBPACK_IMPORTED_MODULE_10__ = __nested_webpack_require_207919__(/*! ../../util/mixins */ "./src/util/mixins.ts");
-var __read = undefined && undefined.__read || function (o, n) {
+var __read =  false || function (o, n) {
     var m = typeof Symbol === "function" && o[Symbol.iterator];
     if (!m) return o;
     var i = m.call(o),
@@ -56258,7 +56134,7 @@ __nested_webpack_require_236720__.r(__webpack_exports__);
 /* harmony import */ var _mixins_themeable__WEBPACK_IMPORTED_MODULE_4__ = __nested_webpack_require_236720__(/*! ../../mixins/themeable */ "./src/mixins/themeable.ts");
 /* harmony import */ var _util__WEBPACK_IMPORTED_MODULE_5__ = __nested_webpack_require_236720__(/*! ./util */ "./src/components/VDatePicker/util/index.ts");
 /* harmony import */ var _util_mixins__WEBPACK_IMPORTED_MODULE_6__ = __nested_webpack_require_236720__(/*! ../../util/mixins */ "./src/util/mixins.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -56270,7 +56146,7 @@ var __assign = undefined && undefined.__assign || function () {
     };
     return __assign.apply(this, arguments);
 };
-var __read = undefined && undefined.__read || function (o, n) {
+var __read =  false || function (o, n) {
     var m = typeof Symbol === "function" && o[Symbol.iterator];
     if (!m) return o;
     var i = m.call(o),
@@ -56730,7 +56606,7 @@ __nested_webpack_require_257592__.r(__webpack_exports__);
 /* harmony import */ var _mixins_themeable__WEBPACK_IMPORTED_MODULE_3__ = __nested_webpack_require_257592__(/*! ../../../mixins/themeable */ "./src/mixins/themeable.ts");
 /* harmony import */ var _util_isDateAllowed__WEBPACK_IMPORTED_MODULE_4__ = __nested_webpack_require_257592__(/*! ../util/isDateAllowed */ "./src/components/VDatePicker/util/isDateAllowed.ts");
 /* harmony import */ var _util_mixins__WEBPACK_IMPORTED_MODULE_5__ = __nested_webpack_require_257592__(/*! ../../../util/mixins */ "./src/util/mixins.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -56934,7 +56810,7 @@ var __assign = undefined && undefined.__assign || function () {
 "use strict";
 __nested_webpack_require_267072__.r(__webpack_exports__);
 /* harmony import */ var _pad__WEBPACK_IMPORTED_MODULE_0__ = __nested_webpack_require_267072__(/*! ./pad */ "./src/components/VDatePicker/util/pad.ts");
-var __read = undefined && undefined.__read || function (o, n) {
+var __read =  false || function (o, n) {
     var m = typeof Symbol === "function" && o[Symbol.iterator];
     if (!m) return o;
     var i = m.call(o),
@@ -57034,7 +56910,7 @@ function isDateAllowed(date, min, max, allowedFn) {
 "use strict";
 __nested_webpack_require_271522__.r(__webpack_exports__);
 /* harmony import */ var _pad__WEBPACK_IMPORTED_MODULE_0__ = __nested_webpack_require_271522__(/*! ./pad */ "./src/components/VDatePicker/util/pad.ts");
-var __read = undefined && undefined.__read || function (o, n) {
+var __read =  false || function (o, n) {
     var m = typeof Symbol === "function" && o[Symbol.iterator];
     if (!m) return o;
     var i = m.call(o),
@@ -57128,7 +57004,7 @@ __nested_webpack_require_274155__.r(__webpack_exports__);
 /* harmony import */ var _util_helpers__WEBPACK_IMPORTED_MODULE_8__ = __nested_webpack_require_274155__(/*! ../../util/helpers */ "./src/util/helpers.ts");
 /* harmony import */ var _util_ThemeProvider__WEBPACK_IMPORTED_MODULE_9__ = __nested_webpack_require_274155__(/*! ../../util/ThemeProvider */ "./src/util/ThemeProvider.ts");
 /* harmony import */ var _util_console__WEBPACK_IMPORTED_MODULE_10__ = __nested_webpack_require_274155__(/*! ../../util/console */ "./src/util/console.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -57431,7 +57307,7 @@ __nested_webpack_require_287428__.r(__webpack_exports__);
 /* harmony import */ var _stylus_components_dividers_styl__WEBPACK_IMPORTED_MODULE_0__ = __nested_webpack_require_287428__(/*! ../../stylus/components/_dividers.styl */ "./src/stylus/components/_dividers.styl");
 /* harmony import */ var _stylus_components_dividers_styl__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__nested_webpack_require_287428__.n(_stylus_components_dividers_styl__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _mixins_themeable__WEBPACK_IMPORTED_MODULE_1__ = __nested_webpack_require_287428__(/*! ../../mixins/themeable */ "./src/mixins/themeable.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -57496,7 +57372,7 @@ __nested_webpack_require_290135__.r(__webpack_exports__);
 /* harmony import */ var _mixins_themeable__WEBPACK_IMPORTED_MODULE_1__ = __nested_webpack_require_290135__(/*! ../../mixins/themeable */ "./src/mixins/themeable.ts");
 /* harmony import */ var _mixins_registrable__WEBPACK_IMPORTED_MODULE_2__ = __nested_webpack_require_290135__(/*! ../../mixins/registrable */ "./src/mixins/registrable.ts");
 /* harmony import */ var _util_mixins__WEBPACK_IMPORTED_MODULE_3__ = __nested_webpack_require_290135__(/*! ../../util/mixins */ "./src/util/mixins.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -57639,7 +57515,7 @@ __nested_webpack_require_295713__.r(__webpack_exports__);
 /* harmony import */ var _VIcon__WEBPACK_IMPORTED_MODULE_5__ = __nested_webpack_require_295713__(/*! ../VIcon */ "./src/components/VIcon/index.ts");
 /* harmony import */ var _util_mixins__WEBPACK_IMPORTED_MODULE_6__ = __nested_webpack_require_295713__(/*! ../../util/mixins */ "./src/util/mixins.ts");
 /* harmony import */ var _util_console__WEBPACK_IMPORTED_MODULE_7__ = __nested_webpack_require_295713__(/*! ../../util/console */ "./src/util/console.ts");
-var __read = undefined && undefined.__read || function (o, n) {
+var __read =  false || function (o, n) {
     var m = typeof Symbol === "function" && o[Symbol.iterator];
     if (!m) return o;
     var i = m.call(o),
@@ -57661,7 +57537,7 @@ var __read = undefined && undefined.__read || function (o, n) {
     }
     return ar;
 };
-var __spread = undefined && undefined.__spread || function () {
+var __spread =  false || function () {
     for (var ar = [], i = 0; i < arguments.length; i++) {
         ar = ar.concat(__read(arguments[i]));
     }return ar;
@@ -57828,7 +57704,7 @@ __nested_webpack_require_303868__.r(__webpack_exports__);
 /* harmony import */ var _mixins_applicationable__WEBPACK_IMPORTED_MODULE_1__ = __nested_webpack_require_303868__(/*! ../../mixins/applicationable */ "./src/mixins/applicationable.ts");
 /* harmony import */ var _mixins_colorable__WEBPACK_IMPORTED_MODULE_2__ = __nested_webpack_require_303868__(/*! ../../mixins/colorable */ "./src/mixins/colorable.ts");
 /* harmony import */ var _mixins_themeable__WEBPACK_IMPORTED_MODULE_3__ = __nested_webpack_require_303868__(/*! ../../mixins/themeable */ "./src/mixins/themeable.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -58406,7 +58282,7 @@ __nested_webpack_require_327722__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_5__ = __nested_webpack_require_327722__(/*! vue */ "vue");
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__nested_webpack_require_327722__.n(vue__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _util_mixins__WEBPACK_IMPORTED_MODULE_6__ = __nested_webpack_require_327722__(/*! ../../util/mixins */ "./src/util/mixins.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -58801,7 +58677,7 @@ __nested_webpack_require_343826__.r(__webpack_exports__);
 /* harmony import */ var _util_helpers__WEBPACK_IMPORTED_MODULE_7__ = __nested_webpack_require_343826__(/*! ../../util/helpers */ "./src/util/helpers.ts");
 /* harmony import */ var _util_console__WEBPACK_IMPORTED_MODULE_8__ = __nested_webpack_require_343826__(/*! ../../util/console */ "./src/util/console.ts");
 /* harmony import */ var _util_mixins__WEBPACK_IMPORTED_MODULE_9__ = __nested_webpack_require_343826__(/*! ../../util/mixins */ "./src/util/mixins.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -59143,7 +59019,7 @@ __nested_webpack_require_358370__.r(__webpack_exports__);
 /* harmony import */ var _mixins_themeable__WEBPACK_IMPORTED_MODULE_2__ = __nested_webpack_require_358370__(/*! ../../mixins/themeable */ "./src/mixins/themeable.ts");
 /* harmony import */ var _util_mixins__WEBPACK_IMPORTED_MODULE_3__ = __nested_webpack_require_358370__(/*! ../../util/mixins */ "./src/util/mixins.ts");
 /* harmony import */ var _util_console__WEBPACK_IMPORTED_MODULE_4__ = __nested_webpack_require_358370__(/*! ../../util/console */ "./src/util/console.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -59496,7 +59372,7 @@ __nested_webpack_require_373015__.r(__webpack_exports__);
 /* harmony import */ var _mixins_themeable__WEBPACK_IMPORTED_MODULE_2__ = __nested_webpack_require_373015__(/*! ../../mixins/themeable */ "./src/mixins/themeable.ts");
 /* harmony import */ var _util_mixins__WEBPACK_IMPORTED_MODULE_3__ = __nested_webpack_require_373015__(/*! ../../util/mixins */ "./src/util/mixins.ts");
 /* harmony import */ var _util_helpers__WEBPACK_IMPORTED_MODULE_4__ = __nested_webpack_require_373015__(/*! ../../util/helpers */ "./src/util/helpers.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -59595,7 +59471,7 @@ __nested_webpack_require_377237__.r(__webpack_exports__);
 /* harmony import */ var _mixins_themeable__WEBPACK_IMPORTED_MODULE_1__ = __nested_webpack_require_377237__(/*! ../../mixins/themeable */ "./src/mixins/themeable.ts");
 /* harmony import */ var _mixins_registrable__WEBPACK_IMPORTED_MODULE_2__ = __nested_webpack_require_377237__(/*! ../../mixins/registrable */ "./src/mixins/registrable.ts");
 /* harmony import */ var _util_mixins__WEBPACK_IMPORTED_MODULE_3__ = __nested_webpack_require_377237__(/*! ../../util/mixins */ "./src/util/mixins.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -59607,7 +59483,7 @@ var __assign = undefined && undefined.__assign || function () {
     };
     return __assign.apply(this, arguments);
 };
-var __values = undefined && undefined.__values || function (o) {
+var __values =  false || function (o) {
     var m = typeof Symbol === "function" && o[Symbol.iterator],
         i = 0;
     if (m) return m.call(o);
@@ -59709,7 +59585,7 @@ __nested_webpack_require_381383__.r(__webpack_exports__);
 /* harmony import */ var _mixins_registrable__WEBPACK_IMPORTED_MODULE_3__ = __nested_webpack_require_381383__(/*! ../../mixins/registrable */ "./src/mixins/registrable.ts");
 /* harmony import */ var _transitions__WEBPACK_IMPORTED_MODULE_4__ = __nested_webpack_require_381383__(/*! ../transitions */ "./src/components/transitions/index.js");
 /* harmony import */ var _util_mixins__WEBPACK_IMPORTED_MODULE_5__ = __nested_webpack_require_381383__(/*! ../../util/mixins */ "./src/util/mixins.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -59877,7 +59753,7 @@ __nested_webpack_require_387900__.r(__webpack_exports__);
 /* harmony import */ var _mixins_themeable__WEBPACK_IMPORTED_MODULE_3__ = __nested_webpack_require_387900__(/*! ../../mixins/themeable */ "./src/mixins/themeable.ts");
 /* harmony import */ var _directives_ripple__WEBPACK_IMPORTED_MODULE_4__ = __nested_webpack_require_387900__(/*! ../../directives/ripple */ "./src/directives/ripple.ts");
 /* harmony import */ var _util_mixins__WEBPACK_IMPORTED_MODULE_5__ = __nested_webpack_require_387900__(/*! ../../util/mixins */ "./src/util/mixins.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -60410,7 +60286,7 @@ __nested_webpack_require_410658__.r(__webpack_exports__);
 "use strict";
 __nested_webpack_require_413107__.r(__webpack_exports__);
 /* harmony import */ var _util_helpers__WEBPACK_IMPORTED_MODULE_0__ = __nested_webpack_require_413107__(/*! ../../../util/helpers */ "./src/util/helpers.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -60422,7 +60298,7 @@ var __assign = undefined && undefined.__assign || function () {
     };
     return __assign.apply(this, arguments);
 };
-var __read = undefined && undefined.__read || function (o, n) {
+var __read =  false || function (o, n) {
     var m = typeof Symbol === "function" && o[Symbol.iterator];
     if (!m) return o;
     var i = m.call(o),
@@ -60444,7 +60320,7 @@ var __read = undefined && undefined.__read || function (o, n) {
     }
     return ar;
 };
-var __spread = undefined && undefined.__spread || function () {
+var __spread =  false || function () {
     for (var ar = [], i = 0; i < arguments.length; i++) {
         ar = ar.concat(__read(arguments[i]));
     }return ar;
@@ -60787,7 +60663,7 @@ __nested_webpack_require_427960__.r(__webpack_exports__);
 /* harmony import */ var _directives_touch__WEBPACK_IMPORTED_MODULE_8__ = __nested_webpack_require_427960__(/*! ../../directives/touch */ "./src/directives/touch.ts");
 /* harmony import */ var _util_helpers__WEBPACK_IMPORTED_MODULE_9__ = __nested_webpack_require_427960__(/*! ../../util/helpers */ "./src/util/helpers.ts");
 /* harmony import */ var _util_mixins__WEBPACK_IMPORTED_MODULE_10__ = __nested_webpack_require_427960__(/*! ../../util/mixins */ "./src/util/mixins.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -61214,7 +61090,7 @@ __nested_webpack_require_448274__.r(__webpack_exports__);
 /* harmony import */ var _util_mixins__WEBPACK_IMPORTED_MODULE_3__ = __nested_webpack_require_448274__(/*! ../../util/mixins */ "./src/util/mixins.ts");
 /* harmony import */ var _mixins_colorable__WEBPACK_IMPORTED_MODULE_4__ = __nested_webpack_require_448274__(/*! ../../mixins/colorable */ "./src/mixins/colorable.ts");
 /* harmony import */ var _mixins_themeable__WEBPACK_IMPORTED_MODULE_5__ = __nested_webpack_require_448274__(/*! ../../mixins/themeable */ "./src/mixins/themeable.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -61226,7 +61102,7 @@ var __assign = undefined && undefined.__assign || function () {
     };
     return __assign.apply(this, arguments);
 };
-var __read = undefined && undefined.__read || function (o, n) {
+var __read =  false || function (o, n) {
     var m = typeof Symbol === "function" && o[Symbol.iterator];
     if (!m) return o;
     var i = m.call(o),
@@ -61248,7 +61124,7 @@ var __read = undefined && undefined.__read || function (o, n) {
     }
     return ar;
 };
-var __spread = undefined && undefined.__spread || function () {
+var __spread =  false || function () {
     for (var ar = [], i = 0; i < arguments.length; i++) {
         ar = ar.concat(__read(arguments[i]));
     }return ar;
@@ -61568,7 +61444,7 @@ __nested_webpack_require_461626__.r(__webpack_exports__);
 /* harmony import */ var _mixins_themeable__WEBPACK_IMPORTED_MODULE_3__ = __nested_webpack_require_461626__(/*! ../../mixins/themeable */ "./src/mixins/themeable.ts");
 /* harmony import */ var _util_helpers__WEBPACK_IMPORTED_MODULE_4__ = __nested_webpack_require_461626__(/*! ../../util/helpers */ "./src/util/helpers.ts");
 /* harmony import */ var _util_mixins__WEBPACK_IMPORTED_MODULE_5__ = __nested_webpack_require_461626__(/*! ../../util/mixins */ "./src/util/mixins.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -62020,7 +61896,7 @@ __nested_webpack_require_480450__.r(__webpack_exports__);
 /* harmony import */ var _mixins_themeable__WEBPACK_IMPORTED_MODULE_5__ = __nested_webpack_require_480450__(/*! ../../mixins/themeable */ "./src/mixins/themeable.ts");
 /* harmony import */ var _mixins_selectable__WEBPACK_IMPORTED_MODULE_6__ = __nested_webpack_require_480450__(/*! ../../mixins/selectable */ "./src/mixins/selectable.js");
 /* harmony import */ var _mixins_registrable__WEBPACK_IMPORTED_MODULE_7__ = __nested_webpack_require_480450__(/*! ../../mixins/registrable */ "./src/mixins/registrable.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -62032,7 +61908,7 @@ var __assign = undefined && undefined.__assign || function () {
     };
     return __assign.apply(this, arguments);
 };
-var __read = undefined && undefined.__read || function (o, n) {
+var __read =  false || function (o, n) {
     var m = typeof Symbol === "function" && o[Symbol.iterator];
     if (!m) return o;
     var i = m.call(o),
@@ -62054,7 +61930,7 @@ var __read = undefined && undefined.__read || function (o, n) {
     }
     return ar;
 };
-var __spread = undefined && undefined.__spread || function () {
+var __spread =  false || function () {
     for (var ar = [], i = 0; i < arguments.length; i++) {
         ar = ar.concat(__read(arguments[i]));
     }return ar;
@@ -62859,7 +62735,7 @@ __nested_webpack_require_515035__.r(__webpack_exports__);
 /* harmony import */ var _directives_click_outside__WEBPACK_IMPORTED_MODULE_8__ = __nested_webpack_require_515035__(/*! ../../directives/click-outside */ "./src/directives/click-outside.ts");
 /* harmony import */ var _util_helpers__WEBPACK_IMPORTED_MODULE_9__ = __nested_webpack_require_515035__(/*! ../../util/helpers */ "./src/util/helpers.ts");
 /* harmony import */ var _util_console__WEBPACK_IMPORTED_MODULE_10__ = __nested_webpack_require_515035__(/*! ../../util/console */ "./src/util/console.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -62871,7 +62747,7 @@ var __assign = undefined && undefined.__assign || function () {
     };
     return __assign.apply(this, arguments);
 };
-var __values = undefined && undefined.__values || function (o) {
+var __values =  false || function (o) {
     var m = typeof Symbol === "function" && o[Symbol.iterator],
         i = 0;
     if (m) return m.call(o);
@@ -63545,7 +63421,7 @@ __nested_webpack_require_545958__.r(__webpack_exports__);
 /* harmony import */ var _mixins_colorable__WEBPACK_IMPORTED_MODULE_5__ = __nested_webpack_require_545958__(/*! ../../mixins/colorable */ "./src/mixins/colorable.ts");
 /* harmony import */ var _mixins_themeable__WEBPACK_IMPORTED_MODULE_6__ = __nested_webpack_require_545958__(/*! ../../mixins/themeable */ "./src/mixins/themeable.ts");
 /* harmony import */ var _util_helpers__WEBPACK_IMPORTED_MODULE_7__ = __nested_webpack_require_545958__(/*! ../../util/helpers */ "./src/util/helpers.ts");
-var __values = undefined && undefined.__values || function (o) {
+var __values =  false || function (o) {
     var m = typeof Symbol === "function" && o[Symbol.iterator],
         i = 0;
     if (m) return m.call(o);
@@ -63883,7 +63759,7 @@ __nested_webpack_require_561624__.r(__webpack_exports__);
 /* harmony import */ var _mixins_measurable__WEBPACK_IMPORTED_MODULE_3__ = __nested_webpack_require_561624__(/*! ../../mixins/measurable */ "./src/mixins/measurable.ts");
 /* harmony import */ var _mixins_themeable__WEBPACK_IMPORTED_MODULE_4__ = __nested_webpack_require_561624__(/*! ../../mixins/themeable */ "./src/mixins/themeable.ts");
 /* harmony import */ var _util_mixins__WEBPACK_IMPORTED_MODULE_5__ = __nested_webpack_require_561624__(/*! ../../util/mixins */ "./src/util/mixins.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -63969,7 +63845,7 @@ __nested_webpack_require_565420__.r(__webpack_exports__);
 /* harmony import */ var _util_helpers__WEBPACK_IMPORTED_MODULE_4__ = __nested_webpack_require_565420__(/*! ../../util/helpers */ "./src/util/helpers.ts");
 /* harmony import */ var _util_console__WEBPACK_IMPORTED_MODULE_5__ = __nested_webpack_require_565420__(/*! ../../util/console */ "./src/util/console.ts");
 /* harmony import */ var _mixins_loadable__WEBPACK_IMPORTED_MODULE_6__ = __nested_webpack_require_565420__(/*! ../../mixins/loadable */ "./src/mixins/loadable.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -64554,7 +64430,7 @@ __nested_webpack_require_591497__.r(__webpack_exports__);
 /* harmony import */ var _util_mixins__WEBPACK_IMPORTED_MODULE_1__ = __nested_webpack_require_591497__(/*! ../../util/mixins */ "./src/util/mixins.ts");
 /* harmony import */ var _helpers_core__WEBPACK_IMPORTED_MODULE_2__ = __nested_webpack_require_591497__(/*! ./helpers/core */ "./src/components/VSparkline/helpers/core.ts");
 /* harmony import */ var _helpers_path__WEBPACK_IMPORTED_MODULE_3__ = __nested_webpack_require_591497__(/*! ./helpers/path */ "./src/components/VSparkline/helpers/path.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -64918,7 +64794,7 @@ var __assign = undefined && undefined.__assign || function () {
 "use strict";
 __nested_webpack_require_605732__.r(__webpack_exports__);
 /* harmony export (binding) */ __nested_webpack_require_605732__.d(__webpack_exports__, "genPoints", function() { return genPoints; });
-var __read = undefined && undefined.__read || function (o, n) {
+var __read =  false || function (o, n) {
     var m = typeof Symbol === "function" && o[Symbol.iterator];
     if (!m) return o;
     var i = m.call(o),
@@ -64940,7 +64816,7 @@ var __read = undefined && undefined.__read || function (o, n) {
     }
     return ar;
 };
-var __spread = undefined && undefined.__spread || function () {
+var __spread =  false || function () {
     for (var ar = [], i = 0; i < arguments.length; i++) {
         ar = ar.concat(__read(arguments[i]));
     }return ar;
@@ -65211,7 +65087,7 @@ __nested_webpack_require_617745__.r(__webpack_exports__);
 /* harmony import */ var _mixins_registrable__WEBPACK_IMPORTED_MODULE_1__ = __nested_webpack_require_617745__(/*! ../../mixins/registrable */ "./src/mixins/registrable.ts");
 /* harmony import */ var _mixins_themeable__WEBPACK_IMPORTED_MODULE_2__ = __nested_webpack_require_617745__(/*! ../../mixins/themeable */ "./src/mixins/themeable.ts");
 /* harmony import */ var _util_mixins__WEBPACK_IMPORTED_MODULE_3__ = __nested_webpack_require_617745__(/*! ../../util/mixins */ "./src/util/mixins.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -65647,7 +65523,7 @@ __nested_webpack_require_634929__.r(__webpack_exports__);
 /* harmony import */ var _stylus_components_subheaders_styl__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__nested_webpack_require_634929__.n(_stylus_components_subheaders_styl__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _mixins_themeable__WEBPACK_IMPORTED_MODULE_1__ = __nested_webpack_require_634929__(/*! ../../mixins/themeable */ "./src/mixins/themeable.ts");
 /* harmony import */ var _util_mixins__WEBPACK_IMPORTED_MODULE_2__ = __nested_webpack_require_634929__(/*! ../../util/mixins */ "./src/util/mixins.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -65719,7 +65595,7 @@ __nested_webpack_require_637812__.r(__webpack_exports__);
 /* harmony import */ var _transitions__WEBPACK_IMPORTED_MODULE_4__ = __nested_webpack_require_637812__(/*! ../transitions */ "./src/components/transitions/index.js");
 /* harmony import */ var _VProgressCircular_VProgressCircular__WEBPACK_IMPORTED_MODULE_5__ = __nested_webpack_require_637812__(/*! ../VProgressCircular/VProgressCircular */ "./src/components/VProgressCircular/VProgressCircular.ts");
 /* harmony import */ var _util_helpers__WEBPACK_IMPORTED_MODULE_6__ = __nested_webpack_require_637812__(/*! ../../util/helpers */ "./src/util/helpers.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -65839,7 +65715,7 @@ __nested_webpack_require_643823__.r(__webpack_exports__);
 /* harmony import */ var _mixins_colorable__WEBPACK_IMPORTED_MODULE_2__ = __nested_webpack_require_643823__(/*! ../../mixins/colorable */ "./src/mixins/colorable.ts");
 /* harmony import */ var _mixins_themeable__WEBPACK_IMPORTED_MODULE_3__ = __nested_webpack_require_643823__(/*! ../../mixins/themeable */ "./src/mixins/themeable.ts");
 /* harmony import */ var _util_mixins__WEBPACK_IMPORTED_MODULE_4__ = __nested_webpack_require_643823__(/*! ../../util/mixins */ "./src/util/mixins.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -65935,7 +65811,7 @@ __nested_webpack_require_648166__.r(__webpack_exports__);
 /* harmony import */ var _mixins_routable__WEBPACK_IMPORTED_MODULE_1__ = __nested_webpack_require_648166__(/*! ../../mixins/routable */ "./src/mixins/routable.ts");
 /* harmony import */ var _mixins_themeable__WEBPACK_IMPORTED_MODULE_2__ = __nested_webpack_require_648166__(/*! ../../mixins/themeable */ "./src/mixins/themeable.ts");
 /* harmony import */ var _util_helpers__WEBPACK_IMPORTED_MODULE_3__ = __nested_webpack_require_648166__(/*! ../../util/helpers */ "./src/util/helpers.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -66770,7 +66646,7 @@ __nested_webpack_require_680975__.r(__webpack_exports__);
 /* harmony import */ var _directives_ripple__WEBPACK_IMPORTED_MODULE_6__ = __nested_webpack_require_680975__(/*! ../../directives/ripple */ "./src/directives/ripple.ts");
 /* harmony import */ var _util_helpers__WEBPACK_IMPORTED_MODULE_7__ = __nested_webpack_require_680975__(/*! ../../util/helpers */ "./src/util/helpers.ts");
 /* harmony import */ var _util_console__WEBPACK_IMPORTED_MODULE_8__ = __nested_webpack_require_680975__(/*! ../../util/console */ "./src/util/console.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -67206,7 +67082,7 @@ __nested_webpack_require_699969__.r(__webpack_exports__);
 /* harmony import */ var _stylus_components_textarea_styl__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__nested_webpack_require_699969__.n(_stylus_components_textarea_styl__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _VTextField_VTextField__WEBPACK_IMPORTED_MODULE_1__ = __nested_webpack_require_699969__(/*! ../VTextField/VTextField */ "./src/components/VTextField/VTextField.js");
 /* harmony import */ var _util_console__WEBPACK_IMPORTED_MODULE_2__ = __nested_webpack_require_699969__(/*! ../../util/console */ "./src/util/console.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -67347,7 +67223,7 @@ __nested_webpack_require_705781__.r(__webpack_exports__);
 /* harmony import */ var _util_helpers__WEBPACK_IMPORTED_MODULE_3__ = __nested_webpack_require_705781__(/*! ../../util/helpers */ "./src/util/helpers.ts");
 /* harmony import */ var _VDatePicker_util_pad__WEBPACK_IMPORTED_MODULE_4__ = __nested_webpack_require_705781__(/*! ../VDatePicker/util/pad */ "./src/components/VDatePicker/util/pad.ts");
 /* harmony import */ var _util_mixins__WEBPACK_IMPORTED_MODULE_5__ = __nested_webpack_require_705781__(/*! ../../util/mixins */ "./src/util/mixins.ts");
-var __read = undefined && undefined.__read || function (o, n) {
+var __read =  false || function (o, n) {
     var m = typeof Symbol === "function" && o[Symbol.iterator];
     if (!m) return o;
     var i = m.call(o),
@@ -67674,7 +67550,7 @@ __nested_webpack_require_720729__.r(__webpack_exports__);
 /* harmony import */ var _mixins_colorable__WEBPACK_IMPORTED_MODULE_1__ = __nested_webpack_require_720729__(/*! ../../mixins/colorable */ "./src/mixins/colorable.ts");
 /* harmony import */ var _mixins_themeable__WEBPACK_IMPORTED_MODULE_2__ = __nested_webpack_require_720729__(/*! ../../mixins/themeable */ "./src/mixins/themeable.ts");
 /* harmony import */ var _util_mixins__WEBPACK_IMPORTED_MODULE_3__ = __nested_webpack_require_720729__(/*! ../../util/mixins */ "./src/util/mixins.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -68037,7 +67913,7 @@ __nested_webpack_require_737014__.r(__webpack_exports__);
 /* harmony import */ var _stylus_components_timeline_styl__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__nested_webpack_require_737014__.n(_stylus_components_timeline_styl__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _util_mixins__WEBPACK_IMPORTED_MODULE_1__ = __nested_webpack_require_737014__(/*! ../../util/mixins */ "./src/util/mixins.ts");
 /* harmony import */ var _mixins_themeable__WEBPACK_IMPORTED_MODULE_2__ = __nested_webpack_require_737014__(/*! ../../mixins/themeable */ "./src/mixins/themeable.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -68090,7 +67966,7 @@ __nested_webpack_require_739207__.r(__webpack_exports__);
 /* harmony import */ var _VIcon__WEBPACK_IMPORTED_MODULE_1__ = __nested_webpack_require_739207__(/*! ../VIcon */ "./src/components/VIcon/index.ts");
 /* harmony import */ var _mixins_themeable__WEBPACK_IMPORTED_MODULE_2__ = __nested_webpack_require_739207__(/*! ../../mixins/themeable */ "./src/mixins/themeable.ts");
 /* harmony import */ var _mixins_colorable__WEBPACK_IMPORTED_MODULE_3__ = __nested_webpack_require_739207__(/*! ../../mixins/colorable */ "./src/mixins/colorable.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -68227,7 +68103,7 @@ __nested_webpack_require_744548__.r(__webpack_exports__);
 /* harmony import */ var _directives_scroll__WEBPACK_IMPORTED_MODULE_5__ = __nested_webpack_require_744548__(/*! ../../directives/scroll */ "./src/directives/scroll.ts");
 /* harmony import */ var _util_console__WEBPACK_IMPORTED_MODULE_6__ = __nested_webpack_require_744548__(/*! ../../util/console */ "./src/util/console.ts");
 /* harmony import */ var _util_mixins__WEBPACK_IMPORTED_MODULE_7__ = __nested_webpack_require_744548__(/*! ../../util/mixins */ "./src/util/mixins.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -68745,7 +68621,7 @@ __nested_webpack_require_767927__.r(__webpack_exports__);
 /* harmony import */ var _util_mixins__WEBPACK_IMPORTED_MODULE_5__ = __nested_webpack_require_767927__(/*! ../../util/mixins */ "./src/util/mixins.ts");
 /* harmony import */ var _util_console__WEBPACK_IMPORTED_MODULE_6__ = __nested_webpack_require_767927__(/*! ../../util/console */ "./src/util/console.ts");
 /* harmony import */ var _util_filterTreeItems__WEBPACK_IMPORTED_MODULE_7__ = __nested_webpack_require_767927__(/*! ./util/filterTreeItems */ "./src/components/VTreeview/util/filterTreeItems.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -68757,7 +68633,7 @@ var __assign = undefined && undefined.__assign || function () {
     };
     return __assign.apply(this, arguments);
 };
-var __read = undefined && undefined.__read || function (o, n) {
+var __read =  false || function (o, n) {
     var m = typeof Symbol === "function" && o[Symbol.iterator];
     if (!m) return o;
     var i = m.call(o),
@@ -68779,12 +68655,12 @@ var __read = undefined && undefined.__read || function (o, n) {
     }
     return ar;
 };
-var __spread = undefined && undefined.__spread || function () {
+var __spread =  false || function () {
     for (var ar = [], i = 0; i < arguments.length; i++) {
         ar = ar.concat(__read(arguments[i]));
     }return ar;
 };
-var __values = undefined && undefined.__values || function (o) {
+var __values =  false || function (o) {
     var m = typeof Symbol === "function" && o[Symbol.iterator],
         i = 0;
     if (m) return m.call(o);
@@ -69160,7 +69036,7 @@ __nested_webpack_require_786708__.r(__webpack_exports__);
 /* harmony import */ var _mixins_registrable__WEBPACK_IMPORTED_MODULE_3__ = __nested_webpack_require_786708__(/*! ../../mixins/registrable */ "./src/mixins/registrable.ts");
 /* harmony import */ var _util_mixins__WEBPACK_IMPORTED_MODULE_4__ = __nested_webpack_require_786708__(/*! ../../util/mixins */ "./src/util/mixins.ts");
 /* harmony import */ var _util_helpers__WEBPACK_IMPORTED_MODULE_5__ = __nested_webpack_require_786708__(/*! ../../util/helpers */ "./src/util/helpers.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -69882,7 +69758,7 @@ __nested_webpack_require_816541__.r(__webpack_exports__);
 /* harmony import */ var _util__WEBPACK_IMPORTED_MODULE_1__ = __nested_webpack_require_816541__(/*! ./util */ "./src/components/Vuetify/goTo/util.ts");
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_2__ = __nested_webpack_require_816541__(/*! vue */ "vue");
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__nested_webpack_require_816541__.n(vue__WEBPACK_IMPORTED_MODULE_2__);
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -70138,7 +70014,7 @@ __nested_webpack_require_828198__.r(__webpack_exports__);
 /* harmony export (binding) */ __nested_webpack_require_828198__.d(__webpack_exports__, "default", function() { return breakpoint; });
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __nested_webpack_require_828198__(/*! vue */ "vue");
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__nested_webpack_require_828198__.n(vue__WEBPACK_IMPORTED_MODULE_0__);
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -70448,7 +70324,7 @@ __nested_webpack_require_839365__.r(__webpack_exports__);
 /* harmony import */ var _locale_en__WEBPACK_IMPORTED_MODULE_0__ = __nested_webpack_require_839365__(/*! ../../../locale/en */ "./src/locale/en.ts");
 /* harmony import */ var _util_helpers__WEBPACK_IMPORTED_MODULE_1__ = __nested_webpack_require_839365__(/*! ../../../util/helpers */ "./src/util/helpers.ts");
 /* harmony import */ var _util_console__WEBPACK_IMPORTED_MODULE_2__ = __nested_webpack_require_839365__(/*! ../../../util/console */ "./src/util/console.ts");
-var __read = undefined && undefined.__read || function (o, n) {
+var __read =  false || function (o, n) {
     var m = typeof Symbol === "function" && o[Symbol.iterator];
     if (!m) return o;
     var i = m.call(o),
@@ -70470,7 +70346,7 @@ var __read = undefined && undefined.__read || function (o, n) {
     }
     return ar;
 };
-var __spread = undefined && undefined.__spread || function () {
+var __spread =  false || function () {
     for (var ar = [], i = 0; i < arguments.length; i++) {
         ar = ar.concat(__read(arguments[i]));
     }return ar;
@@ -70531,7 +70407,7 @@ function lang(config) {
 "use strict";
 __nested_webpack_require_842780__.r(__webpack_exports__);
 /* harmony export (binding) */ __nested_webpack_require_842780__.d(__webpack_exports__, "default", function() { return options; });
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -70568,7 +70444,7 @@ function options(options) {
 "use strict";
 __nested_webpack_require_843950__.r(__webpack_exports__);
 /* harmony export (binding) */ __nested_webpack_require_843950__.d(__webpack_exports__, "default", function() { return theme; });
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -71340,7 +71216,7 @@ function unbind(el) {
 "use strict";
 __nested_webpack_require_898831__.r(__webpack_exports__);
 /* harmony import */ var _util_console__WEBPACK_IMPORTED_MODULE_0__ = __nested_webpack_require_898831__(/*! ../util/console */ "./src/util/console.ts");
-var __read = undefined && undefined.__read || function (o, n) {
+var __read =  false || function (o, n) {
     var m = typeof Symbol === "function" && o[Symbol.iterator];
     if (!m) return o;
     var i = m.call(o),
@@ -71362,7 +71238,7 @@ var __read = undefined && undefined.__read || function (o, n) {
     }
     return ar;
 };
-var __spread = undefined && undefined.__spread || function () {
+var __spread =  false || function () {
     for (var ar = [], i = 0; i < arguments.length; i++) {
         ar = ar.concat(__read(arguments[i]));
     }return ar;
@@ -71722,7 +71598,7 @@ __nested_webpack_require_912513__.r(__webpack_exports__);
 /* harmony import */ var _components_Vuetify__WEBPACK_IMPORTED_MODULE_1__ = __nested_webpack_require_912513__(/*! ./components/Vuetify */ "./src/components/Vuetify/index.ts");
 /* harmony import */ var _components__WEBPACK_IMPORTED_MODULE_2__ = __nested_webpack_require_912513__(/*! ./components */ "./src/components/index.ts");
 /* harmony import */ var _directives__WEBPACK_IMPORTED_MODULE_3__ = __nested_webpack_require_912513__(/*! ./directives */ "./src/directives/index.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -71957,7 +71833,7 @@ __nested_webpack_require_919640__.r(__webpack_exports__);
 __nested_webpack_require_920800__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __nested_webpack_require_920800__(/*! vue */ "vue");
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__nested_webpack_require_920800__.n(vue__WEBPACK_IMPORTED_MODULE_0__);
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -71969,7 +71845,7 @@ var __assign = undefined && undefined.__assign || function () {
     };
     return __assign.apply(this, arguments);
 };
-var __read = undefined && undefined.__read || function (o, n) {
+var __read =  false || function (o, n) {
     var m = typeof Symbol === "function" && o[Symbol.iterator];
     if (!m) return o;
     var i = m.call(o),
@@ -72079,7 +71955,7 @@ __nested_webpack_require_924906__.r(__webpack_exports__);
 /* harmony import */ var _loadable__WEBPACK_IMPORTED_MODULE_5__ = __nested_webpack_require_924906__(/*! ./loadable */ "./src/mixins/loadable.ts");
 /* harmony import */ var _util_helpers__WEBPACK_IMPORTED_MODULE_6__ = __nested_webpack_require_924906__(/*! ../util/helpers */ "./src/util/helpers.ts");
 /* harmony import */ var _util_console__WEBPACK_IMPORTED_MODULE_7__ = __nested_webpack_require_924906__(/*! ../util/console */ "./src/util/console.ts");
-var __read = undefined && undefined.__read || function (o, n) {
+var __read =  false || function (o, n) {
     var m = typeof Symbol === "function" && o[Symbol.iterator];
     if (!m) return o;
     var i = m.call(o),
@@ -72101,7 +71977,7 @@ var __read = undefined && undefined.__read || function (o, n) {
     }
     return ar;
 };
-var __spread = undefined && undefined.__spread || function () {
+var __spread =  false || function () {
     for (var ar = [], i = 0; i < arguments.length; i++) {
         ar = ar.concat(__read(arguments[i]));
     }return ar;
@@ -72629,7 +72505,7 @@ __nested_webpack_require_946522__.r(__webpack_exports__);
 "use strict";
 __nested_webpack_require_948320__.r(__webpack_exports__);
 /* harmony import */ var _util_mixins__WEBPACK_IMPORTED_MODULE_0__ = __nested_webpack_require_948320__(/*! ../util/mixins */ "./src/util/mixins.ts");
-var __read = undefined && undefined.__read || function (o, n) {
+var __read =  false || function (o, n) {
     var m = typeof Symbol === "function" && o[Symbol.iterator];
     if (!m) return o;
     var i = m.call(o),
@@ -72651,7 +72527,7 @@ var __read = undefined && undefined.__read || function (o, n) {
     }
     return ar;
 };
-var __spread = undefined && undefined.__spread || function () {
+var __spread =  false || function () {
     for (var ar = [], i = 0; i < arguments.length; i++) {
         ar = ar.concat(__read(arguments[i]));
     }return ar;
@@ -74119,7 +73995,7 @@ __nested_webpack_require_1004751__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __nested_webpack_require_1004751__(/*! vue */ "vue");
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__nested_webpack_require_1004751__.n(vue__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _directives_ripple__WEBPACK_IMPORTED_MODULE_1__ = __nested_webpack_require_1004751__(/*! ../directives/ripple */ "./src/directives/ripple.ts");
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -74436,7 +74312,7 @@ __nested_webpack_require_1015946__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __nested_webpack_require_1015946__(/*! vue */ "vue");
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__nested_webpack_require_1015946__.n(vue__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _util_helpers__WEBPACK_IMPORTED_MODULE_1__ = __nested_webpack_require_1015946__(/*! ../util/helpers */ "./src/util/helpers.ts");
-var __read = undefined && undefined.__read || function (o, n) {
+var __read =  false || function (o, n) {
     var m = typeof Symbol === "function" && o[Symbol.iterator];
     if (!m) return o;
     var i = m.call(o),
@@ -74458,7 +74334,7 @@ var __read = undefined && undefined.__read || function (o, n) {
     }
     return ar;
 };
-var __spread = undefined && undefined.__spread || function () {
+var __spread =  false || function () {
     for (var ar = [], i = 0; i < arguments.length; i++) {
         ar = ar.concat(__read(arguments[i]));
     }return ar;
@@ -74527,7 +74403,7 @@ __nested_webpack_require_1019553__.r(__webpack_exports__);
 /* harmony export (binding) */ __nested_webpack_require_1019553__.d(__webpack_exports__, "functionalThemeClasses", function() { return functionalThemeClasses; });
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __nested_webpack_require_1019553__(/*! vue */ "vue");
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__nested_webpack_require_1019553__.n(vue__WEBPACK_IMPORTED_MODULE_0__);
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -76132,7 +76008,7 @@ __nested_webpack_require_1074642__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__nested_webpack_require_1074642__.n(vue__WEBPACK_IMPORTED_MODULE_0__);
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
-var __assign = undefined && undefined.__assign || function () {
+var __assign =  false || function () {
     __assign = Object.assign || function (t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
             s = arguments[i];
@@ -76637,7 +76513,7 @@ __nested_webpack_require_1094731__.r(__webpack_exports__);
 /* harmony import */ var _color_transformCIELAB__WEBPACK_IMPORTED_MODULE_2__ = __nested_webpack_require_1094731__(/*! ./color/transformCIELAB */ "./src/util/color/transformCIELAB.ts");
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
-var __read = undefined && undefined.__read || function (o, n) {
+var __read =  false || function (o, n) {
     var m = typeof Symbol === "function" && o[Symbol.iterator];
     if (!m) return o;
     var i = m.call(o),
@@ -77004,7 +76880,7 @@ module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"P
 /******/ 				if(__webpack_require__.o(installedChunks, chunkId) && installedChunks[chunkId]) {
 /******/ 					installedChunks[chunkId][0]();
 /******/ 				}
-/******/ 				installedChunks[chunkIds[i]] = 0;
+/******/ 				installedChunks[chunkId] = 0;
 /******/ 			}
 /******/ 			return __webpack_require__.O(result);
 /******/ 		}

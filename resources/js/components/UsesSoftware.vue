@@ -230,7 +230,7 @@
         <p style="margin-top: 20px;"><strong class="monokai-green">Audio Production<span style="color: #8B888F">()</span></strong></p>
         <ul>
             <li>-> Line 6 Helix Native - <span class="little">Everything for guitar sound in one VST plugin!</span></li>
-            <li>-> Presonus Studio One 4 Pro - <span class="little">My DAW (Digital Audio Workstation).</span></li>
+            <li>-> Presonus Studio One Pro - <span class="little">My DAW (Digital Audio Workstation).</span></li>
         </ul>
         <p style="margin-top: 20px;"><strong class="monokai-green">Utilities<span style="color: #8B888F">()</span></strong></p>
         <ul>

@@ -5,14 +5,14 @@
 
         <br><br>
 
-        <h1>I Haz Money</h1>
+        <!-- <h1>I Haz Money</h1>
         <div>
             My latest project is a budgeting saas app to simplify and assist in the creation of a basic budget.
             <br>
             <a href="https://www.ihazmoney.com" target="blank">www.ihazmoney.com</a>
         </div>
 
-        <br><br>
+        <br><br> -->
 
         <picture>
             <source type="image/webp" :srcset="dark ? deskninjadark_webp : deskninjalight_webp" />
