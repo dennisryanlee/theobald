@@ -12257,6 +12257,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   props: ['dark'],
   mounted: function mounted() {
@@ -32148,19 +32154,9 @@ var staticRenderFns = [
         _vm._v(" "),
         _c(
           "p",
-          {
-            staticClass: "pb-20",
-            staticStyle: { "font-size": "36px" },
-            attrs: { className: "contact-number" },
-          },
-          [_vm._v("312-802-2423")]
-        ),
-        _vm._v(" "),
-        _c(
-          "p",
           { staticClass: "pb-20", staticStyle: { "font-size": "16px" } },
           [
-            _vm._v("\n        You can also add or follow me on "),
+            _vm._v("\n        You can also add or follow me on\n        "),
             _c(
               "a",
               {
@@ -32171,18 +32167,8 @@ var staticRenderFns = [
               },
               [_vm._v("LinkedIn")]
             ),
-            _vm._v(", "),
-            _c(
-              "a",
-              {
-                attrs: {
-                  href: "https://www.facebook.com/fylzero",
-                  target: "blank",
-                },
-              },
-              [_vm._v("Facebook")]
-            ),
-            _vm._v(", "),
+            _vm._v(",\n        "),
+            _vm._v(" "),
             _c(
               "a",
               {
@@ -32190,7 +32176,7 @@ var staticRenderFns = [
               },
               [_vm._v("Twitter")]
             ),
-            _vm._v(", "),
+            _vm._v(",\n        "),
             _c(
               "a",
               {
@@ -32201,7 +32187,7 @@ var staticRenderFns = [
               },
               [_vm._v("YouTube")]
             ),
-            _vm._v(" and "),
+            _vm._v("\n        and\n        "),
             _c(
               "a",
               {
