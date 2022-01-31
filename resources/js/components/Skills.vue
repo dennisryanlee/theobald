@@ -1,16 +1,19 @@
 <template>
     <div class="center pb-100 pink-links">
-
         <div class="center limit-width">
-
-            <div class=" text-center">
-
-                <v-btn outline large color="indigo" href="/pdf/philip-theobald-resume.pdf" target="blank">
-                    Download My Resume
-                </v-btn>
+            <div class="text-center">
+                <v-btn
+                    outline
+                    large
+                    color="indigo"
+                    href="/pdf/philip-theobald-resume.pdf"
+                    target="blank"
+                >Download My Resume</v-btn>
             </div>
 
-            <br /><br /><br />
+            <br />
+            <br />
+            <br />
 
             <h1>Skills (Measured By Proficiency)</h1>
 
@@ -19,90 +22,73 @@
                 <div style="width: 95%;">95%</div>
             </div>
             <p>
-                I have been learning Laravel since version 4 and have been working with it professionally since mid 2019.  I am on the <a href="https://laracasts.com/discuss/leaderboard" target="blank">Laracasts Top-50 Leaderboard</a> (as "fylzero").
+                I have been learning Laravel since version 4 and have been working with it professionally since mid 2019. I am on the
+                <a
+                    href="https://laracasts.com/discuss/leaderboard"
+                    target="blank"
+                >Laracasts Top-50 Leaderboard</a> (as "fylzero").
             </p>
 
             <h2>Wordpress / Divi</h2>
             <div class="progress-bar">
                 <div style="width: 90%;">90%</div>
             </div>
-            <p>
-                I have been building Wordpress sites for a very long time.  Over the past several years I have built almost exclusively Divi framework Wordpress sites as they are easy to create and maintain, don't lock you into using a set theme and really give you the power and flexibility to create what you want very fast.
-            </p>
+            <p>I have been building Wordpress sites for a very long time. Over the past several years I have built almost exclusively Divi framework Wordpress sites as they are easy to create and maintain, don't lock you into using a set theme and really give you the power and flexibility to create what you want very fast.</p>
 
             <h2>Vue.js</h2>
             <div class="progress-bar">
                 <div style="width: 80%;">80%</div>
             </div>
-            <p>
-                Currently my go-to frontend framework.  I'm a huge fan of Vue.
-            </p>
+            <p>Currently my go-to frontend framework. I'm a huge fan of Vue.</p>
 
             <h2>MySQL / SQLite</h2>
             <div class="progress-bar">
                 <div style="width: 70%;">70%</div>
             </div>
-            <p>
-                I've used MySQL almost exclusively for creating databases in the apps that I've built.  I have a general understanding of indexing and creating performant queries.  Though, working in Laravel, I mostly use Eloquent ORM these days.
-            </p>
+            <p>I've used MySQL almost exclusively for creating databases in the apps that I've built. I have a general understanding of indexing and creating performant queries. Though, working in Laravel, I mostly use Eloquent ORM these days.</p>
 
             <h2>jQuery</h2>
             <div class="progress-bar">
                 <div style="width: 90%;">90%</div>
             </div>
-            <p>
-                I actually learned jQuery in much more depth before I started learning JavaScript.  I would say jQuery is one of my strongest skills.
-            </p>
+            <p>I actually learned jQuery in much more depth before I started learning JavaScript. I would say jQuery is one of my strongest skills.</p>
 
             <h2>HTML5</h2>
             <div class="progress-bar">
                 <div style="width: 90%;">90%</div>
             </div>
-            <p>
-                I have a solid understanding of writing semantic HTML and creating document foundations that are accessible and make heirarchical sense.
-            </p>
+            <p>I have a solid understanding of writing semantic HTML and creating document foundations that are accessible and make heirarchical sense.</p>
 
             <h2>CSS3 / SCSS</h2>
             <div class="progress-bar">
                 <div style="width: 90%;">90%</div>
             </div>
-            <p>
-                I have a very strong understanding of CSS3, including implementing complex grid and flex layouts.  I am very familiar with solving specificity issues.  I typically write in BEM style.  I am also very good at leveraging SCSS to organize larger projects into utility imports and breaking things into ITCSS target layers.
-            </p>
+            <p>I have a very strong understanding of CSS3, including implementing complex grid and flex layouts. I am very familiar with solving specificity issues. I typically write in BEM style. I am also very good at leveraging SCSS to organize larger projects into utility imports and breaking things into ITCSS target layers.</p>
 
             <h2>JavaScript</h2>
             <div class="progress-bar">
                 <div style="width: 60%;">60%</div>
             </div>
-            <p>
-                Fairly strong with JavaScript.  There is certainly a lot to know and I sometimes struggle with exactly what to reach for but am very good at figuring out how to solve puzzles and make cool things that work.
-            </p>
+            <p>Fairly strong with JavaScript. There is certainly a lot to know and I sometimes struggle with exactly what to reach for but am very good at figuring out how to solve puzzles and make cool things that work.</p>
 
             <h2>PHP</h2>
             <div class="progress-bar">
                 <div style="width: 40%;">40%</div>
             </div>
-            <p>
-                I've built several vanilla PHP applications over the last 8 years or so.
-            </p>
+            <p>I've built several vanilla PHP applications over the last 8 years or so.</p>
 
             <h2>Other Languages</h2>
             <div class="progress-bar">
                 <div style="width: 10%;">10%</div>
             </div>
-            <p>
-                I know a bit of Python, Node.js and React.js but not worth mentioning as they aren't my core stacks these days.  I may get into Node more as time goes on.
-            </p>
-
+            <p>I know a bit of Python, Node.js and React.js but not worth mentioning as they aren't my core stacks these days. I may get into Node more as time goes on.</p>
         </div>
 
-
-        <br /><br /><br />
-
-        <h1>Programming-Related Online Certification Courses</h1>
+        <br />
+        <br />
+        <br />
 
         <div class="gridid">
-
             <picture>
                 <source type="image/webp" :srcset="cert16_webp" />
                 <img class="responsive" :src="cert16_png" alt="Modern React with Redux" />
@@ -115,7 +101,11 @@
 
             <picture>
                 <source type="image/webp" :srcset="cert24_webp" />
-                <img class="responsive" :src="cert24_png" alt="ES6 JavaScript: The Complete Developers Guide" />
+                <img
+                    class="responsive"
+                    :src="cert24_png"
+                    alt="ES6 JavaScript: The Complete Developers Guide"
+                />
             </picture>
 
             <picture>
@@ -125,12 +115,20 @@
 
             <picture>
                 <source type="image/webp" :srcset="cert2_webp" />
-                <img class="responsive" :src="cert2_png" alt="Bootstrap 3: Advanced Web Development" />
+                <img
+                    class="responsive"
+                    :src="cert2_png"
+                    alt="Bootstrap 3: Advanced Web Development"
+                />
             </picture>
 
             <picture>
                 <source type="image/webp" :srcset="cert3_webp" />
-                <img class="responsive" :src="cert3_png" alt="Creating an Adaptive Website for Multiple Screens" />
+                <img
+                    class="responsive"
+                    :src="cert3_png"
+                    alt="Creating an Adaptive Website for Multiple Screens"
+                />
             </picture>
 
             <picture>
@@ -170,7 +168,11 @@
 
             <picture>
                 <source type="image/webp" :srcset="cert11_webp" />
-                <img class="responsive" :src="cert11_png" alt="MVC Frameworks for Building PHP Web Applications" />
+                <img
+                    class="responsive"
+                    :src="cert11_png"
+                    alt="MVC Frameworks for Building PHP Web Applications"
+                />
             </picture>
 
             <picture>
@@ -185,32 +187,35 @@
 
             <picture>
                 <source type="image/webp" :srcset="cert14_webp" />
-                <img class="responsive" :src="cert14_png" alt="Programming Foundations: Object-Oriented Design" />
+                <img
+                    class="responsive"
+                    :src="cert14_png"
+                    alt="Programming Foundations: Object-Oriented Design"
+                />
             </picture>
 
             <picture>
                 <source type="image/webp" :srcset="cert15_webp" />
-                <img class="responsive" :src="cert15_png" alt="Prototype and script.aculo.us Essential Training" />
+                <img
+                    class="responsive"
+                    :src="cert15_png"
+                    alt="Prototype and script.aculo.us Essential Training"
+                />
             </picture>
 
             <picture>
                 <source type="image/webp" :srcset="cert18_webp" />
-                <img class="responsive" :src="cert18_png" alt="Up and Running with Linux for PHP Developers" />
+                <img
+                    class="responsive"
+                    :src="cert18_png"
+                    alt="Up and Running with Linux for PHP Developers"
+                />
             </picture>
 
             <picture>
                 <source type="image/webp" :srcset="cert19_webp" />
                 <img class="responsive" :src="cert19_png" alt="Web Form Design Best Practices" />
             </picture>
-
-        </div>
-
-
-        <br /><br /><br />
-
-        <h1>Other Online Certification Courses</h1>
-
-        <div class="gridid">
 
             <picture>
                 <source type="image/webp" :srcset="cert20_webp" />
@@ -229,11 +234,13 @@
 
             <picture>
                 <source type="image/webp" :srcset="cert23_webp" />
-                <img class="responsive" :src="cert23_png" alt="Social Media Basics for Musicians and Bands" />
+                <img
+                    class="responsive"
+                    :src="cert23_png"
+                    alt="Social Media Basics for Musicians and Bands"
+                />
             </picture>
-
         </div>
-
     </div>
 </template>
 
@@ -300,7 +307,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
 .gridid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -310,18 +316,14 @@ export default {
 }
 
 @media only screen and (max-width: 1200px) {
-
     .gridid {
         grid-template-columns: 1fr 1fr;
     }
 }
 
 @media only screen and (max-width: 761px) {
-
     .gridid {
         grid-template-columns: 1fr;
     }
-
 }
-
 </style>

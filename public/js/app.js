@@ -12353,6 +12353,32 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   props: ['dark'],
   data: function data() {
@@ -12670,6 +12696,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -32232,7 +32265,7 @@ var render = function () {
     _vm._v(" "),
     _c("p", [
       _vm._v(
-        "I started writing software as a hobby and to solve problems at various jobs I've had over the years.  I've since turned this hobby into my career path and have never looked back.  I love what I do and always look to the future to learn as much as I can and develop my skill set."
+        "I started writing software as a hobby and to solve problems at various jobs I've had over the years. I've since turned this hobby into my career path and have never looked back. I love what I do and always look to the future to learn as much as I can and develop my skill set."
       ),
     ]),
     _vm._v(" "),
@@ -32240,7 +32273,7 @@ var render = function () {
     _vm._v(" "),
     _c("p", [
       _vm._v(
-        "Suffice it to say, I never thrived a classroom learning environment.  In fact I struggled for a very long time before discovering my learning style.  Once I learned how I learn, I became obsessed with learning as much as I could about everything I was interested in.  Ranging from photography to audio engineering to programming.  I am a huge fan of Udemy courses, Laracasts, LinkedIn Learning (formerly Lynda.com), FrontEnd Masters, Masterclass, etc."
+        "Suffice it to say, I never thrived a classroom learning environment. In fact I struggled for a very long time before discovering my learning style. Once I learned how I learn, I became obsessed with learning as much as I could about everything I was interested in. Ranging from photography to audio engineering to programming. I am a huge fan of Udemy courses, Laracasts, LinkedIn Learning (formerly Lynda.com), FrontEnd Masters, Masterclass, etc."
       ),
     ]),
     _vm._v(" "),
@@ -32248,7 +32281,7 @@ var render = function () {
     _vm._v(" "),
     _c("p", [
       _vm._v(
-        "\n            I love movies.  Obviously, I'm a huge fan of anything tech-related...  The Social Network, Hackers, The Net, Silicon Valley, Mr. Robot, etc.  Just like my music tastes, I find enjoyment in just about every genre of film.  I'm a big fan of acting, actors, film making, Hollywood, etc. and there's just nothing better than unwinding to a good movie or binge-watching a series sometimes.\n        "
+        "I love movies. Obviously, I'm a huge fan of anything tech-related... The Social Network, Hackers, The Net, Silicon Valley, Mr. Robot, etc. Just like my music tastes, I find enjoyment in just about every genre of film. I'm a big fan of acting, actors, film making, Hollywood, etc. and there's just nothing better than unwinding to a good movie or binge-watching a series sometimes."
       ),
     ]),
     _vm._v(" "),
@@ -32268,11 +32301,12 @@ var render = function () {
     _vm._v(" "),
     _c("p", [
       _vm._v(
-        "I use Spotify for music streaming, and primarily listen to EDM, pop, metal and rap and country and classical and hipster music...  basically everything. If you want to get a feel for what I might be listening to on any given workday, check out these playlists:"
+        "I use Spotify for music streaming, and primarily listen to EDM, pop, metal and rap and country and classical and hipster music... basically everything. If you want to get a feel for what I might be listening to on any given workday, check out these playlists:"
       ),
     ]),
     _vm._v(" "),
     _c("br"),
+    _vm._v(" "),
     _c(
       "a",
       {
@@ -32283,9 +32317,11 @@ var render = function () {
       },
       [_vm._v("Drinks By The Pool")]
     ),
+    _vm._v(" "),
     _c("br"),
     _vm._v(" "),
     _c("br"),
+    _vm._v(" "),
     _c(
       "a",
       {
@@ -32296,6 +32332,7 @@ var render = function () {
       },
       [_vm._v("Q101")]
     ),
+    _vm._v(" "),
     _c("br"),
     _vm._v(" "),
     _c("br"),
@@ -32310,7 +32347,7 @@ var render = function () {
       ),
     ]),
     _vm._v(" "),
-    _c("div", { attrs: { className: "center" } }, [
+    _c("div", { staticClass: "center" }, [
       _c("picture", [
         _c("source", { attrs: { type: "image/webp", srcset: _vm.bike1_webp } }),
         _vm._v(" "),
@@ -32327,7 +32364,7 @@ var render = function () {
       _vm._v("My second motorcycle was a 2013 Triumph Speed Triple R 1050cc."),
     ]),
     _vm._v(" "),
-    _c("div", { attrs: { className: "center" } }, [
+    _c("div", { staticClass: "center" }, [
       _c("picture", [
         _c("source", { attrs: { type: "image/webp", srcset: _vm.bike2_webp } }),
         _vm._v(" "),
@@ -32342,7 +32379,7 @@ var render = function () {
     _vm._v(" "),
     _c("p", [_vm._v("My third motorcycle was a 2015 Triumph America 899cc.")]),
     _vm._v(" "),
-    _c("div", { attrs: { className: "center" } }, [
+    _c("div", { staticClass: "center" }, [
       _c("picture", [
         _c("source", { attrs: { type: "image/webp", srcset: _vm.bike3_webp } }),
         _vm._v(" "),
@@ -32357,7 +32394,7 @@ var render = function () {
     _vm._v(" "),
     _c("p", [
       _vm._v(
-        "I currently own a Trek Shift 3 bicycle which I use to communte to work on as often as I can."
+        "I currently own a Trek Shift 3 bicycle which I use to commute to work on as often as I can."
       ),
     ]),
     _vm._v(" "),
@@ -32371,13 +32408,13 @@ var render = function () {
     _vm._v(" "),
     _c("h2", [_vm._v("Eating")]),
     _vm._v(" "),
-    _c("p", [_vm._v("I love food.  A little too much.")]),
+    _c("p", [_vm._v("I love food. A little too much.")]),
     _vm._v(" "),
     _c("h2", [_vm._v("Improving Processes")]),
     _vm._v(" "),
     _c("p", [
       _vm._v(
-        "I love organization.  There is nothing more satisfying than creating lists and checking things off.  I very much enjoy doing email organization consulting and helping others figure out how to sift through fifty thousand emails and filter and label them and clear out the white noise.  Reducing stress and gaining clarity through automation is likely why I enjoy software engineering as much as I do."
+        "I love organization. There is nothing more satisfying than creating lists and checking things off. I very much enjoy doing email organization consulting and helping others figure out how to sift through fifty thousand emails and filter and label them and clear out the white noise. Reducing stress and gaining clarity through automation is likely why I enjoy software engineering as much as I do."
       ),
     ]),
   ])
@@ -32389,7 +32426,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("p", [
       _vm._v(
-        "I started learning to play guitar when I was 13 years old after my parents bought me a red Fender Squier Stratocaster with a white pickguard and a 20 watt Gorilla amplifier for Christmas.  In my early 20s I worked as a department manager for Sam Ash Music and later Guitar Center.  I've also had the privilege of playing guitar for an amazing band in Chicago called "
+        "\n        I started learning to play guitar when I was 13 years old after my parents bought me a red Fender Squier Stratocaster with a white pickguard and a 20 watt Gorilla amplifier for Christmas. In my early 20s I worked as a department manager for Sam Ash Music and later Guitar Center. I've also had the privilege of playing guitar for an amazing band in Chicago called\n        "
       ),
       _c(
         "a",
@@ -32401,7 +32438,7 @@ var staticRenderFns = [
         },
         [_vm._v("The Circle View")]
       ),
-      _vm._v(" (formerly Satellite Hero)."),
+      _vm._v(" (formerly Satellite Hero).\n    "),
     ])
   },
   function () {
@@ -32410,7 +32447,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("p", [
       _vm._v(
-        "Below is a video of me covering A Favor House Atlantic by Coheed & Cambria.  I have some more guitar cover videos up on my "
+        "\n        Below is a video of me covering A Favor House Atlantic by Coheed & Cambria. I have some more guitar cover videos up on my\n        "
       ),
       _c(
         "a",
@@ -32422,7 +32459,7 @@ var staticRenderFns = [
         },
         [_vm._v("YouTube Channel")]
       ),
-      _vm._v("."),
+      _vm._v(".\n    "),
     ])
   },
   function () {
@@ -33104,7 +33141,7 @@ var render = function () {
     _c("div", { staticClass: "center limit-width" }, [
       _c(
         "div",
-        { staticClass: " text-center" },
+        { staticClass: "text-center" },
         [
           _c(
             "v-btn",
@@ -33117,14 +33154,16 @@ var render = function () {
                 target: "blank",
               },
             },
-            [_vm._v("\n                Download My Resume\n            ")]
+            [_vm._v("Download My Resume")]
           ),
         ],
         1
       ),
       _vm._v(" "),
       _c("br"),
+      _vm._v(" "),
       _c("br"),
+      _vm._v(" "),
       _c("br"),
       _vm._v(" "),
       _c("h1", [_vm._v("Skills (Measured By Proficiency)")]),
@@ -33141,7 +33180,7 @@ var render = function () {
       _vm._v(" "),
       _c("p", [
         _vm._v(
-          "\n            I have been building Wordpress sites for a very long time.  Over the past several years I have built almost exclusively Divi framework Wordpress sites as they are easy to create and maintain, don't lock you into using a set theme and really give you the power and flexibility to create what you want very fast.\n        "
+          "I have been building Wordpress sites for a very long time. Over the past several years I have built almost exclusively Divi framework Wordpress sites as they are easy to create and maintain, don't lock you into using a set theme and really give you the power and flexibility to create what you want very fast."
         ),
       ]),
       _vm._v(" "),
@@ -33150,9 +33189,7 @@ var render = function () {
       _vm._m(3),
       _vm._v(" "),
       _c("p", [
-        _vm._v(
-          "\n            Currently my go-to frontend framework.  I'm a huge fan of Vue.\n        "
-        ),
+        _vm._v("Currently my go-to frontend framework. I'm a huge fan of Vue."),
       ]),
       _vm._v(" "),
       _c("h2", [_vm._v("MySQL / SQLite")]),
@@ -33161,7 +33198,7 @@ var render = function () {
       _vm._v(" "),
       _c("p", [
         _vm._v(
-          "\n            I've used MySQL almost exclusively for creating databases in the apps that I've built.  I have a general understanding of indexing and creating performant queries.  Though, working in Laravel, I mostly use Eloquent ORM these days.\n        "
+          "I've used MySQL almost exclusively for creating databases in the apps that I've built. I have a general understanding of indexing and creating performant queries. Though, working in Laravel, I mostly use Eloquent ORM these days."
         ),
       ]),
       _vm._v(" "),
@@ -33171,7 +33208,7 @@ var render = function () {
       _vm._v(" "),
       _c("p", [
         _vm._v(
-          "\n            I actually learned jQuery in much more depth before I started learning JavaScript.  I would say jQuery is one of my strongest skills.\n        "
+          "I actually learned jQuery in much more depth before I started learning JavaScript. I would say jQuery is one of my strongest skills."
         ),
       ]),
       _vm._v(" "),
@@ -33181,7 +33218,7 @@ var render = function () {
       _vm._v(" "),
       _c("p", [
         _vm._v(
-          "\n            I have a solid understanding of writing semantic HTML and creating document foundations that are accessible and make heirarchical sense.\n        "
+          "I have a solid understanding of writing semantic HTML and creating document foundations that are accessible and make heirarchical sense."
         ),
       ]),
       _vm._v(" "),
@@ -33191,7 +33228,7 @@ var render = function () {
       _vm._v(" "),
       _c("p", [
         _vm._v(
-          "\n            I have a very strong understanding of CSS3, including implementing complex grid and flex layouts.  I am very familiar with solving specificity issues.  I typically write in BEM style.  I am also very good at leveraging SCSS to organize larger projects into utility imports and breaking things into ITCSS target layers.\n        "
+          "I have a very strong understanding of CSS3, including implementing complex grid and flex layouts. I am very familiar with solving specificity issues. I typically write in BEM style. I am also very good at leveraging SCSS to organize larger projects into utility imports and breaking things into ITCSS target layers."
         ),
       ]),
       _vm._v(" "),
@@ -33201,7 +33238,7 @@ var render = function () {
       _vm._v(" "),
       _c("p", [
         _vm._v(
-          "\n            Fairly strong with JavaScript.  There is certainly a lot to know and I sometimes struggle with exactly what to reach for but am very good at figuring out how to solve puzzles and make cool things that work.\n        "
+          "Fairly strong with JavaScript. There is certainly a lot to know and I sometimes struggle with exactly what to reach for but am very good at figuring out how to solve puzzles and make cool things that work."
         ),
       ]),
       _vm._v(" "),
@@ -33211,7 +33248,7 @@ var render = function () {
       _vm._v(" "),
       _c("p", [
         _vm._v(
-          "\n            I've built several vanilla PHP applications over the last 8 years or so.\n        "
+          "I've built several vanilla PHP applications over the last 8 years or so."
         ),
       ]),
       _vm._v(" "),
@@ -33221,16 +33258,16 @@ var render = function () {
       _vm._v(" "),
       _c("p", [
         _vm._v(
-          "\n            I know a bit of Python, Node.js and React.js but not worth mentioning as they aren't my core stacks these days.  I may get into Node more as time goes on.\n        "
+          "I know a bit of Python, Node.js and React.js but not worth mentioning as they aren't my core stacks these days. I may get into Node more as time goes on."
         ),
       ]),
     ]),
     _vm._v(" "),
     _c("br"),
-    _c("br"),
+    _vm._v(" "),
     _c("br"),
     _vm._v(" "),
-    _c("h1", [_vm._v("Programming-Related Online Certification Courses")]),
+    _c("br"),
     _vm._v(" "),
     _c("div", { staticClass: "gridid" }, [
       _c("picture", [
@@ -33461,15 +33498,7 @@ var render = function () {
           attrs: { src: _vm.cert19_png, alt: "Web Form Design Best Practices" },
         }),
       ]),
-    ]),
-    _vm._v(" "),
-    _c("br"),
-    _c("br"),
-    _c("br"),
-    _vm._v(" "),
-    _c("h1", [_vm._v("Other Online Certification Courses")]),
-    _vm._v(" "),
-    _c("div", { staticClass: "gridid" }, [
+      _vm._v(" "),
       _c("picture", [
         _c("source", {
           attrs: { type: "image/webp", srcset: _vm.cert20_webp },
@@ -33540,7 +33569,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("p", [
       _vm._v(
-        "\n            I have been learning Laravel since version 4 and have been working with it professionally since mid 2019.  I am on the "
+        "\n            I have been learning Laravel since version 4 and have been working with it professionally since mid 2019. I am on the\n            "
       ),
       _c(
         "a",
@@ -33738,13 +33767,13 @@ var staticRenderFns = [
           [_vm._v('2020 13" M1 MacBook Air')]
         ),
         _vm._v(
-          "\n        - M1 chip with 8‑core CPU, 7‑core GPU, and 16‑core Neural Engine, 16GB Unified Memory, 256GB SSD, Retina display with True Tone and Touch ID.\n    "
+          "\n        - M1 chip with 8-core CPU, 7-core GPU, and 16-core Neural Engine, 16GB Unified Memory, 256GB SSD, Retina display with True Tone and Touch ID.\n    "
         ),
       ]),
       _vm._v(" "),
       _c("p", { staticClass: "mt-3" }, [
         _vm._v(
-          "\n        Recently decided to pick up the M1 laptop and then quickly sold my 2018 specked-out Macbook Pro.  Have had zero regret in doing this.  The M1 Macbook Air is super fast and runs everything I need with no issues.  Only limitations so far are not being able to run VirtualBox and Android Studio, neither of which I reach for very often, so not a huge problem.\n    "
+          "The M1 Macbook Air is super fast and runs everything I need with no issues."
         ),
       ]),
       _vm._v(" "),
@@ -33769,7 +33798,7 @@ var staticRenderFns = [
               },
               attrs: {
                 src: "/img/jpg/m1air.jpg",
-                alt: 'mid-2018 15" Macbook Pro with Retina Display and Touchbar',
+                alt: "mid-2018 15-inch Macbook Pro with Retina Display and Touchbar",
               },
             }),
           ]),
@@ -33797,7 +33826,7 @@ var staticRenderFns = [
               },
               attrs: {
                 src: "/img/png/mac-specs.png",
-                alt: 'My 15" Macbook Pro Specs',
+                alt: "My 15-inch Macbook Pro Specs",
               },
             }),
           ]),
@@ -33808,7 +33837,7 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("p", [
         _vm._v(
-          "I use the Logitech MX Keys Advanced Wireless Keyboard for Mac and the Logitech MX Vertical Wireless Mouse.  I was using the MX advanced wireless mouse for switching between machines easily, but due to a nerve injury on my right side I've had to switch to using the vertical mouse for pain management.  I like it a lot, just wish it had the automatic machine-switching capability the MX advanced offers."
+          "I use the Logitech MX Keys Advanced Wireless Keyboard for Mac and the Logitech MX Vertical Wireless Mouse. I was using the MX advanced wireless mouse for switching between machines easily, but due to a nerve injury on my right side I've had to switch to using the vertical mouse for pain management. I like it a lot, just wish it had the automatic machine-switching capability the MX advanced offers."
         ),
       ]),
       _vm._v(" "),
@@ -33826,7 +33855,7 @@ var staticRenderFns = [
           [_vm._v("Asus VA325H 31.5-Inch LED Monitor")]
         ),
         _vm._v(
-          " which I bought refurbished on Amazon for under $200.  High resolution, not the best color reproduction but good for coding and watching videos.  The monitor stand I use is from Autonomous as well."
+          " which I bought refurbished on Amazon for under $200. High resolution, not the best color reproduction but good for coding and watching videos. The monitor stand I use is from Autonomous as well.\n    "
         ),
       ]),
       _vm._v(" "),
@@ -33854,7 +33883,7 @@ var staticRenderFns = [
       _c("h2", [_vm._v("Speakers")]),
       _vm._v(" "),
       _c("p", [
-        _vm._v("I have a pair of "),
+        _vm._v("\n        I have a pair of\n        "),
         _c(
           "a",
           {
@@ -33865,7 +33894,7 @@ var staticRenderFns = [
           },
           [_vm._v("Mackie MR824 Studio Monitors")]
         ),
-        _vm._v(" and a "),
+        _vm._v(" and a\n        "),
         _c(
           "a",
           {
@@ -33877,7 +33906,7 @@ var staticRenderFns = [
           [_vm._v("Mackie MRS10 Powered Studio Subwoofer")]
         ),
         _vm._v(
-          ".  I tested tons of studio montor speakers at Guitar Center and landed on these because the low mid and treb frequencies really stood out on the Mackie's to me.  They have a bit of color to the sound but they are very clear and punchy."
+          ". I tested tons of studio montor speakers at Guitar Center and landed on these because the low mid and treb frequencies really stood out on the Mackie's to me. They have a bit of color to the sound but they are very clear and punchy.\n    "
         ),
       ]),
       _vm._v(" "),
@@ -33905,7 +33934,9 @@ var staticRenderFns = [
       _c("h2", [_vm._v("Audio Interface")]),
       _vm._v(" "),
       _c("p", [
-        _vm._v("I run the Mackie studio monitors and sub off of my "),
+        _vm._v(
+          "\n        I run the Mackie studio monitors and sub off of my\n        "
+        ),
         _c(
           "a",
           {
@@ -33916,7 +33947,7 @@ var staticRenderFns = [
           },
           [_vm._v("Scarlett Focusrite 2i4 Audio Interface")]
         ),
-        _vm._v("."),
+        _vm._v(".\n    "),
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "text-center" }, [
@@ -33987,7 +34018,7 @@ var staticRenderFns = [
           ]
         ),
         _vm._v(
-          " from Autonomous.  Extremely sturdy.  I love that this desk sits at the exact heights I prefer for sitting and standing and it looks beautiful."
+          " from Autonomous. Extremely sturdy. I love that this desk sits at the exact heights I prefer for sitting and standing and it looks beautiful.\n    "
         ),
       ]),
       _vm._v(" "),
@@ -34015,7 +34046,7 @@ var staticRenderFns = [
       _c("h2", [_vm._v("Chair")]),
       _vm._v(" "),
       _c("p", [
-        _vm._v("I use an "),
+        _vm._v("\n        I use an\n        "),
         _c(
           "a",
           {
@@ -34027,7 +34058,7 @@ var staticRenderFns = [
           [_vm._v("Ergo Chair 2 in Evergreen")]
         ),
         _vm._v(
-          ", also from Autonomous.  Sturdy, comfy, ergonomic, doesn't squeak.  I actually sold my Herman Miller Embody chair for this and I have zero regrets."
+          ", also from Autonomous. Sturdy, comfy, ergonomic, doesn't squeak. I actually sold my Herman Miller Embody chair for this and I have zero regrets.\n    "
         ),
       ]),
       _vm._v(" "),
@@ -34065,7 +34096,7 @@ var staticRenderFns = [
           },
           [_vm._v("Brother HL-L2370DW Wireless Black-and-White Laser Printer")]
         ),
-        _vm._v(".  Simple.  Prints stuff."),
+        _vm._v(". Simple. Prints stuff.\n    "),
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "text-center" }, [
@@ -34093,7 +34124,7 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("p", [
         _vm._v(
-          "I recently picked up the M1 MacBook Air and decided not to splurge on the 2TB internal drive this time around.  For fast storage of my daily used files I picked up the super fast "
+          "\n        I recently picked up the M1 MacBook Air and decided not to splurge on the 2TB internal drive this time around. For fast storage of my daily used files I picked up the super fast\n        "
         ),
         _c(
           "a",
@@ -34105,7 +34136,7 @@ var staticRenderFns = [
           },
           [_vm._v("SanDisk 2TB Extreme Portable SSD")]
         ),
-        _vm._v("."),
+        _vm._v(".\n    "),
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "text-center" }, [
@@ -34161,14 +34192,14 @@ var staticRenderFns = [
       _c("h2", [_vm._v("Headphones")]),
       _vm._v(" "),
       _c("p", [
-        _vm._v("I bought a set of "),
+        _vm._v("\n        I bought a set of\n        "),
         _c(
           "a",
           { attrs: { href: "https://www.nuraphone.com/", target: "blank" } },
           [_vm._v("Nuraphones")]
         ),
         _vm._v(
-          " and OMG!  These things are RIDICULOUSLY AMAZING!  The bass isn't even deep, it is PROFOUND!  They are so clear.  It's like sitting the perfect distance from an array of blasted high-end studio monitors at a professional studio everytime I put them on."
+          " and OMG! These things are RIDICULOUSLY AMAZING! The bass isn't even deep, it is PROFOUND! They are so clear. It's like sitting the perfect distance from an array of blasted high-end studio monitors at a professional studio everytime I put them on.\n    "
         ),
       ]),
       _vm._v(" "),
@@ -34193,7 +34224,7 @@ var staticRenderFns = [
       _c("h2", [_vm._v("Earbuds")]),
       _vm._v(" "),
       _c("p", [
-        _vm._v("I use the bluetooth (wireless) "),
+        _vm._v("\n        I use the bluetooth (wireless)\n        "),
         _c(
           "a",
           {
@@ -34205,7 +34236,7 @@ var staticRenderFns = [
           [_vm._v("Samsung Galaxy Buds+ Plus (Red)")]
         ),
         _vm._v(
-          ".  These are super tiny, the charge lasts forever...  especially with the charging case they come in...  the sound quality is great."
+          ". These are super tiny, the charge lasts forever... especially with the charging case they come in... the sound quality is great.\n    "
         ),
       ]),
       _vm._v(" "),
@@ -34327,7 +34358,7 @@ var staticRenderFns = [
       _c("h2", [_vm._v("Code Editor")]),
       _vm._v(" "),
       _c("p", [
-        _vm._v("These days I am rocking "),
+        _vm._v("\n        These days I am rocking\n        "),
         _c(
           "a",
           {
@@ -34336,12 +34367,13 @@ var staticRenderFns = [
           [_vm._v("VS Code (Visual Studio Code)")]
         ),
         _vm._v(
-          ".  Everyone else switched to it, so I hopped on the bandwagon.  ¯\\_(ツ)_/¯"
+          ". Everyone else switched to it, so I hopped on the bandwagon. ¯\\_(ツ)_/¯\n        "
         ),
         _c("br"),
+        _vm._v(" "),
         _c("br"),
         _vm._v(
-          "I used to be a big Sublime Text user for many years, wound up switching to Atom for a bit, now I'm all about that VS Code life."
+          "I used to be a big Sublime Text user for many years, wound up switching to Atom for a bit, now I'm all about that VS Code life.\n    "
         ),
       ]),
       _vm._v(" "),
@@ -34361,21 +34393,21 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("p", { staticStyle: { "margin-top": "20px" } }, [
         _c("strong", { staticClass: "monokai-green" }, [
-          _vm._v("Setup"),
+          _vm._v("\n            Setup\n            "),
           _c("span", { staticStyle: { color: "#8B888F" } }, [_vm._v("()")]),
         ]),
       ]),
       _vm._v(" "),
       _c("ul", [
         _c("li", [
-          _vm._v("-> Monokai Pro "),
+          _vm._v("\n            -> Monokai Pro\n            "),
           _c("span", { staticClass: "little" }, [
             _vm._v("(Filter Spectrum) Theme"),
           ]),
         ]),
         _vm._v(" "),
         _c("li", [
-          _vm._v("-> "),
+          _vm._v("\n            ->\n            "),
           _c(
             "a",
             {
@@ -34395,7 +34427,7 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("p", { staticStyle: { "margin-top": "20px" } }, [
         _c("strong", { staticClass: "monokai-green" }, [
-          _vm._v("VS Code Extensions"),
+          _vm._v("\n            VS Code Extensions\n            "),
           _c("span", { staticStyle: { color: "#8B888F" } }, [_vm._v("()")]),
         ]),
       ]),
@@ -34791,29 +34823,6 @@ var staticRenderFns = [
           _c("source", {
             attrs: {
               type: "image/webp",
-              srcset: "/img/webp/vsc-extensions/native-script.webp",
-            },
-          }),
-          _vm._v(" "),
-          _c("img", {
-            staticStyle: { width: "37px", height: "auto" },
-            attrs: {
-              src: "/img/png/vsc-extensions/native-script.png",
-              alt: "NativeScript",
-            },
-          }),
-        ]),
-        _vm._v(" "),
-        _c("span", { staticStyle: { "margin-left": "50px" } }, [
-          _vm._v("NativeScript"),
-        ]),
-      ]),
-      _vm._v(" "),
-      _c("div", { staticStyle: { height: "45px" } }, [
-        _c("picture", { staticStyle: { position: "absolute" } }, [
-          _c("source", {
-            attrs: {
-              type: "image/webp",
               srcset: "/img/webp/vsc-extensions/php-cs-fixer.webp",
             },
           }),
@@ -35020,7 +35029,7 @@ var staticRenderFns = [
           _vm._v("iTerm2"),
         ]),
         _vm._v(
-          " is my terminal of choice.  I use OhMyZsh shell and I recently started using the Powerlevel10k config I found "
+          " is my terminal of choice. I use OhMyZsh shell and I recently started using the Powerlevel10k config I found\n        "
         ),
         _c(
           "a",
@@ -35033,7 +35042,7 @@ var staticRenderFns = [
           [_vm._v("here")]
         ),
         _vm._v(
-          ".  I used to run the Agnoster theme but I like the icons provided by the Powerline-FontAwesome font and the timestamps can be useful."
+          ". I used to run the Agnoster theme but I like the icons provided by the Powerline-FontAwesome font and the timestamps can be useful.\n    "
         ),
       ]),
       _vm._v(" "),
@@ -35055,28 +35064,21 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("p", { staticStyle: { "margin-top": "20px" } }, [
         _c("strong", { staticClass: "monokai-green" }, [
-          _vm._v("Coding"),
+          _vm._v("\n            Coding\n            "),
           _c("span", { staticStyle: { color: "#8B888F" } }, [_vm._v("()")]),
         ]),
       ]),
       _vm._v(" "),
       _c("ul", [
         _c("li", [
-          _vm._v("-> Android Studio - "),
+          _vm._v("\n            -> Color Note -\n            "),
           _c("span", { staticClass: "little" }, [
-            _vm._v("Perfect for emulating android phones for testing."),
+            _vm._v("Color picker tool. Replaced Sip with this a while back."),
           ]),
         ]),
         _vm._v(" "),
         _c("li", [
-          _vm._v("-> Color Note - "),
-          _c("span", { staticClass: "little" }, [
-            _vm._v("Color picker tool.  Replaced Sip with this a while back."),
-          ]),
-        ]),
-        _vm._v(" "),
-        _c("li", [
-          _vm._v("-> FileZilla - "),
+          _vm._v("\n            -> FileZilla -\n            "),
           _c("span", { staticClass: "little" }, [
             _vm._v(
               "For those times I need to secure FTP and am too lazy to commmand line it."
@@ -35085,21 +35087,21 @@ var staticRenderFns = [
         ]),
         _vm._v(" "),
         _c("li", [
-          _vm._v("-> ImageOptim - "),
+          _vm._v("\n            -> ImageOptim -\n            "),
           _c("span", { staticClass: "little" }, [
             _vm._v("For crushing images before using them on the web."),
           ]),
         ]),
         _vm._v(" "),
         _c("li", [
-          _vm._v("-> Laravel Valet - "),
+          _vm._v("\n            -> Laravel Valet -\n            "),
           _c("span", { staticClass: "little" }, [
             _vm._v("Best way to serve sites locally imho."),
           ]),
         ]),
         _vm._v(" "),
         _c("li", [
-          _vm._v("-> TablePlus - "),
+          _vm._v("\n            -> TablePlus -\n            "),
           _c("span", { staticClass: "little" }, [
             _vm._v(
               "After using SequelPro for years, I've switched to a more supported and less-crashy tool for database management."
@@ -35108,26 +35110,17 @@ var staticRenderFns = [
         ]),
         _vm._v(" "),
         _c("li", [
-          _vm._v("-> VirtualBox - "),
-          _c("span", { staticClass: "little" }, [
-            _vm._v(
-              "Use this for testing in Windows (with the Modern IE installs) and messing with Linux distributions."
-            ),
-          ]),
-        ]),
-        _vm._v(" "),
-        _c("li", [
-          _vm._v("-> Wave Plugin - "),
+          _vm._v("\n            -> Wave Plugin -\n            "),
           _c("span", { staticClass: "little" }, [
             _vm._v("For making sure websites are accessible."),
           ]),
         ]),
         _vm._v(" "),
         _c("li", [
-          _vm._v("-> Xcode - "),
+          _vm._v("\n            -> Xcode -\n            "),
           _c("span", { staticClass: "little" }, [
             _vm._v(
-              "Mac developer utility.  Good for simulating iPhones and iPads.  Filemerge is also useful for comparing file changes."
+              "Mac developer utility. Good for simulating iPhones and iPads. Filemerge is also useful for comparing file changes."
             ),
           ]),
         ]),
@@ -35135,21 +35128,21 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("p", { staticStyle: { "margin-top": "20px" } }, [
         _c("strong", { staticClass: "monokai-green" }, [
-          _vm._v("Audio Production"),
+          _vm._v("\n            Audio Production\n            "),
           _c("span", { staticStyle: { color: "#8B888F" } }, [_vm._v("()")]),
         ]),
       ]),
       _vm._v(" "),
       _c("ul", [
         _c("li", [
-          _vm._v("-> Line 6 Helix Native - "),
+          _vm._v("\n            -> Line 6 Helix Native -\n            "),
           _c("span", { staticClass: "little" }, [
             _vm._v("Everything for guitar sound in one VST plugin!"),
           ]),
         ]),
         _vm._v(" "),
         _c("li", [
-          _vm._v("-> Presonus Studio One Pro - "),
+          _vm._v("\n            -> Presonus Studio One Pro -\n            "),
           _c("span", { staticClass: "little" }, [
             _vm._v("My DAW (Digital Audio Workstation)."),
           ]),
@@ -35158,21 +35151,21 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("p", { staticStyle: { "margin-top": "20px" } }, [
         _c("strong", { staticClass: "monokai-green" }, [
-          _vm._v("Utilities"),
+          _vm._v("\n            Utilities\n            "),
           _c("span", { staticStyle: { color: "#8B888F" } }, [_vm._v("()")]),
         ]),
       ]),
       _vm._v(" "),
       _c("ul", [
         _c("li", [
-          _vm._v("-> Backblaze - "),
+          _vm._v("\n            -> Backblaze -\n            "),
           _c("span", { staticClass: "little" }, [
             _vm._v("Cloud backup utility."),
           ]),
         ]),
         _vm._v(" "),
         _c("li", [
-          _vm._v("-> Homebrew - "),
+          _vm._v("\n            -> Homebrew -\n            "),
           _c("span", { staticClass: "little" }, [
             _vm._v(
               "Amazing package manager for using command line and scripts to install apps on Mac (or Linux)."
@@ -35181,40 +35174,40 @@ var staticRenderFns = [
         ]),
         _vm._v(" "),
         _c("li", [
-          _vm._v("-> Magnet - "),
+          _vm._v("\n            -> Magnet -\n            "),
           _c("span", { staticClass: "little" }, [
             _vm._v("Window positioning app."),
           ]),
         ]),
         _vm._v(" "),
         _c("li", [
-          _vm._v("-> Remembear - "),
+          _vm._v("\n            -> Remembear -\n            "),
           _c("span", { staticClass: "little" }, [_vm._v("Password Manager.")]),
         ]),
         _vm._v(" "),
         _c("li", [
-          _vm._v("-> Rocket - "),
+          _vm._v("\n            -> Rocket -\n            "),
           _c("span", { staticClass: "little" }, [
             _vm._v("Text shortcuts to create emojis while typing."),
           ]),
         ]),
         _vm._v(" "),
         _c("li", [
-          _vm._v("-> TunnelBear - "),
+          _vm._v("\n            -> TunnelBear -\n            "),
           _c("span", { staticClass: "little" }, [_vm._v("VPN.")]),
         ]),
       ]),
       _vm._v(" "),
       _c("p", { staticStyle: { "margin-top": "20px" } }, [
         _c("strong", { staticClass: "monokai-green" }, [
-          _vm._v("Communication"),
+          _vm._v("\n            Communication\n            "),
           _c("span", { staticStyle: { color: "#8B888F" } }, [_vm._v("()")]),
         ]),
       ]),
       _vm._v(" "),
       _c("ul", [
         _c("li", [
-          _vm._v("-> Gmail - "),
+          _vm._v("\n            -> Gmail -\n            "),
           _c("span", { staticClass: "little" }, [
             _vm._v(
               "I manage multiple accounts from a single inbox and it's great."
@@ -35223,7 +35216,7 @@ var staticRenderFns = [
         ]),
         _vm._v(" "),
         _c("li", [
-          _vm._v("-> Slack - "),
+          _vm._v("\n            -> Slack -\n            "),
           _c("span", { staticClass: "little" }, [
             _vm._v("What did we do before this existed, honestly?"),
           ]),
@@ -35232,44 +35225,46 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("p", { staticStyle: { "margin-top": "20px" } }, [
         _c("strong", { staticClass: "monokai-green" }, [
-          _vm._v("Audio / Video / Photo"),
+          _vm._v("\n            Audio / Video / Photo\n            "),
           _c("span", { staticStyle: { color: "#8B888F" } }, [_vm._v("()")]),
         ]),
       ]),
       _vm._v(" "),
       _c("ul", [
         _c("li", [
-          _vm._v("-> Adapter - "),
+          _vm._v("\n            -> Adapter -\n            "),
           _c("span", { staticClass: "little" }, [
             _vm._v("Video / Audio conversion utility."),
           ]),
         ]),
         _vm._v(" "),
         _c("li", [
-          _vm._v("-> Adobe Photoshop / Lightroom - "),
+          _vm._v(
+            "\n            -> Adobe Photoshop / Lightroom -\n            "
+          ),
           _c("span", { staticClass: "little" }, [
             _vm._v("Graphic and photo editing."),
           ]),
         ]),
         _vm._v(" "),
         _c("li", [
-          _vm._v("-> Affinity Photo - "),
+          _vm._v("\n            -> Affinity Photo -\n            "),
           _c("span", { staticClass: "little" }, [
             _vm._v("Starting to like/use this more than Photoshop."),
           ]),
         ]),
         _vm._v(" "),
         _c("li", [
-          _vm._v("-> MPV - "),
+          _vm._v("\n            -> MPV -\n            "),
           _c("span", { staticClass: "little" }, [
             _vm._v(
-              "My preferred video player these days.  Though I mostly use streaming services now."
+              "My preferred video player these days. Though I mostly use streaming services now."
             ),
           ]),
         ]),
         _vm._v(" "),
         _c("li", [
-          _vm._v("-> Plex Media Server - "),
+          _vm._v("\n            -> Plex Media Server -\n            "),
           _c("span", { staticClass: "little" }, [
             _vm._v(
               "I use Plex to serve saved mp4 movies/videos to my Apple TV."
@@ -35278,61 +35273,61 @@ var staticRenderFns = [
         ]),
         _vm._v(" "),
         _c("li", [
-          _vm._v("-> Skitch - "),
+          _vm._v("\n            -> Skitch -\n            "),
           _c("span", { staticClass: "little" }, [
             _vm._v("Screenshot tool from the creators of Evernote."),
           ]),
         ]),
         _vm._v(" "),
         _c("li", [
-          _vm._v("-> Spotify - "),
+          _vm._v("\n            -> Spotify -\n            "),
           _c("span", { staticClass: "little" }, [_vm._v("For music.")]),
         ]),
       ]),
       _vm._v(" "),
       _c("p", { staticStyle: { "margin-top": "20px" } }, [
         _c("strong", { staticClass: "monokai-green" }, [
-          _vm._v("Productivity"),
+          _vm._v("\n            Productivity\n            "),
           _c("span", { staticStyle: { color: "#8B888F" } }, [_vm._v("()")]),
         ]),
       ]),
       _vm._v(" "),
       _c("ul", [
         _c("li", [
-          _vm._v("-> Big Day Countdown - "),
+          _vm._v("\n            -> Big Day Countdown -\n            "),
           _c("span", { staticClass: "little" }, [
             _vm._v("Large countdown reminders on my desktop."),
           ]),
         ]),
         _vm._v(" "),
         _c("li", [
-          _vm._v("-> Evernote - "),
+          _vm._v("\n            -> Evernote -\n            "),
           _c("span", { staticClass: "little" }, [_vm._v("For taking notes.")]),
         ]),
         _vm._v(" "),
         _c("li", [
-          _vm._v("-> Google Chrome - "),
+          _vm._v("\n            -> Google Chrome -\n            "),
           _c("span", { staticClass: "little" }, [
             _vm._v("My preferred browser for development and general use."),
           ]),
         ]),
         _vm._v(" "),
         _c("li", [
-          _vm._v("-> LibreOffice - "),
+          _vm._v("\n            -> LibreOffice -\n            "),
           _c("span", { staticClass: "little" }, [
             _vm._v("I prefer this to Microsoft Office."),
           ]),
         ]),
         _vm._v(" "),
         _c("li", [
-          _vm._v("-> MacDown - "),
+          _vm._v("\n            -> MacDown -\n            "),
           _c("span", { staticClass: "little" }, [
             _vm._v("Simple Markdown editor."),
           ]),
         ]),
         _vm._v(" "),
         _c("li", [
-          _vm._v("-> TickTick - "),
+          _vm._v("\n            -> TickTick -\n            "),
           _c("span", { staticClass: "little" }, [
             _vm._v("My preferred todo list app."),
           ]),
