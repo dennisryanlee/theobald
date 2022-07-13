@@ -19,7 +19,7 @@
         </p>
         <br />
         <p>
-            Below is a video of me covering A Favor House Atlantic by Coheed & Cambria. I have some more guitar cover videos up on my
+            Below is a video of me covering a couple songs by one of my old favorite Chicago bands From Zero. I have some more guitar cover videos up on my
             <a
                 href="https://www.youtube.com/channel/UCzRZf_LXBkxjOUTUrA6zZxA?view_as=subscriber"
                 target="blank"
@@ -28,10 +28,10 @@
         <br />
         <div class="embed-responsive embed-responsive-16by9">
             <iframe
-                title="A Favor House Atlantic"
-                src="https://www.youtube.com/embed/Xo5Zit-m8Pc"
+                title="From Zero Covers"
+                src="https://www.youtube.com/embed/NvvQyaGJdwU"
                 frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
             ></iframe>
         </div>
