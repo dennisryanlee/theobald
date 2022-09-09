@@ -13655,7 +13655,7 @@ var staticRenderFns = [function () {
       href: "https://www.apple.com/macbook-air/",
       target: "blank"
     }
-  }, [_vm._v('2020 13" M1 MacBook Air')]), _vm._v("\n        - M1 chip with 8-core CPU, 7-core GPU, and 16-core Neural Engine, 16GB Unified Memory, 256GB SSD, Retina display with True Tone and Touch ID.\n    ")]), _vm._v(" "), _c("p", {
+  }, [_vm._v('2020 13" M1 MacBook Air')]), _vm._v("\n        - M1 chip with 8-core CPU, 7-core GPU, and 16-core Neural Engine, 16GB Unified Memory, 256GB SSD, Retina\n        display with True Tone and Touch ID.\n    ")]), _vm._v(" "), _c("p", {
     staticClass: "mt-3"
   }, [_vm._v("The M1 Macbook Air is super fast and runs everything I need with no issues.")]), _vm._v(" "), _c("div", {
     staticClass: "text-center",
@@ -13701,12 +13701,58 @@ var staticRenderFns = [function () {
       src: "/img/png/mac-specs.png",
       alt: "My 15-inch Macbook Pro Specs"
     }
-  })])]), _vm._v(" "), _c("h2", [_vm._v("Keyboard & Mouse")]), _vm._v(" "), _c("p", [_vm._v("I use the Logitech MX Keys Advanced Wireless Keyboard for Mac and the Logitech MX Vertical Wireless Mouse. I was using the MX advanced wireless mouse for switching between machines easily, but due to a nerve injury on my right side I've had to switch to using the vertical mouse for pain management. I like it a lot, just wish it had the automatic machine-switching capability the MX advanced offers.")]), _vm._v(" "), _c("h2", [_vm._v("Monitor")]), _vm._v(" "), _c("p", [_c("a", {
+  })])]), _vm._v(" "), _c("h2", [_vm._v("Keyboard")]), _vm._v(" "), _c("p", [_c("a", {
+    attrs: {
+      href: "https://www.amazon.com/gp/product/B09LJWXD6M/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1",
+      target: "blank"
+    }
+  }, [_vm._v("Logitech MX Mechanical Mini Wireless Keyboard")]), _vm._v("\n        w/ Linear Red Switches. I prefer the quietness and low travel feel of the linear red switches. My biggest\n        complaint about this keyboard is that the keys feel very narrow to me - especially compared to the mac\n        keyboards. I'm considering picking up the Logitech MX Keys Mini to replace this if I can't get used to it.\n    ")]), _vm._v(" "), _c("div", {
+    staticClass: "text-center"
+  }, [_c("picture", [_c("source", {
+    attrs: {
+      type: "image/webp",
+      srcset: "/img/webp/mx-mini.webp"
+    }
+  }), _vm._v(" "), _c("img", {
+    staticClass: "rounded",
+    staticStyle: {
+      "max-width": "400px",
+      width: "100%",
+      height: "auto"
+    },
+    attrs: {
+      src: "/img/jpg/mx-mini.jpg",
+      alt: "Logitech MX Mechanical Mini Wireless Keyboard"
+    }
+  })])]), _vm._v(" "), _c("h2", [_vm._v("Mouse")]), _vm._v(" "), _c("p", [_c("a", {
+    attrs: {
+      href: "https://www.amazon.com/gp/product/B09J1TB35S/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1",
+      target: "blank"
+    }
+  }, [_vm._v("Logitech Lift Vertical Ergonomic Wireless Mouse")]), _vm._v(". The Flow system is so great for switching my keyboard nad mouse between machines. This mouse feels\n        perfect to me. I started having symptoms of a repetive stress injury in my mousing hand and have since\n        switched to a vertical mouse. Eventually the pain went away and now I'm sticking with this. Also, this\n        particular mouse takes a single AAA non-rechargable battery and it is extremely efficient with power. This\n        mouse has run on ONE single battery for over 5 month and still has 55% power!\n    ")]), _vm._v(" "), _c("div", {
+    staticClass: "text-center"
+  }, [_c("picture", [_c("source", {
+    attrs: {
+      type: "image/webp",
+      srcset: "/img/webp/lift.webp"
+    }
+  }), _vm._v(" "), _c("img", {
+    staticClass: "rounded",
+    staticStyle: {
+      "max-width": "400px",
+      width: "100%",
+      height: "auto"
+    },
+    attrs: {
+      src: "/img/jpg/lift.jpg",
+      alt: "Logitech Lift Vertical Ergonomic Wireless Mouse"
+    }
+  })])]), _vm._v(" "), _c("h2", [_vm._v("Monitor")]), _vm._v(" "), _c("p", [_c("a", {
     attrs: {
       href: "https://www.amazon.com/gp/product/B07GWDGVGT/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1",
       target: "blank"
     }
-  }, [_vm._v("Asus VA325H 31.5-Inch LED Monitor")]), _vm._v(" which I bought refurbished on Amazon for under $200. High resolution, not the best color reproduction but good for coding and watching videos. The monitor stand I use is from Autonomous as well.\n    ")]), _vm._v(" "), _c("div", {
+  }, [_vm._v("Asus VA325H 31.5-Inch LED Monitor")]), _vm._v("\n        which I bought refurbished on Amazon for under $200. High resolution, not the best color reproduction but\n        good for coding and watching videos. The monitor stand I use is from Autonomous as well.\n    ")]), _vm._v(" "), _c("div", {
     staticClass: "text-center"
   }, [_c("picture", [_c("source", {
     attrs: {
@@ -13724,17 +13770,22 @@ var staticRenderFns = [function () {
       src: "/img/jpg/monitor.jpg",
       alt: "Asus VA325H 31.5-Inch LED Monitor"
     }
-  })])]), _vm._v(" "), _c("h2", [_vm._v("Speakers")]), _vm._v(" "), _c("p", [_vm._v("\n        I have a pair of\n        "), _c("a", {
+  })])]), _vm._v(" "), _c("h2", [_vm._v("Speakers")]), _vm._v(" "), _c("p", [_vm._v("\n        I have a pair of the\n        "), _c("a", {
     attrs: {
-      href: "https://www.zzounds.com/item--MACMR824",
+      href: "https://www.sweetwater.com/store/detail/MR824--mackie-mr824-8-inch-powered-studio-monitor",
       target: "blank"
     }
-  }, [_vm._v("Mackie MR824 Studio Monitors")]), _vm._v(" and a\n        "), _c("a", {
+  }, [_vm._v("Mackie MR824 Studio Monitors")]), _vm._v("\n        as well as a pair of the\n        "), _c("a", {
     attrs: {
-      href: "https://www.zzounds.com/item--MACMRS10",
+      href: "https://www.sweetwater.com/store/detail/MR524--mackie-mr524-5-inch-powered-studio-monitor",
       target: "blank"
     }
-  }, [_vm._v("Mackie MRS10 Powered Studio Subwoofer")]), _vm._v(". I tested tons of studio montor speakers at Guitar Center and landed on these because the low mid and treb frequencies really stood out on the Mackie's to me. They have a bit of color to the sound but they are very clear and punchy.\n    ")]), _vm._v(" "), _c("div", {
+  }, [_vm._v("Mackie MR524 Studio Monitors")]), _vm._v("\n\n        and a\n        "), _c("a", {
+    attrs: {
+      href: "https://www.sweetwater.com/store/detail/MRS10--mackie-mrs-10-10-inch-powered-studio-subwoofer",
+      target: "blank"
+    }
+  }, [_vm._v("Mackie MRS10 Powered Studio Subwoofer")]), _vm._v(". I tested tons of studio montor speakers at Guitar Center and landed on these because the low mid and treb\n        frequencies really stood out on the Mackie's to me. They have a bit of color to the sound but they are very\n        clear and punchy. I added the MR524s to the mix as they add clarity to the upper mid range.\n    ")]), _vm._v(" "), _c("div", {
     staticClass: "text-center"
   }, [_c("picture", [_c("source", {
     attrs: {
@@ -13754,15 +13805,15 @@ var staticRenderFns = [function () {
     }
   })])]), _vm._v(" "), _c("h2", [_vm._v("Audio Interface")]), _vm._v(" "), _c("p", [_vm._v("\n        I run the Mackie studio monitors and sub off of my\n        "), _c("a", {
     attrs: {
-      href: "https://www.zzounds.com/item--FOCSCAR2I4V2",
+      href: "https://www.sweetwater.com/store/detail/UAC2--zoom-uac-2-usb-3.0-audio-interface",
       target: "blank"
     }
-  }, [_vm._v("Scarlett Focusrite 2i4 Audio Interface")]), _vm._v(".\n    ")]), _vm._v(" "), _c("div", {
+  }, [_vm._v("Zoom UAC-2 Audio Interface")]), _vm._v(".\n    ")]), _vm._v(" "), _c("div", {
     staticClass: "text-center"
   }, [_c("picture", [_c("source", {
     attrs: {
       type: "image/webp",
-      srcset: "/img/webp/interface.webp"
+      srcset: "/img/webp/zoom.webp"
     }
   }), _vm._v(" "), _c("img", {
     staticClass: "rounded",
@@ -13772,10 +13823,15 @@ var staticRenderFns = [function () {
       height: "auto"
     },
     attrs: {
-      src: "/img/jpg/interface.jpg",
-      alt: "Scarlett Focusrite 2i4 Audio Interface"
+      src: "/img/jpg/zoom.jpg",
+      alt: "Zoom UAC-2 Audio Interface"
     }
-  })])]), _vm._v(" "), _c("h2", [_vm._v("Microphone")]), _vm._v(" "), _c("p", [_vm._v("I use an Audio Technica AT-2020 studio condenser microphone with a telescopic boom stand, shock mount and pop filter.")]), _vm._v(" "), _c("div", {
+  })])]), _vm._v(" "), _c("h2", [_vm._v("Microphone")]), _vm._v(" "), _c("p", [_c("a", {
+    attrs: {
+      href: "https://www.sweetwater.com/store/detail/AT2020--audio-technica-at2020-cardioid-condenser-microphone",
+      target: "blank"
+    }
+  }, [_vm._v("Audio Technica AT-2020 studio condenser microphone")]), _vm._v("\n        with a telescopic boom stand, shock mount and pop filter.\n    ")]), _vm._v(" "), _c("div", {
     staticClass: "text-center"
   }, [_c("picture", [_c("source", {
     attrs: {
@@ -13798,7 +13854,7 @@ var staticRenderFns = [function () {
       href: "https://www.autonomous.ai/standing-desks/smartdesk-2-business?option1=1&option2=6&option16=36&option17=41",
       target: "blank"
     }
-  }, [_vm._v("SmartDesk 2 Business Edition with a white frame and bamboo top")]), _vm._v(" from Autonomous. Extremely sturdy. I love that this desk sits at the exact heights I prefer for sitting and standing and it looks beautiful.\n    ")]), _vm._v(" "), _c("div", {
+  }, [_vm._v("SmartDesk 2 Business Edition with a white frame and bamboo top")]), _vm._v("\n        from Autonomous. Extremely sturdy. I love that this desk sits at the exact heights I prefer for sitting and\n        standing and it looks beautiful.\n    ")]), _vm._v(" "), _c("div", {
     staticClass: "text-center"
   }, [_c("picture", [_c("source", {
     attrs: {
@@ -13821,7 +13877,7 @@ var staticRenderFns = [function () {
       href: "https://www.autonomous.ai/office-chairs/ergonomic-chair?option20=50",
       target: "blank"
     }
-  }, [_vm._v("Ergo Chair 2 in Evergreen")]), _vm._v(", also from Autonomous. Sturdy, comfy, ergonomic, doesn't squeak. I actually sold my Herman Miller Embody chair for this and I have zero regrets.\n    ")]), _vm._v(" "), _c("div", {
+  }, [_vm._v("Ergo Chair 2 in Evergreen")]), _vm._v(", also from Autonomous. Sturdy, comfy, ergonomic, doesn't squeak. I actually sold my Herman Miller Embody\n        chair for this and I have zero regrets.\n    ")]), _vm._v(" "), _c("div", {
     staticClass: "text-center"
   }, [_c("picture", [_c("source", {
     attrs: {
@@ -13862,7 +13918,7 @@ var staticRenderFns = [function () {
       src: "/img/jpg/printer.jpg",
       alt: "Brother HL-L2370DW Wireless Black-and-White Laser Printer"
     }
-  })])]), _vm._v(" "), _c("h2", [_vm._v("External SSD")]), _vm._v(" "), _c("p", [_vm._v("\n        I recently picked up the M1 MacBook Air and decided not to splurge on the 2TB internal drive this time around. For fast storage of my daily used files I picked up the super fast\n        "), _c("a", {
+  })])]), _vm._v(" "), _c("h2", [_vm._v("External SSD")]), _vm._v(" "), _c("p", [_vm._v("\n        I recently picked up the M1 MacBook Air and decided not to splurge on the 2TB internal drive this time\n        around. For fast storage of my daily used files I picked up the super fast\n        "), _c("a", {
     attrs: {
       href: "https://www.amazon.com/gp/product/B08HN37XC1/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1",
       target: "blank"
@@ -13903,12 +13959,40 @@ var staticRenderFns = [function () {
       src: "/img/jpg/s10-plus.jpg",
       alt: "Samsung Galaxy S10+ in Ceramic Black with 512GB internal memory"
     }
-  })])]), _vm._v(" "), _c("h2", [_vm._v("Headphones")]), _vm._v(" "), _c("p", [_vm._v("\n        I bought a set of\n        "), _c("a", {
+  })])]), _vm._v(" "), _c("h2", [_vm._v("Mixing Headphones")]), _vm._v(" "), _c("p", [_c("a", {
+    attrs: {
+      href: "https://www.sweetwater.com/store/detail/DT1990Pro--beyerdynamic-dt-1990-pro-open-back-studio-reference-headphones",
+      target: "blank"
+    }
+  }, [_vm._v("Beyerdynamic DT 1990 Pro Open-Back Studio Reference Headphones")]), _vm._v("\n        I absolutely love these! The open back headphones are perfect wide-sound-stage crystal clear in all\n        registers. These really let you dig into every frequency with precision when crafting music. These are 250\n        ohm headphones and need to be driven with a small power amp, for that I am using the\n        "), _c("a", {
+    attrs: {
+      href: "https://www.sweetwater.com/store/detail/HM4--mackie-hm-4-headphone-amplifier",
+      target: "blank"
+    }
+  }, [_vm._v("Mackie HM-4 Desktop Headphone Amplifier")])]), _vm._v(" "), _c("div", {
+    staticClass: "text-center"
+  }, [_c("picture", [_c("source", {
+    attrs: {
+      type: "image/webp",
+      srcset: "/img/webp/dt1990.webp"
+    }
+  }), _vm._v(" "), _c("img", {
+    staticClass: "rounded",
+    staticStyle: {
+      "max-width": "400px",
+      width: "100%",
+      height: "auto"
+    },
+    attrs: {
+      src: "/img/jpg/dt1990.jpg",
+      alt: "Beyerdynamic DT 1990 Pro Open-Back Studio Reference Headphones"
+    }
+  })])]), _vm._v(" "), _c("h2", [_vm._v("Listening Headphones")]), _vm._v(" "), _c("p", [_c("a", {
     attrs: {
       href: "https://www.nuraphone.com/",
       target: "blank"
     }
-  }, [_vm._v("Nuraphones")]), _vm._v(" and OMG! These things are RIDICULOUSLY AMAZING! The bass isn't even deep, it is PROFOUND! They are so clear. It's like sitting the perfect distance from an array of blasted high-end studio monitors at a professional studio everytime I put them on.\n    ")]), _vm._v(" "), _c("div", {
+  }, [_vm._v("Nuraphones")]), _vm._v("\n        The bass isn't even deep, it is PROFOUND! I have to say, I thought these were clear UNTIL I heard the\n        DT1990s! That said, the DT1990s can not TOUCH the Nuraphones bass. When I want a full-immersion listening\n        experience - I reach for the Nuraphones. Also, the DT1990s are open back so sound bleeds through them. The\n        Nuraphones are the opposite. As loud as they are - they are SILENT to the outside world. Since the inner-ear\n        drivers are pushing all of the top end sound - it is impossible to really identify what someone is listening\n        to with these even just a couple feet away and on full-blast.\n    ")]), _vm._v(" "), _c("div", {
     staticClass: "text-center"
   }, [_c("picture", [_c("source", {
     attrs: {
@@ -13931,7 +14015,7 @@ var staticRenderFns = [function () {
       href: "https://www.amazon.com/Samsung-Wireless-Improved-Charging-International/dp/B084T42XBT/ref=sr_1_1?dchild=1&keywords=galaxy+buds+red&qid=1590730689&sr=8-1",
       target: "blank"
     }
-  }, [_vm._v("Samsung Galaxy Buds+ Plus (Red)")]), _vm._v(". These are super tiny, the charge lasts forever... especially with the charging case they come in... the sound quality is great.\n    ")]), _vm._v(" "), _c("div", {
+  }, [_vm._v("Samsung Galaxy Buds+ Plus (Red)")]), _vm._v(". These are super tiny, the charge lasts forever... especially with the charging case they come in... the\n        sound quality is great.\n    ")]), _vm._v(" "), _c("div", {
     staticClass: "text-center"
   }, [_c("picture", [_c("source", {
     attrs: {

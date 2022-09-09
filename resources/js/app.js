@@ -29,18 +29,13 @@ Vue.use(VueRouter);
 Vue.use(Vuetify);
 
 const files = require.context("./", true, /\.vue$/i);
-files.keys().map(key =>
-    Vue.component(
-        key
-            .split("/")
-            .pop()
-            .split(".")[0],
-        files(key).default
-    )
-);
+files
+    .keys()
+    .map((key) =>
+        Vue.component(key.split("/").pop().split(".")[0], files(key).default)
+    );
 
 const router = new VueRouter(Routes);
-
 
 // This callback runs before every route change, including on page load.
 router.beforeEach((to, from, next) => {
@@ -49,35 +44,35 @@ router.beforeEach((to, from, next) => {
     const nearestWithTitle = to.matched
         .slice()
         .reverse()
-        .find(r => r.meta && r.meta.title);
+        .find((r) => r.meta && r.meta.title);
 
     // Find the nearest route element with meta tags.
     const nearestWithMeta = to.matched
         .slice()
         .reverse()
-        .find(r => r.meta && r.meta.metaTags);
+        .find((r) => r.meta && r.meta.metaTags);
     const previousNearestWithMeta = from.matched
         .slice()
         .reverse()
-        .find(r => r.meta && r.meta.metaTags);
+        .find((r) => r.meta && r.meta.metaTags);
 
     // If a route with a title was found, set the document (page) title to that value.
     if (nearestWithTitle) document.title = nearestWithTitle.meta.title;
 
     // Remove any stale meta tags from the document using the key attribute we set below.
-    Array.from(
-        document.querySelectorAll("[data-vue-router-controlled]")
-    ).map(el => el.parentNode.removeChild(el));
+    Array.from(document.querySelectorAll("[data-vue-router-controlled]")).map(
+        (el) => el.parentNode.removeChild(el)
+    );
 
     // Skip rendering meta tags if there are none.
     if (!nearestWithMeta) return next();
 
     // Turn the meta tag definitions into actual elements in the head.
     nearestWithMeta.meta.metaTags
-        .map(tagDef => {
+        .map((tagDef) => {
             const tag = document.createElement("meta");
 
-            Object.keys(tagDef).forEach(key => {
+            Object.keys(tagDef).forEach((key) => {
                 tag.setAttribute(key, tagDef[key]);
             });
 
@@ -87,12 +82,12 @@ router.beforeEach((to, from, next) => {
             return tag;
         })
         // Add the meta tags to the document head.
-        .forEach(tag => document.head.appendChild(tag));
+        .forEach((tag) => document.head.appendChild(tag));
 
     next();
 });
 
 const app = new Vue({
     el: "#app",
-    router
+    router,
 });
